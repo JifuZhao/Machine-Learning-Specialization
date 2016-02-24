@@ -1,0 +1,275 @@
+********* Iternation 1*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9619047619047619
+Linear Discriminant Analysis, the test accuracy is: 0.971830985915493
+Linear Discriminant Analysis, the training FP is: 0.07142857142857142
+Linear Discriminant Analysis, the test FP is: 0.0625
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 0.9904761904761905
+SVM with linear kernel, the test accuracy is: 1.0
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.02040816326530612
+SVM with linear kernel, the test FN is: 0.0
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 1.0
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.02040816326530612
+SVM with Polynomial kernel, the test FN is: 0.0
+
+********* Iternation 2*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9523809523809523
+Linear Discriminant Analysis, the test accuracy is: 0.971830985915493
+Linear Discriminant Analysis, the training FP is: 0.09803921568627451
+Linear Discriminant Analysis, the test FP is: 0.05405405405405406
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.029411764705882353
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 1.0
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.029411764705882353
+
+********* Iternation 3*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9619047619047619
+Linear Discriminant Analysis, the test accuracy is: 0.9577464788732394
+Linear Discriminant Analysis, the training FP is: 0.07142857142857142
+Linear Discriminant Analysis, the test FP is: 0.09375
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.02564102564102564
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.9859154929577465
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.02564102564102564
+
+********* Iternation 4*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9428571428571428
+Linear Discriminant Analysis, the test accuracy is: 0.9859154929577465
+Linear Discriminant Analysis, the training FP is: 0.11320754716981132
+Linear Discriminant Analysis, the test FP is: 0.02857142857142857
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.027777777777777776
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 1.0
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.027777777777777776
+
+********* Iternation 5*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9714285714285714
+Linear Discriminant Analysis, the test accuracy is: 0.9154929577464789
+Linear Discriminant Analysis, the training FP is: 0.05172413793103448
+Linear Discriminant Analysis, the test FP is: 0.2
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.03333333333333333
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.0
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.9859154929577465
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.03333333333333333
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.0
+
+********* Iternation 6*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9714285714285714
+Linear Discriminant Analysis, the test accuracy is: 0.9436619718309859
+Linear Discriminant Analysis, the training FP is: 0.057692307692307696
+Linear Discriminant Analysis, the test FP is: 0.1111111111111111
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9577464788732394
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.08333333333333333
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.0
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.9436619718309859
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.08333333333333333
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.0
+
+********* Iternation 7*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9619047619047619
+Linear Discriminant Analysis, the test accuracy is: 0.9436619718309859
+Linear Discriminant Analysis, the training FP is: 0.07407407407407407
+Linear Discriminant Analysis, the test FP is: 0.11764705882352941
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.02702702702702703
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 1.0
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.02702702702702703
+
+********* Iternation 8*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9714285714285714
+Linear Discriminant Analysis, the test accuracy is: 0.971830985915493
+Linear Discriminant Analysis, the training FP is: 0.05263157894736842
+Linear Discriminant Analysis, the test FP is: 0.06451612903225806
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.03225806451612903
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.0
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.9859154929577465
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.03225806451612903
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.0
+
+********* Iternation 9*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9619047619047619
+Linear Discriminant Analysis, the test accuracy is: 0.9577464788732394
+Linear Discriminant Analysis, the training FP is: 0.07692307692307693
+Linear Discriminant Analysis, the test FP is: 0.08333333333333333
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.02857142857142857
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.9859154929577465
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.02857142857142857
+
+********* Iternation 10*********
+
+Training set is: 0.6
+
+Linear Discriminant Analysis, the training accuracy is: 0.9523809523809523
+Linear Discriminant Analysis, the test accuracy is: 0.9859154929577465
+Linear Discriminant Analysis, the training FP is: 0.10204081632653061
+Linear Discriminant Analysis, the test FP is: 0.02564102564102564
+Linear Discriminant Analysis, the training FN is: 0.0
+Linear Discriminant Analysis, the test FN is: 0.0
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.9859154929577465
+SVM with linear kernel, the training FP is: 0.0
+SVM with linear kernel, the test FP is: 0.0
+SVM with linear kernel, the training FN is: 0.0
+SVM with linear kernel, the test FN is: 0.03125
+
+SVM with Polynomial kernel, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 1.0
+SVM with Polynomial kernel, the training FP is: 0.0
+SVM with Polynomial kernel, the test FP is: 0.0
+SVM with Polynomial kernel, the training FN is: 0.0
+SVM with Polynomial kernel, the test FN is: 0.03125
+
+************************************
+********* Average Accuracy *********
+************************************
+
+LDA, the training accuracy is: 0.960952380952
+LDA, the test accuracy is: 0.960563380282
+LDA, the training FP is: 0.0769189897608
+LDA, the test FP is: 0.0841124140567
+LDA, the training FN is: 0.0
+LDA, the test FN is: 0.0
+
+SVM linear kernel, the training accuracy is: 0.999047619048
+SVM linear kernel, the test accuracy is: 0.984507042254
+SVM linear kernel, the training FP is: 0.0
+SVM linear kernel, the test FP is: 0.0148924731183
+SVM linear kernel, the training FN is: 0.00204081632653
+SVM linear kernel, the test FN is: 0.0169679023723
+
+SVM Polynomial kernell, the training accuracy is: 1.0
+SVM Polynomial kernel, the test accuracy is: 0.988732394366
+SVM Polynomial kernell, the training FP is: 0.0
+SVM Polynomial kernell, the test FP is: 0.0148924731183
+SVM Polynomial kernell, the training FN is: 0.00204081632653
+SVM Polynomial kernell, the test FN is: 0.0169679023723
+

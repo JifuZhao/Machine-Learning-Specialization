@@ -1,0 +1,62 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.1)  14 SEP 2015 11:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cs598.tex
+(./cs598.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@theorem=\count87
+\c@corollary=\count88
+\c@lemma=\count89
+\c@claim=\count90
+\c@fact=\count91
+\c@definition=\count92
+\c@assumption=\count93
+\c@observation=\count94
+\c@example=\count95
+)
+Runaway argument?
+{ \thispagestyle {plain} \newpage \setcounter {page}{1} \noindent \begin \ETC.
+! File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+<*> cs598.tex
+             
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> cs598.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 257 strings out of 493304
+ 2662 string characters out of 6139872
+ 51880 words of memory out of 5000000
+ 3807 multiletter control sequences out of 15000+600000
+ 3938 words of font info for 15 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 22i,0n,19p,136b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,5 @@
+DataObj.m : see how I genereate feature from raw data (csv files)
+
+false_static_label: contains 2 matrices; each column is a set of features calculated from false static ( one from Jifu, one from me)
+true_static_label: contains 2 matrices; each column is a set of features calculated from true static
+True_Moving: contain 1 matrices;each column is a set of features calculated from true action while moving.

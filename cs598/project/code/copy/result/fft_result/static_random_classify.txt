@@ -1,0 +1,374 @@
+********* Iternation 1*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9252336448598131
+Linear Discriminant Analysis, the test accuracy is: 0.7222222222222222
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.5277777777777778
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9444444444444444
+
+KNN, the training accuracy is: 0.9719626168224299
+KNN, the test accuracy is: 0.7222222222222222
+
+SGD with hinge loss, the training accuracy is: 0.9813084112149533
+SGD with hinge loss, the test accuracy is: 0.5833333333333334
+
+SGD with log loss, the training accuracy is: 0.9719626168224299
+SGD with log loss, the test accuracy is: 0.5277777777777778
+
+SGD with modified_huber loss, the training accuracy is: 0.8691588785046729
+SGD with modified_huber loss, the test accuracy is: 0.5555555555555556
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.7222222222222222
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.7222222222222222
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.7222222222222222
+
+********* Iternation 2*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9345794392523364
+Linear Discriminant Analysis, the test accuracy is: 0.7777777777777778
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.3888888888888889
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9444444444444444
+
+KNN, the training accuracy is: 0.9813084112149533
+KNN, the test accuracy is: 0.8611111111111112
+
+SGD with hinge loss, the training accuracy is: 1.0
+SGD with hinge loss, the test accuracy is: 0.8611111111111112
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.8333333333333334
+
+SGD with modified_huber loss, the training accuracy is: 0.9906542056074766
+SGD with modified_huber loss, the test accuracy is: 0.5277777777777778
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.6944444444444444
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.75
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.6944444444444444
+
+********* Iternation 3*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9252336448598131
+Linear Discriminant Analysis, the test accuracy is: 0.8055555555555556
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.6388888888888888
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9444444444444444
+
+KNN, the training accuracy is: 0.9906542056074766
+KNN, the test accuracy is: 0.75
+
+SGD with hinge loss, the training accuracy is: 1.0
+SGD with hinge loss, the test accuracy is: 0.7777777777777778
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.7777777777777778
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.6388888888888888
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.7777777777777778
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.75
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.7777777777777778
+
+********* Iternation 4*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9158878504672897
+Linear Discriminant Analysis, the test accuracy is: 0.8055555555555556
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.5277777777777778
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.8888888888888888
+
+KNN, the training accuracy is: 1.0
+KNN, the test accuracy is: 0.7777777777777778
+
+SGD with hinge loss, the training accuracy is: 0.9813084112149533
+SGD with hinge loss, the test accuracy is: 0.5277777777777778
+
+SGD with log loss, the training accuracy is: 0.9158878504672897
+SGD with log loss, the test accuracy is: 0.5833333333333334
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.75
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.8333333333333334
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.8888888888888888
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.8333333333333334
+
+********* Iternation 5*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9252336448598131
+Linear Discriminant Analysis, the test accuracy is: 0.8333333333333334
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.4722222222222222
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9722222222222222
+
+KNN, the training accuracy is: 1.0
+KNN, the test accuracy is: 0.75
+
+SGD with hinge loss, the training accuracy is: 0.9906542056074766
+SGD with hinge loss, the test accuracy is: 0.6944444444444444
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.6666666666666666
+
+SGD with modified_huber loss, the training accuracy is: 0.9813084112149533
+SGD with modified_huber loss, the test accuracy is: 0.6944444444444444
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.75
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.6388888888888888
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.75
+
+********* Iternation 6*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9439252336448598
+Linear Discriminant Analysis, the test accuracy is: 0.8611111111111112
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.5277777777777778
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9444444444444444
+
+KNN, the training accuracy is: 0.9813084112149533
+KNN, the test accuracy is: 0.8611111111111112
+
+SGD with hinge loss, the training accuracy is: 1.0
+SGD with hinge loss, the test accuracy is: 0.75
+
+SGD with log loss, the training accuracy is: 0.9719626168224299
+SGD with log loss, the test accuracy is: 0.5833333333333334
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.7222222222222222
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.8888888888888888
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.8055555555555556
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.8888888888888888
+
+********* Iternation 7*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9345794392523364
+Linear Discriminant Analysis, the test accuracy is: 0.6666666666666666
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.6111111111111112
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.8888888888888888
+
+KNN, the training accuracy is: 0.9906542056074766
+KNN, the test accuracy is: 0.7222222222222222
+
+SGD with hinge loss, the training accuracy is: 1.0
+SGD with hinge loss, the test accuracy is: 0.6666666666666666
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.6944444444444444
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.75
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.7222222222222222
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.6111111111111112
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.7222222222222222
+
+********* Iternation 8*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9252336448598131
+Linear Discriminant Analysis, the test accuracy is: 0.8888888888888888
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.4444444444444444
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9444444444444444
+
+KNN, the training accuracy is: 0.9906542056074766
+KNN, the test accuracy is: 0.8611111111111112
+
+SGD with hinge loss, the training accuracy is: 1.0
+SGD with hinge loss, the test accuracy is: 0.6666666666666666
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.6388888888888888
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.75
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.7777777777777778
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.6388888888888888
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.7777777777777778
+
+********* Iternation 9*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9345794392523364
+Linear Discriminant Analysis, the test accuracy is: 0.5833333333333334
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.5
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9166666666666666
+
+KNN, the training accuracy is: 0.9813084112149533
+KNN, the test accuracy is: 0.6944444444444444
+
+SGD with hinge loss, the training accuracy is: 0.7757009345794392
+SGD with hinge loss, the test accuracy is: 0.5277777777777778
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.7222222222222222
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.6944444444444444
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.8888888888888888
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.8055555555555556
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.8888888888888888
+
+********* Iternation 10*********
+
+Training set is: 0.75
+
+Linear Discriminant Analysis, the training accuracy is: 0.9158878504672897
+Linear Discriminant Analysis, the test accuracy is: 0.8333333333333334
+
+Quadratic Discriminant Analysis, the training accuracy is: 1.0
+Quadratic Discriminant Analysis, the test accuracy is: 0.5
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.9166666666666666
+
+KNN, the training accuracy is: 1.0
+KNN, the test accuracy is: 0.75
+
+SGD with hinge loss, the training accuracy is: 0.9439252336448598
+SGD with hinge loss, the test accuracy is: 0.4722222222222222
+
+SGD with log loss, the training accuracy is: 1.0
+SGD with log loss, the test accuracy is: 0.7777777777777778
+
+SGD with modified_huber loss, the training accuracy is: 1.0
+SGD with modified_huber loss, the test accuracy is: 0.6111111111111112
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the test accuracy is: 0.6111111111111112
+
+SVM with Polynomial kernell, the training accuracy is: 1.0
+SVM with Polynomial kernel, the test accuracy is: 0.6388888888888888
+
+SVM with precomputed kernel, the training accuracy is: 1.0
+SVM with precomputed kernel, the test accuracy is: 0.6111111111111112
+
+************************************
+********* Average Accuracy *********
+************************************
+
+LDA, the training accuracy is: 0.928037383178
+LDA, the test accuracy is: 0.777777777778
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.513888888889
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.930555555556
+
+KNN, the training accuracy is: 0.988785046729
+KNN, the test accuracy is: 0.775
+
+SGD hinge loss, the training accuracy is: 0.967289719626
+SGD hinge loss, the test accuracy is: 0.652777777778
+
+SGD log loss, the training accuracy is: 0.985981308411
+SGD log loss, the test accuracy is: 0.680555555556
+
+SGD modified_huber loss, the training accuracy is: 0.984112149533
+SGD modified_huber loss, the test accuracy is: 0.669444444444
+
+SVM linear kernel, the training accuracy is: 1.0
+SVM linear kernel, the test accuracy is: 0.766666666667
+
+SVM Polynomial kernell, the training accuracy is: 1.0
+SVM Polynomial kernel, the test accuracy is: 0.725
+
+SVM precomputed kernel, the training accuracy is: 1.0
+SVM precomputed kernel, the test accuracy is: 0.766666666667
+

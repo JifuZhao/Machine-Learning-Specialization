@@ -1,0 +1,20 @@
+How to collect data
+
+- True_Static
+1. Press 'Start', quickly move to initial position (standing still)
+2. Kepp static and wait for 5 seconds, lift wrist to see time
+3. Keep static and wait for another 5 seconds, press 'Stop'
+ 
+- True_Moving
+1. Press 'Start', then start walking/running for at least 5 seconds
+2. Lift wrist to see time
+3. WKeep static and wait for another 5 seconds, press 'Stop'
+
+- False_Static
+1. Press 'Start', quickly move to initial position (standing still)
+2. Kepp static and wait for 5 seconds, lift wrist not to see time, but to do something else
+3. Keep static and wait for another 5 seconds, press 'Stop'
+
+- False_Moving_LongTrace
+1. Press 'Start', and start doing random motion for several minutes. Avoid any 'lift wrist to see time' motion
+2. Press 'Stop'

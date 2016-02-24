@@ -1,0 +1,59 @@
+\input{cs598.tex}
+
+\usepackage{graphicx,amssymb,amsmath, listings}
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\topmargin -0.5in
+\textheight 9.0in
+
+\begin{document}
+
+\solution{Jifu Zhao}{09-14-2015}{1}{Fall 2015}
+% Fill in the above, for example, as follows:
+% \solution{Joe Smith}{\today}{1}{Fall 2012}
+
+\pagestyle{myheadings}  % Leave this command alone
+
+\begin{enumerate}
+\item {\bf Problem}\\
+
+Describe how you could obtain the spectrogram of a vector using only a matrix product. How will that matrix look like? What are the equations that describe the whole operation?\\
+
+{\bf Answer}\\
+
+Suppose that the signal we got is $\vec{x}^T = \begin{bmatrix}
+x_1 & x_2 & \ldots & x_n \end{bmatrix}$. And the Fourier transform matrix is $F$.
+
+Suppose that we choose $N$ and set the overlap be $50\%$. So, in order to use Fourier matrix to multiple the signal, we need to change $\vec{x}^T = 
+\begin{bmatrix} x_1 & x_2 & \ldots & x_n \end{bmatrix}$ into the format of $X$.\\
+
+\begin{center}
+$X = \begin{bmatrix}
+x_1 & x_{1+N/2*1} &  x_{1+N/2*2} & \ldots & x_m \\
+x_2 & x_{2+N/2*1} &  x_{3+N/2*2} & \ldots & x_{m+1} \\
+\vdots & \vdots & \vdots & \vdots \\
+x_N & x_{N+N/2*1} &  x_{N+N/2*2} & \ldots & x_n\\
+\end{bmatrix}$
+\end{center}
+
+So, the final spectrogram will be:
+\begin{center}
+$S = F*X $
+\end{center}
+
+Now, the problem is how to get $X$ from $\vec{x}$. Here, however, I don't think only one matrix product can change $\vec{x}$ into $X$. Rather, we need
+\begin{center}
+$X = A * \vec{x} *B $
+\end{center}
+where A is $N*m$, B is $1*m$.\\
+
+So, the final expression for $S$ will be:\\
+\begin{center}
+$S = F* A * \vec{x} *B $
+\end{center}
+
+\end{enumerate}
+
+\end{document}
+
