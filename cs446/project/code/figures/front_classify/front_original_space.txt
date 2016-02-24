@@ -1,0 +1,138 @@
+*********** Data Set 1 ***********
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.675
+
+LDA, the training accuracy is: 0.975
+LDA, the test accuracy is: 0.95
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.3125
+
+KNN, the training accuracy is: 0.71875
+KNN, the test accuracy is: 0.7375
+
+SVM with rbf kernel, the training accuracy is: 0.734375
+SVM with rbf kernel, the test accuracy is: 0.775
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.9375
+
+SVM with sigmoid kernel, the training accuracy is: 0.25
+SVM with sigmoid kernel, the test accuracy is: 0.25
+
+*********** Data Set 2 ***********
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.7875
+
+LDA, the training accuracy is: 0.971875
+LDA, the test accuracy is: 0.875
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.275
+
+KNN, the training accuracy is: 0.696875
+KNN, the test accuracy is: 0.75
+
+SVM with rbf kernel, the training accuracy is: 0.759375
+SVM with rbf kernel, the test accuracy is: 0.8125
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.9125
+
+SVM with sigmoid kernel, the training accuracy is: 0.253125
+SVM with sigmoid kernel, the test accuracy is: 0.2375
+
+*********** Data Set 3 ***********
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.65
+
+LDA, the training accuracy is: 0.9625
+LDA, the test accuracy is: 0.9125
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.2375
+
+KNN, the training accuracy is: 0.7
+KNN, the test accuracy is: 0.675
+
+SVM with rbf kernel, the training accuracy is: 0.775
+SVM with rbf kernel, the test accuracy is: 0.6875
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.85
+
+SVM with sigmoid kernel, the training accuracy is: 0.25
+SVM with sigmoid kernel, the test accuracy is: 0.25
+
+*********** Data Set 4 ***********
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.725
+
+LDA, the training accuracy is: 0.971875
+LDA, the test accuracy is: 0.8875
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.3875
+
+KNN, the training accuracy is: 0.728125
+KNN, the test accuracy is: 0.775
+
+SVM with rbf kernel, the training accuracy is: 0.759375
+SVM with rbf kernel, the test accuracy is: 0.75
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8625
+
+SVM with sigmoid kernel, the training accuracy is: 0.25625
+SVM with sigmoid kernel, the test accuracy is: 0.225
+
+*********** Data Set 5 ***********
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.7125
+
+LDA, the training accuracy is: 0.975
+LDA, the test accuracy is: 0.9
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.275
+
+KNN, the training accuracy is: 0.75
+KNN, the test accuracy is: 0.6375
+
+SVM with rbf kernel, the training accuracy is: 0.765625
+SVM with rbf kernel, the test accuracy is: 0.7375
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.85
+
+SVM with sigmoid kernel, the training accuracy is: 0.259375
+SVM with sigmoid kernel, the test accuracy is: 0.2125
+
+************************************
+********* Average Accuracy *********
+************************************
+
+DT, the mean training accuracy is: 1.0
+DT, the mean test accuracy is: 0.71
+
+LDA, the mean training accuracy is: 0.97125
+LDA, the mean test accuracy is: 0.905
+
+QDA, the mean training accuracy is: 1.0
+QDA, the mean test accuracy is: 0.2975
+
+KNN, the mean training accuracy is: 0.71875
+KNN, the mean test accuracy is: 0.715
+
+SVM rbf, the mean training accuracy is: 0.75875
+SVM rbf, the mean test accuracy is: 0.7525
+
+SVM linear, the mean training accuracy is: 1.0
+SVM linear, the mean test accuracy is: 0.8825
+
+SVM poly, the mean training accuracy is: 0.0
+SVM poly, the mean test accuracy is: 0.0
+
+SVM sig, the mean training accuracy is: 0.25375
+SVM sig, the mean test accuracy is: 0.235
+

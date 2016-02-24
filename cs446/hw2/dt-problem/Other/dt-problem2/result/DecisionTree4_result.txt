@@ -1,0 +1,211 @@
+echo ********** Stump 4 decision tree experiment **********
+ 
+********** Cross Validation 1 **********
+ 
+ID3
+
+firstName1=a = 1
+|  lastName1=o = 1: +
+|  lastName1=o = 0
+|  |  firstName0=k = 1: -
+|  |  firstName0=k = 0
+|  |  |  lastName0=l = 1: -
+|  |  |  lastName0=l = 0
+|  |  |  |  firstName0=s = 1: -
+|  |  |  |  firstName0=s = 0: +
+firstName1=a = 0
+|  firstName4=a = 1
+|  |  firstName3=m = 1
+|  |  |  lastName0=d = 1: +
+|  |  |  lastName0=d = 0: -
+|  |  firstName3=m = 0
+|  |  |  lastName0=m = 1
+|  |  |  |  lastName3=s = 1: +
+|  |  |  |  lastName3=s = 0: -
+|  |  |  lastName0=m = 0: +
+|  firstName4=a = 0
+|  |  firstName3=a = 1
+|  |  |  lastName0=g = 1
+|  |  |  |  firstName0=j = 1: +
+|  |  |  |  firstName0=j = 0: -
+|  |  |  lastName0=g = 0
+|  |  |  |  firstName0=b = 1: -
+|  |  |  |  firstName0=b = 0: +
+|  |  firstName3=a = 0
+|  |  |  firstName4=n = 1
+|  |  |  |  firstName0=e = 1: -
+|  |  |  |  firstName0=e = 0: +
+|  |  |  firstName4=n = 0
+|  |  |  |  firstName2=a = 1: +
+|  |  |  |  firstName2=a = 0: -
+
+
+Correctly Classified Instances          35               60.3448 %
+Incorrectly Classified Instances        23               39.6552 %
+Kappa statistic                          0.2162
+Mean absolute error                      0.4433
+Root mean squared error                  0.5646
+Relative absolute error                 91.2877 %
+Root relative squared error            114.627  %
+Total Number of Instances               58     
+
+********** Cross Validation 2 **********
+ 
+ID3
+
+lastName4=h = 1: +
+lastName4=h = 0
+|  firstName1=a = 1
+|  |  lastName1=o = 1: +
+|  |  lastName1=o = 0
+|  |  |  lastName1=r = 1: +
+|  |  |  lastName1=r = 0
+|  |  |  |  lastName1=h = 1: +
+|  |  |  |  lastName1=h = 0: -
+|  firstName1=a = 0
+|  |  firstName4=a = 1
+|  |  |  firstName3=m = 1
+|  |  |  |  lastName4=t = 1: +
+|  |  |  |  lastName4=t = 0: -
+|  |  |  firstName3=m = 0
+|  |  |  |  firstName3=y = 1: -
+|  |  |  |  firstName3=y = 0: +
+|  |  firstName4=a = 0
+|  |  |  firstName2=d = 1: +
+|  |  |  firstName2=d = 0
+|  |  |  |  firstName2=a = 1: +
+|  |  |  |  firstName2=a = 0: -
+
+
+Correctly Classified Instances          31               52.5424 %
+Incorrectly Classified Instances        28               47.4576 %
+Kappa statistic                          0.1041
+Mean absolute error                      0.4416
+Root mean squared error                  0.5519
+Relative absolute error                 90.3584 %
+Root relative squared error            111.683  %
+Total Number of Instances               59     
+
+********** Cross Validation 3 **********
+ 
+ID3
+
+firstName1=a = 1
+|  lastName1=n = 1: -
+|  lastName1=n = 0
+|  |  firstName0=g = 1: -
+|  |  firstName0=g = 0
+|  |  |  lastName1=k = 1: -
+|  |  |  lastName1=k = 0
+|  |  |  |  lastName3=g = 1: -
+|  |  |  |  lastName3=g = 0: +
+firstName1=a = 0
+|  firstName4=a = 1
+|  |  lastName3=g = 1: -
+|  |  lastName3=g = 0
+|  |  |  firstName2=n = 1
+|  |  |  |  firstName3=n = 1: +
+|  |  |  |  firstName3=n = 0: -
+|  |  |  firstName2=n = 0
+|  |  |  |  lastName4=a = 1: -
+|  |  |  |  lastName4=a = 0: +
+|  firstName4=a = 0
+|  |  firstName3=a = 1
+|  |  |  firstName0=y = 1: -
+|  |  |  firstName0=y = 0
+|  |  |  |  lastName1=a = 1: -
+|  |  |  |  lastName1=a = 0: +
+|  |  firstName3=a = 0
+|  |  |  firstName0=a = 1
+|  |  |  |  lastName3=m = 1: -
+|  |  |  |  lastName3=m = 0: +
+|  |  |  firstName0=a = 0
+|  |  |  |  firstName2=a = 1: +
+|  |  |  |  firstName2=a = 0: -
+
+
+Correctly Classified Instances          43               72.8814 %
+Incorrectly Classified Instances        16               27.1186 %
+Kappa statistic                          0.4568
+Mean absolute error                      0.3526
+Root mean squared error                  0.4475
+Relative absolute error                 71.0196 %
+Root relative squared error             89.8182 %
+Total Number of Instances               59     
+
+********** Cross Validation 4 **********
+ 
+ID3
+
+firstName1=a = 1
+|  lastName1=o = 1: +
+|  lastName1=o = 0
+|  |  firstName3=y = 1: -
+|  |  firstName3=y = 0
+|  |  |  lastName1=n = 1: -
+|  |  |  lastName1=n = 0
+|  |  |  |  lastName2=m = 1: -
+|  |  |  |  lastName2=m = 0: +
+firstName1=a = 0
+|  firstName4=a = 1
+|  |  lastName4=e = 1
+|  |  |  firstName0=m = 1: +
+|  |  |  firstName0=m = 0
+|  |  |  |  firstName1=t = 1: +
+|  |  |  |  firstName1=t = 0: -
+|  |  lastName4=e = 0
+|  |  |  lastName0=z = 1: -
+|  |  |  lastName0=z = 0
+|  |  |  |  lastName2=z = 1: -
+|  |  |  |  lastName2=z = 0: +
+|  firstName4=a = 0
+|  |  firstName3=a = 1
+|  |  |  lastName0=s = 1
+|  |  |  |  firstName0=m = 1: +
+|  |  |  |  firstName0=m = 0: -
+|  |  |  lastName0=s = 0
+|  |  |  |  firstName0=b = 1: +
+|  |  |  |  firstName0=b = 0: +
+|  |  firstName3=a = 0
+|  |  |  firstName3=d = 1: +
+|  |  |  firstName3=d = 0
+|  |  |  |  firstName2=a = 1: +
+|  |  |  |  firstName2=a = 0: -
+
+
+Correctly Classified Instances          42               71.1864 %
+Incorrectly Classified Instances        17               28.8136 %
+Kappa statistic                          0.391 
+Mean absolute error                      0.358 
+Root mean squared error                  0.4789
+Relative absolute error                 74.1001 %
+Root relative squared error             97.4894 %
+Total Number of Instances               59     
+
+********** Cross Validation 5 **********
+ 
+ID3
+
+lastName3=r = 1: +
+lastName3=r = 0
+|  firstName2=b = 1: -
+|  firstName2=b = 0
+|  |  firstName0=g = 1: -
+|  |  firstName0=g = 0
+|  |  |  firstName4=e = 1
+|  |  |  |  firstName1=a = 1: +
+|  |  |  |  firstName1=a = 0: -
+|  |  |  firstName4=e = 0
+|  |  |  |  firstName0=w = 1: -
+|  |  |  |  firstName0=w = 0: +
+
+
+Correctly Classified Instances          25               42.3729 %
+Incorrectly Classified Instances        34               57.6271 %
+Kappa statistic                         -0.0319
+Mean absolute error                      0.5059
+Root mean squared error                  0.5553
+Relative absolute error                104.6962 %
+Root relative squared error            113.0343 %
+Total Number of Instances               59     
+

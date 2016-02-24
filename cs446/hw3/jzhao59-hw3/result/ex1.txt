@@ -1,0 +1,190 @@
+
+*******************************************
+Experiment with l = 10, m = 100, n = 500
+*******************************************
+
+Perception Experiment
+Mistake numbers is 183 and accuracy is 0.963400
+
+Perception with Margin Experiment
+When eta is 1.500000:
+Mistake numbers is 183 and accuracy is 0.963400
+When eta is 0.250000:
+Mistake numbers is 90 and accuracy is 0.982000
+When eta is 0.030000:
+Mistake numbers is 118 and accuracy is 0.976400
+When eta is 0.005000:
+Mistake numbers is 43 and accuracy is 0.991400
+When eta is 0.001000:
+Mistake numbers is 519 and accuracy is 0.896200
+
+Winnow Experiment
+When alpha is 1.100000:
+Mistake numbers is 16 and accuracy is 0.996800
+When alpha is 1.010000:
+Mistake numbers is 318 and accuracy is 0.936400
+When alpha is 1.005000:
+Mistake numbers is 1344 and accuracy is 0.731200
+When alpha is 1.000500:
+Mistake numbers is 2407 and accuracy is 0.518600
+When alpha is 1.000100:
+Mistake numbers is 2454 and accuracy is 0.509200
+
+Winnow with Margin Experiment
+When alpha is 1.100000 and gamma is 2.000000 
+Mistake numbers is 5 and accuracy is 0.999000
+When alpha is 1.100000 and gamma is 0.300000 
+Mistake numbers is 7 and accuracy is 0.998600
+When alpha is 1.100000 and gamma is 0.040000 
+Mistake numbers is 7 and accuracy is 0.998600
+When alpha is 1.100000 and gamma is 0.006000 
+Mistake numbers is 10 and accuracy is 0.998000
+When alpha is 1.100000 and gamma is 0.001000 
+Mistake numbers is 16 and accuracy is 0.996800
+When alpha is 1.010000 and gamma is 2.000000 
+Mistake numbers is 239 and accuracy is 0.952200
+When alpha is 1.010000 and gamma is 0.300000 
+Mistake numbers is 299 and accuracy is 0.940200
+When alpha is 1.010000 and gamma is 0.040000 
+Mistake numbers is 306 and accuracy is 0.938800
+When alpha is 1.010000 and gamma is 0.006000 
+Mistake numbers is 318 and accuracy is 0.936400
+When alpha is 1.010000 and gamma is 0.001000 
+Mistake numbers is 320 and accuracy is 0.936000
+When alpha is 1.005000 and gamma is 2.000000 
+Mistake numbers is 1204 and accuracy is 0.759200
+When alpha is 1.005000 and gamma is 0.300000 
+Mistake numbers is 1325 and accuracy is 0.735000
+When alpha is 1.005000 and gamma is 0.040000 
+Mistake numbers is 1355 and accuracy is 0.729000
+When alpha is 1.005000 and gamma is 0.006000 
+Mistake numbers is 1350 and accuracy is 0.730000
+When alpha is 1.005000 and gamma is 0.001000 
+Mistake numbers is 1340 and accuracy is 0.732000
+When alpha is 1.000500 and gamma is 2.000000 
+Mistake numbers is 2403 and accuracy is 0.519400
+When alpha is 1.000500 and gamma is 0.300000 
+Mistake numbers is 2404 and accuracy is 0.519200
+When alpha is 1.000500 and gamma is 0.040000 
+Mistake numbers is 2406 and accuracy is 0.518800
+When alpha is 1.000500 and gamma is 0.006000 
+Mistake numbers is 2408 and accuracy is 0.518400
+When alpha is 1.000500 and gamma is 0.001000 
+Mistake numbers is 2407 and accuracy is 0.518600
+When alpha is 1.000100 and gamma is 2.000000 
+Mistake numbers is 2458 and accuracy is 0.508400
+When alpha is 1.000100 and gamma is 0.300000 
+Mistake numbers is 2456 and accuracy is 0.508800
+When alpha is 1.000100 and gamma is 0.040000 
+Mistake numbers is 2455 and accuracy is 0.509000
+When alpha is 1.000100 and gamma is 0.006000 
+Mistake numbers is 2453 and accuracy is 0.509400
+When alpha is 1.000100 and gamma is 0.001000 
+Mistake numbers is 2454 and accuracy is 0.509200
+
+AdaGrad Experiment
+When eta is 1.500000:
+Mistake numbers is 99 and accuracy is 0.980200
+When eta is 0.250000:
+Mistake numbers is 66 and accuracy is 0.986800
+When eta is 0.030000:
+Mistake numbers is 931 and accuracy is 0.813800
+When eta is 0.005000:
+Mistake numbers is 1967 and accuracy is 0.606600
+When eta is 0.001000:
+Mistake numbers is 2376 and accuracy is 0.524800
+
+*******************************************
+Experiment with l = 10, m = 100, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 235 and accuracy is 0.953000
+
+Perception with Margin Experiment
+When eta is 1.500000:
+Mistake numbers is 235 and accuracy is 0.953000
+When eta is 0.250000:
+Mistake numbers is 271 and accuracy is 0.945800
+When eta is 0.030000:
+Mistake numbers is 187 and accuracy is 0.962600
+When eta is 0.005000:
+Mistake numbers is 352 and accuracy is 0.929600
+When eta is 0.001000:
+Mistake numbers is 1192 and accuracy is 0.761600
+
+Winnow Experiment
+When alpha is 1.100000:
+Mistake numbers is 14 and accuracy is 0.997200
+When alpha is 1.010000:
+Mistake numbers is 867 and accuracy is 0.826600
+When alpha is 1.005000:
+Mistake numbers is 1933 and accuracy is 0.613400
+When alpha is 1.000500:
+Mistake numbers is 2451 and accuracy is 0.509800
+When alpha is 1.000100:
+Mistake numbers is 2472 and accuracy is 0.505600
+
+Winnow with Margin Experiment
+When alpha is 1.100000 and gamma is 2.000000 
+Mistake numbers is 17 and accuracy is 0.996600
+When alpha is 1.100000 and gamma is 0.300000 
+Mistake numbers is 17 and accuracy is 0.996600
+When alpha is 1.100000 and gamma is 0.040000 
+Mistake numbers is 14 and accuracy is 0.997200
+When alpha is 1.100000 and gamma is 0.006000 
+Mistake numbers is 14 and accuracy is 0.997200
+When alpha is 1.100000 and gamma is 0.001000 
+Mistake numbers is 14 and accuracy is 0.997200
+When alpha is 1.010000 and gamma is 2.000000 
+Mistake numbers is 743 and accuracy is 0.851400
+When alpha is 1.010000 and gamma is 0.300000 
+Mistake numbers is 875 and accuracy is 0.825000
+When alpha is 1.010000 and gamma is 0.040000 
+Mistake numbers is 912 and accuracy is 0.817600
+When alpha is 1.010000 and gamma is 0.006000 
+Mistake numbers is 858 and accuracy is 0.828400
+When alpha is 1.010000 and gamma is 0.001000 
+Mistake numbers is 871 and accuracy is 0.825800
+When alpha is 1.005000 and gamma is 2.000000 
+Mistake numbers is 1865 and accuracy is 0.627000
+When alpha is 1.005000 and gamma is 0.300000 
+Mistake numbers is 1918 and accuracy is 0.616400
+When alpha is 1.005000 and gamma is 0.040000 
+Mistake numbers is 1923 and accuracy is 0.615400
+When alpha is 1.005000 and gamma is 0.006000 
+Mistake numbers is 1933 and accuracy is 0.613400
+When alpha is 1.005000 and gamma is 0.001000 
+Mistake numbers is 1942 and accuracy is 0.611600
+When alpha is 1.000500 and gamma is 2.000000 
+Mistake numbers is 2449 and accuracy is 0.510200
+When alpha is 1.000500 and gamma is 0.300000 
+Mistake numbers is 2451 and accuracy is 0.509800
+When alpha is 1.000500 and gamma is 0.040000 
+Mistake numbers is 2453 and accuracy is 0.509400
+When alpha is 1.000500 and gamma is 0.006000 
+Mistake numbers is 2451 and accuracy is 0.509800
+When alpha is 1.000500 and gamma is 0.001000 
+Mistake numbers is 2455 and accuracy is 0.509000
+When alpha is 1.000100 and gamma is 2.000000 
+Mistake numbers is 2474 and accuracy is 0.505200
+When alpha is 1.000100 and gamma is 0.300000 
+Mistake numbers is 2472 and accuracy is 0.505600
+When alpha is 1.000100 and gamma is 0.040000 
+Mistake numbers is 2472 and accuracy is 0.505600
+When alpha is 1.000100 and gamma is 0.006000 
+Mistake numbers is 2472 and accuracy is 0.505600
+When alpha is 1.000100 and gamma is 0.001000 
+Mistake numbers is 2472 and accuracy is 0.505600
+
+AdaGrad Experiment
+When eta is 1.500000:
+Mistake numbers is 81 and accuracy is 0.983800
+When eta is 0.250000:
+Mistake numbers is 33 and accuracy is 0.993400
+When eta is 0.030000:
+Mistake numbers is 1249 and accuracy is 0.750200
+When eta is 0.005000:
+Mistake numbers is 2065 and accuracy is 0.587000
+When eta is 0.001000:
+Mistake numbers is 2507 and accuracy is 0.498600

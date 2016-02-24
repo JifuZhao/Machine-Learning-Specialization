@@ -1,0 +1,10 @@
+Cross ValidationCorrectly classified Instances	33	0.5689655172413793
+Total Number of Instances	58
+Cross ValidationCorrectly classified Instances	30	0.5084745762711864
+Total Number of Instances	59
+Cross ValidationCorrectly classified Instances	33	0.559322033898305
+Total Number of Instances	59
+Cross ValidationCorrectly classified Instances	28	0.4745762711864407
+Total Number of Instances	59
+Cross ValidationCorrectly classified Instances	35	0.5932203389830508
+Total Number of Instances	59

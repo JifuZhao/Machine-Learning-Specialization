@@ -1,0 +1,1010 @@
+*********** Data Set 1 ***********
+
+*********** 1 components, 0.1 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.375
+
+LDA, the training accuracy is: 0.428125
+LDA, the test accuracy is: 0.4625
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.54375
+KNN, the test accuracy is: 0.475
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.41875
+SVM with linear kernel, the training accuracy is: 0.4375
+
+*********** 1 components, 0.2 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.375
+
+LDA, the training accuracy is: 0.428125
+LDA, the test accuracy is: 0.4625
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.54375
+KNN, the test accuracy is: 0.475
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.41875
+SVM with linear kernel, the training accuracy is: 0.4375
+
+*********** 1 components, 0.3 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.375
+
+LDA, the training accuracy is: 0.428125
+LDA, the test accuracy is: 0.4625
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.54375
+KNN, the test accuracy is: 0.475
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.41875
+SVM with linear kernel, the training accuracy is: 0.4375
+
+*********** 2 components, 0.4 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4125
+
+LDA, the training accuracy is: 0.421875
+LDA, the test accuracy is: 0.4625
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.54375
+KNN, the test accuracy is: 0.4
+
+SVM with rbf kernel, the training accuracy is: 0.88125
+SVM with rbf kernel, the test accuracy is: 0.2875
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.4375
+
+*********** 4 components, 0.5 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4125
+
+LDA, the training accuracy is: 0.440625
+LDA, the test accuracy is: 0.4375
+
+QDA, the training accuracy is: 0.465625
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.471875
+KNN, the test accuracy is: 0.4375
+
+SVM with rbf kernel, the training accuracy is: 0.996875
+SVM with rbf kernel, the test accuracy is: 0.275
+
+SVM with linear kernel, the training accuracy is: 0.446875
+SVM with linear kernel, the training accuracy is: 0.4375
+
+*********** 6 components, 0.6 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.375
+
+LDA, the training accuracy is: 0.4875
+LDA, the test accuracy is: 0.4625
+
+QDA, the training accuracy is: 0.49375
+QDA, the test accuracy is: 0.475
+
+KNN, the training accuracy is: 0.5
+KNN, the test accuracy is: 0.475
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.275
+
+SVM with linear kernel, the training accuracy is: 0.465625
+SVM with linear kernel, the training accuracy is: 0.475
+
+*********** 11 components, 0.7 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6625
+
+LDA, the training accuracy is: 0.815625
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 0.86875
+QDA, the test accuracy is: 0.8375
+
+KNN, the training accuracy is: 0.753125
+KNN, the test accuracy is: 0.725
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.325
+
+SVM with linear kernel, the training accuracy is: 0.84375
+SVM with linear kernel, the training accuracy is: 0.8375
+
+*********** 22 components, 0.8 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6875
+
+LDA, the training accuracy is: 0.875
+LDA, the test accuracy is: 0.925
+
+QDA, the training accuracy is: 0.925
+QDA, the test accuracy is: 0.9
+
+KNN, the training accuracy is: 0.70625
+KNN, the test accuracy is: 0.7375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.325
+
+SVM with linear kernel, the training accuracy is: 0.95
+SVM with linear kernel, the training accuracy is: 0.8625
+
+*********** 53 components, 0.9 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6875
+
+LDA, the training accuracy is: 0.953125
+LDA, the test accuracy is: 0.9375
+
+QDA, the training accuracy is: 0.99375
+QDA, the test accuracy is: 0.8
+
+KNN, the training accuracy is: 0.675
+KNN, the test accuracy is: 0.7625
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.5375
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8625
+
+*********** 99 components, 0.95 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.675
+
+LDA, the training accuracy is: 0.9875
+LDA, the test accuracy is: 0.95
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.70625
+KNN, the test accuracy is: 0.7375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.675
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8875
+
+*********** Data Set 2 ***********
+
+*********** 1 components, 0.1 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.4375
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.584375
+KNN, the test accuracy is: 0.425
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4875
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 1 components, 0.2 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.4375
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.584375
+KNN, the test accuracy is: 0.425
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4875
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 1 components, 0.3 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.4375
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.584375
+KNN, the test accuracy is: 0.425
+
+SVM with rbf kernel, the training accuracy is: 0.559375
+SVM with rbf kernel, the test accuracy is: 0.4875
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 2 components, 0.4 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.475
+
+LDA, the training accuracy is: 0.415625
+LDA, the test accuracy is: 0.4125
+
+QDA, the training accuracy is: 0.4375
+QDA, the test accuracy is: 0.4125
+
+KNN, the training accuracy is: 0.496875
+KNN, the test accuracy is: 0.45
+
+SVM with rbf kernel, the training accuracy is: 0.890625
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.45
+
+*********** 3 components, 0.5 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.525
+
+LDA, the training accuracy is: 0.415625
+LDA, the test accuracy is: 0.4375
+
+QDA, the training accuracy is: 0.41875
+QDA, the test accuracy is: 0.4375
+
+KNN, the training accuracy is: 0.496875
+KNN, the test accuracy is: 0.4375
+
+SVM with rbf kernel, the training accuracy is: 0.975
+SVM with rbf kernel, the test accuracy is: 0.4125
+
+SVM with linear kernel, the training accuracy is: 0.4125
+SVM with linear kernel, the training accuracy is: 0.45
+
+*********** 6 components, 0.6 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4875
+
+LDA, the training accuracy is: 0.496875
+LDA, the test accuracy is: 0.5625
+
+QDA, the training accuracy is: 0.515625
+QDA, the test accuracy is: 0.55
+
+KNN, the training accuracy is: 0.478125
+KNN, the test accuracy is: 0.5375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.225
+
+SVM with linear kernel, the training accuracy is: 0.50625
+SVM with linear kernel, the training accuracy is: 0.575
+
+*********** 11 components, 0.7 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.725
+
+LDA, the training accuracy is: 0.825
+LDA, the test accuracy is: 0.8375
+
+QDA, the training accuracy is: 0.853125
+QDA, the test accuracy is: 0.825
+
+KNN, the training accuracy is: 0.73125
+KNN, the test accuracy is: 0.725
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.25
+
+SVM with linear kernel, the training accuracy is: 0.85625
+SVM with linear kernel, the training accuracy is: 0.8625
+
+*********** 22 components, 0.8 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.65
+
+LDA, the training accuracy is: 0.8875
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 0.91875
+QDA, the test accuracy is: 0.8375
+
+KNN, the training accuracy is: 0.684375
+KNN, the test accuracy is: 0.7875
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.275
+
+SVM with linear kernel, the training accuracy is: 0.934375
+SVM with linear kernel, the training accuracy is: 0.825
+
+*********** 52 components, 0.9 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.7
+
+LDA, the training accuracy is: 0.93125
+LDA, the test accuracy is: 0.925
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.7625
+
+KNN, the training accuracy is: 0.70625
+KNN, the test accuracy is: 0.725
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2875
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8375
+
+*********** 97 components, 0.95 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6375
+
+LDA, the training accuracy is: 0.984375
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.4875
+
+KNN, the training accuracy is: 0.69375
+KNN, the test accuracy is: 0.6875
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.55
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.9
+
+*********** Data Set 3 ***********
+
+*********** 1 components, 0.1 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3625
+
+LDA, the training accuracy is: 0.434375
+LDA, the test accuracy is: 0.4
+
+QDA, the training accuracy is: 0.4375
+QDA, the test accuracy is: 0.375
+
+KNN, the training accuracy is: 0.603125
+KNN, the test accuracy is: 0.3875
+
+SVM with rbf kernel, the training accuracy is: 0.571875
+SVM with rbf kernel, the test accuracy is: 0.3625
+
+SVM with linear kernel, the training accuracy is: 0.421875
+SVM with linear kernel, the training accuracy is: 0.3875
+
+*********** 1 components, 0.2 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3625
+
+LDA, the training accuracy is: 0.434375
+LDA, the test accuracy is: 0.4
+
+QDA, the training accuracy is: 0.4375
+QDA, the test accuracy is: 0.375
+
+KNN, the training accuracy is: 0.603125
+KNN, the test accuracy is: 0.3875
+
+SVM with rbf kernel, the training accuracy is: 0.571875
+SVM with rbf kernel, the test accuracy is: 0.3625
+
+SVM with linear kernel, the training accuracy is: 0.421875
+SVM with linear kernel, the training accuracy is: 0.3875
+
+*********** 1 components, 0.3 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3625
+
+LDA, the training accuracy is: 0.434375
+LDA, the test accuracy is: 0.4
+
+QDA, the training accuracy is: 0.4375
+QDA, the test accuracy is: 0.375
+
+KNN, the training accuracy is: 0.603125
+KNN, the test accuracy is: 0.3875
+
+SVM with rbf kernel, the training accuracy is: 0.571875
+SVM with rbf kernel, the test accuracy is: 0.3625
+
+SVM with linear kernel, the training accuracy is: 0.421875
+SVM with linear kernel, the training accuracy is: 0.3875
+
+*********** 2 components, 0.4 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4125
+
+LDA, the training accuracy is: 0.44375
+LDA, the test accuracy is: 0.4
+
+QDA, the training accuracy is: 0.4375
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.5
+KNN, the test accuracy is: 0.4375
+
+SVM with rbf kernel, the training accuracy is: 0.871875
+SVM with rbf kernel, the test accuracy is: 0.4375
+
+SVM with linear kernel, the training accuracy is: 0.43125
+SVM with linear kernel, the training accuracy is: 0.3875
+
+*********** 3 components, 0.5 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3625
+
+LDA, the training accuracy is: 0.415625
+LDA, the test accuracy is: 0.3875
+
+QDA, the training accuracy is: 0.44375
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.496875
+KNN, the test accuracy is: 0.425
+
+SVM with rbf kernel, the training accuracy is: 0.98125
+SVM with rbf kernel, the test accuracy is: 0.3625
+
+SVM with linear kernel, the training accuracy is: 0.409375
+SVM with linear kernel, the training accuracy is: 0.375
+
+*********** 6 components, 0.6 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.5125
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.53125
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.4875
+KNN, the test accuracy is: 0.3875
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2875
+
+SVM with linear kernel, the training accuracy is: 0.5125
+SVM with linear kernel, the training accuracy is: 0.45
+
+*********** 11 components, 0.7 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.575
+
+LDA, the training accuracy is: 0.828125
+LDA, the test accuracy is: 0.7375
+
+QDA, the training accuracy is: 0.884375
+QDA, the test accuracy is: 0.7
+
+KNN, the training accuracy is: 0.765625
+KNN, the test accuracy is: 0.6375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.3
+
+SVM with linear kernel, the training accuracy is: 0.8625
+SVM with linear kernel, the training accuracy is: 0.725
+
+*********** 21 components, 0.8 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6375
+
+LDA, the training accuracy is: 0.890625
+LDA, the test accuracy is: 0.8125
+
+QDA, the training accuracy is: 0.928125
+QDA, the test accuracy is: 0.85
+
+KNN, the training accuracy is: 0.740625
+KNN, the test accuracy is: 0.675
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.3875
+
+SVM with linear kernel, the training accuracy is: 0.96875
+SVM with linear kernel, the training accuracy is: 0.775
+
+*********** 51 components, 0.9 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.675
+
+LDA, the training accuracy is: 0.95625
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 0.996875
+QDA, the test accuracy is: 0.7875
+
+KNN, the training accuracy is: 0.715625
+KNN, the test accuracy is: 0.6875
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.45
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.7875
+
+*********** 96 components, 0.95 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6375
+
+LDA, the training accuracy is: 0.9875
+LDA, the test accuracy is: 0.8875
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.4
+
+KNN, the training accuracy is: 0.715625
+KNN, the test accuracy is: 0.65
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.575
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8375
+
+*********** Data Set 4 ***********
+
+*********** 1 components, 0.1 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3375
+
+LDA, the training accuracy is: 0.41875
+LDA, the test accuracy is: 0.45
+
+QDA, the training accuracy is: 0.428125
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.59375
+KNN, the test accuracy is: 0.4125
+
+SVM with rbf kernel, the training accuracy is: 0.584375
+SVM with rbf kernel, the test accuracy is: 0.45
+
+SVM with linear kernel, the training accuracy is: 0.409375
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 1 components, 0.2 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3375
+
+LDA, the training accuracy is: 0.41875
+LDA, the test accuracy is: 0.45
+
+QDA, the training accuracy is: 0.428125
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.59375
+KNN, the test accuracy is: 0.4125
+
+SVM with rbf kernel, the training accuracy is: 0.584375
+SVM with rbf kernel, the test accuracy is: 0.45
+
+SVM with linear kernel, the training accuracy is: 0.409375
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 1 components, 0.3 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3375
+
+LDA, the training accuracy is: 0.41875
+LDA, the test accuracy is: 0.45
+
+QDA, the training accuracy is: 0.428125
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.59375
+KNN, the test accuracy is: 0.4125
+
+SVM with rbf kernel, the training accuracy is: 0.584375
+SVM with rbf kernel, the test accuracy is: 0.45
+
+SVM with linear kernel, the training accuracy is: 0.409375
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 2 components, 0.4 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4625
+
+LDA, the training accuracy is: 0.43125
+LDA, the test accuracy is: 0.4375
+
+QDA, the training accuracy is: 0.428125
+QDA, the test accuracy is: 0.45
+
+KNN, the training accuracy is: 0.53125
+KNN, the test accuracy is: 0.4875
+
+SVM with rbf kernel, the training accuracy is: 0.8875
+SVM with rbf kernel, the test accuracy is: 0.4375
+
+SVM with linear kernel, the training accuracy is: 0.421875
+SVM with linear kernel, the training accuracy is: 0.425
+
+*********** 3 components, 0.5 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4125
+
+LDA, the training accuracy is: 0.428125
+LDA, the test accuracy is: 0.4375
+
+QDA, the training accuracy is: 0.45
+QDA, the test accuracy is: 0.4375
+
+KNN, the training accuracy is: 0.475
+KNN, the test accuracy is: 0.3875
+
+SVM with rbf kernel, the training accuracy is: 0.978125
+SVM with rbf kernel, the test accuracy is: 0.375
+
+SVM with linear kernel, the training accuracy is: 0.425
+SVM with linear kernel, the training accuracy is: 0.4125
+
+*********** 6 components, 0.6 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.4875
+
+LDA, the training accuracy is: 0.490625
+LDA, the test accuracy is: 0.5
+
+QDA, the training accuracy is: 0.490625
+QDA, the test accuracy is: 0.4625
+
+KNN, the training accuracy is: 0.46875
+KNN, the test accuracy is: 0.475
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.225
+
+SVM with linear kernel, the training accuracy is: 0.503125
+SVM with linear kernel, the training accuracy is: 0.4625
+
+*********** 11 components, 0.7 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.7375
+
+LDA, the training accuracy is: 0.8125
+LDA, the test accuracy is: 0.8
+
+QDA, the training accuracy is: 0.853125
+QDA, the test accuracy is: 0.8875
+
+KNN, the training accuracy is: 0.7375
+KNN, the test accuracy is: 0.7
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2375
+
+SVM with linear kernel, the training accuracy is: 0.84375
+SVM with linear kernel, the training accuracy is: 0.8375
+
+*********** 22 components, 0.8 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.7375
+
+LDA, the training accuracy is: 0.89375
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 0.9375
+QDA, the test accuracy is: 0.8375
+
+KNN, the training accuracy is: 0.740625
+KNN, the test accuracy is: 0.725
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.225
+
+SVM with linear kernel, the training accuracy is: 0.965625
+SVM with linear kernel, the training accuracy is: 0.8
+
+*********** 52 components, 0.9 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.675
+
+LDA, the training accuracy is: 0.959375
+LDA, the test accuracy is: 0.8625
+
+QDA, the training accuracy is: 0.99375
+QDA, the test accuracy is: 0.75
+
+KNN, the training accuracy is: 0.696875
+KNN, the test accuracy is: 0.775
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.3375
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.8375
+
+*********** 98 components, 0.95 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.625
+
+LDA, the training accuracy is: 0.978125
+LDA, the test accuracy is: 0.8375
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.3875
+
+KNN, the training accuracy is: 0.709375
+KNN, the test accuracy is: 0.75
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.3375
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.825
+
+*********** Data Set 5 ***********
+
+*********** 1 components, 0.1 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.43125
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.596875
+KNN, the test accuracy is: 0.4
+
+SVM with rbf kernel, the training accuracy is: 0.546875
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.425
+SVM with linear kernel, the training accuracy is: 0.4125
+
+*********** 1 components, 0.2 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.43125
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.596875
+KNN, the test accuracy is: 0.4
+
+SVM with rbf kernel, the training accuracy is: 0.546875
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.425
+SVM with linear kernel, the training accuracy is: 0.4125
+
+*********** 1 components, 0.3 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3875
+
+LDA, the training accuracy is: 0.43125
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.425
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.596875
+KNN, the test accuracy is: 0.4
+
+SVM with rbf kernel, the training accuracy is: 0.546875
+SVM with rbf kernel, the test accuracy is: 0.4625
+
+SVM with linear kernel, the training accuracy is: 0.425
+SVM with linear kernel, the training accuracy is: 0.4125
+
+*********** 2 components, 0.4 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.325
+
+LDA, the training accuracy is: 0.421875
+LDA, the test accuracy is: 0.425
+
+QDA, the training accuracy is: 0.453125
+QDA, the test accuracy is: 0.425
+
+KNN, the training accuracy is: 0.525
+KNN, the test accuracy is: 0.4375
+
+SVM with rbf kernel, the training accuracy is: 0.89375
+SVM with rbf kernel, the test accuracy is: 0.3375
+
+SVM with linear kernel, the training accuracy is: 0.415625
+SVM with linear kernel, the training accuracy is: 0.4125
+
+*********** 3 components, 0.5 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.3625
+
+LDA, the training accuracy is: 0.43125
+LDA, the test accuracy is: 0.3875
+
+QDA, the training accuracy is: 0.45625
+QDA, the test accuracy is: 0.3875
+
+KNN, the training accuracy is: 0.496875
+KNN, the test accuracy is: 0.45
+
+SVM with rbf kernel, the training accuracy is: 0.9875
+SVM with rbf kernel, the test accuracy is: 0.275
+
+SVM with linear kernel, the training accuracy is: 0.43125
+SVM with linear kernel, the training accuracy is: 0.3875
+
+*********** 6 components, 0.6 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.425
+
+LDA, the training accuracy is: 0.496875
+LDA, the test accuracy is: 0.475
+
+QDA, the training accuracy is: 0.534375
+QDA, the test accuracy is: 0.525
+
+KNN, the training accuracy is: 0.509375
+KNN, the test accuracy is: 0.3375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2125
+
+SVM with linear kernel, the training accuracy is: 0.49375
+SVM with linear kernel, the training accuracy is: 0.4875
+
+*********** 10 components, 0.7 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.65
+
+LDA, the training accuracy is: 0.809375
+LDA, the test accuracy is: 0.7625
+
+QDA, the training accuracy is: 0.846875
+QDA, the test accuracy is: 0.775
+
+KNN, the training accuracy is: 0.7125
+KNN, the test accuracy is: 0.625
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2125
+
+SVM with linear kernel, the training accuracy is: 0.853125
+SVM with linear kernel, the training accuracy is: 0.775
+
+*********** 21 components, 0.8 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.675
+
+LDA, the training accuracy is: 0.884375
+LDA, the test accuracy is: 0.85
+
+QDA, the training accuracy is: 0.9375
+QDA, the test accuracy is: 0.8
+
+KNN, the training accuracy is: 0.73125
+KNN, the test accuracy is: 0.675
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.2125
+
+SVM with linear kernel, the training accuracy is: 0.95625
+SVM with linear kernel, the training accuracy is: 0.8125
+
+*********** 51 components, 0.9 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.6875
+
+LDA, the training accuracy is: 0.953125
+LDA, the test accuracy is: 0.85
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.8
+
+KNN, the training accuracy is: 0.73125
+KNN, the test accuracy is: 0.6375
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.225
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.85
+
+*********** 97 components, 0.95 ratio ***********
+
+Decision Tree, the training accuracy is: 1.0
+Decision Tree, the test accuracy is: 0.625
+
+LDA, the training accuracy is: 0.996875
+LDA, the test accuracy is: 0.8875
+
+QDA, the training accuracy is: 1.0
+QDA, the test accuracy is: 0.475
+
+KNN, the training accuracy is: 0.746875
+KNN, the test accuracy is: 0.625
+
+SVM with rbf kernel, the training accuracy is: 1.0
+SVM with rbf kernel, the test accuracy is: 0.425
+
+SVM with linear kernel, the training accuracy is: 1.0
+SVM with linear kernel, the training accuracy is: 0.7875
+

@@ -1,0 +1,1488 @@
+
+*******************************************
+Experiment with l = 10, m = 100, n = 1000
+*******************************************
+
+Modified Perception
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 760 and accuracy is 0.848000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 627 and accuracy is 0.874600
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 719 and accuracy is 0.856200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 644 and accuracy is 0.871200
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 731 and accuracy is 0.853800
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 772 and accuracy is 0.845600
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 774 and accuracy is 0.845200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 945 and accuracy is 0.811000
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 603 and accuracy is 0.879400
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 955 and accuracy is 0.809000
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 1154 and accuracy is 0.769200
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 970 and accuracy is 0.806000
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 1124 and accuracy is 0.775200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 1188 and accuracy is 0.762400
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 814 and accuracy is 0.837200
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 908 and accuracy is 0.818400
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 1458 and accuracy is 0.708400
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 814 and accuracy is 0.837200
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 893 and accuracy is 0.821400
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 1247 and accuracy is 0.750600
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 814 and accuracy is 0.837200
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 1097 and accuracy is 0.780600
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 1341 and accuracy is 0.731800
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 1326 and accuracy is 0.734800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 649 and accuracy is 0.870200
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 652 and accuracy is 0.869600
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 621 and accuracy is 0.875800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 754 and accuracy is 0.849200
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 901 and accuracy is 0.819800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 767 and accuracy is 0.846600
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 669 and accuracy is 0.866200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 609 and accuracy is 0.878200
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 1286 and accuracy is 0.742800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 1104 and accuracy is 0.779200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 669 and accuracy is 0.866200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 646 and accuracy is 0.870800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 1165 and accuracy is 0.767000
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 900 and accuracy is 0.820000
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 669 and accuracy is 0.866200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 741 and accuracy is 0.851800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 695 and accuracy is 0.861000
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 1115 and accuracy is 0.777000
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 669 and accuracy is 0.866200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 741 and accuracy is 0.851800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 773 and accuracy is 0.845400
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 1178 and accuracy is 0.764400
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 669 and accuracy is 0.866200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 741 and accuracy is 0.851800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 799 and accuracy is 0.840200
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 1111 and accuracy is 0.777800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 909 and accuracy is 0.818200
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 616 and accuracy is 0.876800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 812 and accuracy is 0.837600
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 539 and accuracy is 0.892200
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 785 and accuracy is 0.843000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 1098 and accuracy is 0.780400
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 594 and accuracy is 0.881200
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 774 and accuracy is 0.845200
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 652 and accuracy is 0.869600
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 758 and accuracy is 0.848400
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 605 and accuracy is 0.879000
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 1031 and accuracy is 0.793800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 653 and accuracy is 0.869400
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 690 and accuracy is 0.862000
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 919 and accuracy is 0.816200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 640 and accuracy is 0.872000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 650 and accuracy is 0.870000
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 919 and accuracy is 0.816200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 632 and accuracy is 0.873600
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 1242 and accuracy is 0.751600
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 919 and accuracy is 0.816200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 735 and accuracy is 0.853000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 876 and accuracy is 0.824800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 909 and accuracy is 0.818200
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 699 and accuracy is 0.860200
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 708 and accuracy is 0.858400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 582 and accuracy is 0.883600
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 785 and accuracy is 0.843000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 1168 and accuracy is 0.766400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 666 and accuracy is 0.866800
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 640 and accuracy is 0.872000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 570 and accuracy is 0.886000
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 1246 and accuracy is 0.750800
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 565 and accuracy is 0.887000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 659 and accuracy is 0.868200
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 638 and accuracy is 0.872400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 696 and accuracy is 0.860800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 641 and accuracy is 0.871800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 1125 and accuracy is 0.775000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 618 and accuracy is 0.876400
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 641 and accuracy is 0.871800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 775 and accuracy is 0.845000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 681 and accuracy is 0.863800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 641 and accuracy is 0.871800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 647 and accuracy is 0.870600
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 846 and accuracy is 0.830800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 909 and accuracy is 0.818200
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 546 and accuracy is 0.890800
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 622 and accuracy is 0.875600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 535 and accuracy is 0.893000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 785 and accuracy is 0.843000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 900 and accuracy is 0.820000
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 719 and accuracy is 0.856200
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 625 and accuracy is 0.875000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 615 and accuracy is 0.877000
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 650 and accuracy is 0.870000
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 701 and accuracy is 0.859800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 697 and accuracy is 0.860600
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 782 and accuracy is 0.843600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 737 and accuracy is 0.852600
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 1128 and accuracy is 0.774400
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 743 and accuracy is 0.851400
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 574 and accuracy is 0.885200
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 622 and accuracy is 0.875600
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 1112 and accuracy is 0.777600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 690 and accuracy is 0.862000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 909 and accuracy is 0.818200
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 546 and accuracy is 0.890800
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 580 and accuracy is 0.884000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 528 and accuracy is 0.894400
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 785 and accuracy is 0.843000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 900 and accuracy is 0.820000
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 719 and accuracy is 0.856200
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 575 and accuracy is 0.885000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 615 and accuracy is 0.877000
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 599 and accuracy is 0.880200
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 655 and accuracy is 0.869000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 697 and accuracy is 0.860600
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 709 and accuracy is 0.858200
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 634 and accuracy is 0.873200
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 765 and accuracy is 0.847000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 587 and accuracy is 0.882600
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 753 and accuracy is 0.849400
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 730 and accuracy is 0.854000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 922 and accuracy is 0.815600
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 905 and accuracy is 0.819000
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 909 and accuracy is 0.818200
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 546 and accuracy is 0.890800
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 580 and accuracy is 0.884000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 532 and accuracy is 0.893600
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 785 and accuracy is 0.843000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 900 and accuracy is 0.820000
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 617 and accuracy is 0.876600
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 656 and accuracy is 0.868800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 615 and accuracy is 0.877000
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 721 and accuracy is 0.855800
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 567 and accuracy is 0.886600
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 697 and accuracy is 0.860600
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 643 and accuracy is 0.871400
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 686 and accuracy is 0.862800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 765 and accuracy is 0.847000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 657 and accuracy is 0.868600
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 737 and accuracy is 0.852600
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 830 and accuracy is 0.834000
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 692 and accuracy is 0.861600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 689 and accuracy is 0.862200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 690 and accuracy is 0.862000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 675 and accuracy is 0.865000
+
+*******************************************
+Experiment with l = 10, m = 500, n = 1000
+*******************************************
+
+Modified Perception
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 789 and accuracy is 0.842200
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 895 and accuracy is 0.821000
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 665 and accuracy is 0.867000
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 748 and accuracy is 0.850400
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 775 and accuracy is 0.845000
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 679 and accuracy is 0.864200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 508 and accuracy is 0.898400
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 856 and accuracy is 0.828800
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 1132 and accuracy is 0.773600
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 815 and accuracy is 0.837000
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 983 and accuracy is 0.803400
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 1305 and accuracy is 0.739000
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 1081 and accuracy is 0.783800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 726 and accuracy is 0.854800
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 939 and accuracy is 0.812200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 1346 and accuracy is 0.730800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 726 and accuracy is 0.854800
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 1074 and accuracy is 0.785200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 1256 and accuracy is 0.748800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 726 and accuracy is 0.854800
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 1295 and accuracy is 0.741000
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 949 and accuracy is 0.810200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 941 and accuracy is 0.811800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 625 and accuracy is 0.875000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 581 and accuracy is 0.883800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 599 and accuracy is 0.880200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 645 and accuracy is 0.871000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 617 and accuracy is 0.876600
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 509 and accuracy is 0.898200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 756 and accuracy is 0.848800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 807 and accuracy is 0.838600
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 889 and accuracy is 0.822200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 635 and accuracy is 0.873000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 1475 and accuracy is 0.705000
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 1106 and accuracy is 0.778800
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 705 and accuracy is 0.859000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 869 and accuracy is 0.826200
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 1003 and accuracy is 0.799400
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 705 and accuracy is 0.859000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 1064 and accuracy is 0.787200
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 827 and accuracy is 0.834600
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 705 and accuracy is 0.859000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 1088 and accuracy is 0.782400
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 990 and accuracy is 0.802000
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 688 and accuracy is 0.862400
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 703 and accuracy is 0.859400
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 647 and accuracy is 0.870600
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 835 and accuracy is 0.833000
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 679 and accuracy is 0.864200
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 496 and accuracy is 0.900800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 567 and accuracy is 0.886600
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 1050 and accuracy is 0.790000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 932 and accuracy is 0.813600
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 1365 and accuracy is 0.727000
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 675 and accuracy is 0.865000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 743 and accuracy is 0.851400
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 1281 and accuracy is 0.743800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 671 and accuracy is 0.865800
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 1251 and accuracy is 0.749800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 1281 and accuracy is 0.743800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 750 and accuracy is 0.850000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 1057 and accuracy is 0.788600
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 1281 and accuracy is 0.743800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 579 and accuracy is 0.884200
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 1200 and accuracy is 0.760000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 688 and accuracy is 0.862400
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 978 and accuracy is 0.804400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 509 and accuracy is 0.898200
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 818 and accuracy is 0.836400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 632 and accuracy is 0.873600
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 503 and accuracy is 0.899400
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 803 and accuracy is 0.839400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 773 and accuracy is 0.845400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 579 and accuracy is 0.884200
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 784 and accuracy is 0.843200
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 824 and accuracy is 0.835200
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 884 and accuracy is 0.823200
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 728 and accuracy is 0.854400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 816 and accuracy is 0.836800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 1138 and accuracy is 0.772400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 587 and accuracy is 0.882600
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 923 and accuracy is 0.815400
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 746 and accuracy is 0.850800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 688 and accuracy is 0.862400
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 589 and accuracy is 0.882200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 547 and accuracy is 0.890600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 947 and accuracy is 0.810600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 498 and accuracy is 0.900400
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 1009 and accuracy is 0.798200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 829 and accuracy is 0.834200
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 575 and accuracy is 0.885000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 982 and accuracy is 0.803600
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 711 and accuracy is 0.857800
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 740 and accuracy is 0.852000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 861 and accuracy is 0.827800
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 883 and accuracy is 0.823400
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 1075 and accuracy is 0.785000
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 795 and accuracy is 0.841000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 739 and accuracy is 0.852200
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 613 and accuracy is 0.877400
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 688 and accuracy is 0.862400
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 589 and accuracy is 0.882200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 711 and accuracy is 0.857800
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 585 and accuracy is 0.883000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 504 and accuracy is 0.899200
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 1009 and accuracy is 0.798200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 827 and accuracy is 0.834600
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 643 and accuracy is 0.871400
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 982 and accuracy is 0.803600
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 773 and accuracy is 0.845400
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 744 and accuracy is 0.851200
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 1196 and accuracy is 0.760800
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 793 and accuracy is 0.841400
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 850 and accuracy is 0.830000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 687 and accuracy is 0.862600
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 595 and accuracy is 0.881000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 817 and accuracy is 0.836600
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 688 and accuracy is 0.862400
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 589 and accuracy is 0.882200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 581 and accuracy is 0.883800
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 486 and accuracy is 0.902800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 1158 and accuracy is 0.768400
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 694 and accuracy is 0.861200
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 502 and accuracy is 0.899600
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 1009 and accuracy is 0.798200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 640 and accuracy is 0.872000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 694 and accuracy is 0.861200
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 982 and accuracy is 0.803600
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 670 and accuracy is 0.866000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 715 and accuracy is 0.857000
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 628 and accuracy is 0.874400
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 656 and accuracy is 0.868800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 565 and accuracy is 0.887000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 771 and accuracy is 0.845800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 930 and accuracy is 0.814000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 924 and accuracy is 0.815200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 927 and accuracy is 0.814600
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 1221 and accuracy is 0.755800
+
+*******************************************
+Experiment with l = 10, m = 1000, n = 1000
+*******************************************
+
+Modified Perception
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 160 and accuracy is 0.968000
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 435 and accuracy is 0.913000
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 187 and accuracy is 0.962600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 459 and accuracy is 0.908200
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 476 and accuracy is 0.904800
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 327 and accuracy is 0.934600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 609 and accuracy is 0.878200
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 671 and accuracy is 0.865800
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 327 and accuracy is 0.934600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 673 and accuracy is 0.865400
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 856 and accuracy is 0.828800
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.050000 :
+Mistake numbers is 464 and accuracy is 0.907200
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 327 and accuracy is 0.934600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 762 and accuracy is 0.847600
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 1154 and accuracy is 0.769200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.010000 :
+Mistake numbers is 862 and accuracy is 0.827600
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 327 and accuracy is 0.934600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 762 and accuracy is 0.847600
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 1146 and accuracy is 0.770800
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.005000 :
+Mistake numbers is 1112 and accuracy is 0.777600
+When eta is 1.500000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 327 and accuracy is 0.934600
+When eta is 0.030000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 762 and accuracy is 0.847600
+When eta is 0.005000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 1189 and accuracy is 0.762200
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 0.001000 :
+Mistake numbers is 1249 and accuracy is 0.750200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 204 and accuracy is 0.959200
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 409 and accuracy is 0.918200
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 225 and accuracy is 0.955000
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 290 and accuracy is 0.942000
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 476 and accuracy is 0.904800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 243 and accuracy is 0.951400
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 267 and accuracy is 0.946600
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 666 and accuracy is 0.866800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 243 and accuracy is 0.951400
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 316 and accuracy is 0.936800
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 896 and accuracy is 0.820800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.050000 :
+Mistake numbers is 464 and accuracy is 0.907200
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 243 and accuracy is 0.951400
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 517 and accuracy is 0.896600
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 1106 and accuracy is 0.778800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.010000 :
+Mistake numbers is 862 and accuracy is 0.827600
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 243 and accuracy is 0.951400
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 517 and accuracy is 0.896600
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 1081 and accuracy is 0.783800
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.005000 :
+Mistake numbers is 1112 and accuracy is 0.777600
+When eta is 1.500000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 243 and accuracy is 0.951400
+When eta is 0.030000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 517 and accuracy is 0.896600
+When eta is 0.005000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 1133 and accuracy is 0.773400
+When eta is 0.001000, gammaP is 0.500000 and gammaN is 0.001000 :
+Mistake numbers is 1249 and accuracy is 0.750200
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 200 and accuracy is 0.960000
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 410 and accuracy is 0.918000
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 214 and accuracy is 0.957200
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 281 and accuracy is 0.943800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 476 and accuracy is 0.904800
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 165 and accuracy is 0.967000
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 345 and accuracy is 0.931000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 166 and accuracy is 0.966800
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 315 and accuracy is 0.937000
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.050000 :
+Mistake numbers is 464 and accuracy is 0.907200
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 373 and accuracy is 0.925400
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.010000 :
+Mistake numbers is 904 and accuracy is 0.819200
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 409 and accuracy is 0.918200
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.005000 :
+Mistake numbers is 1072 and accuracy is 0.785600
+When eta is 1.500000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 378 and accuracy is 0.924400
+When eta is 0.001000, gammaP is 0.100000 and gammaN is 0.001000 :
+Mistake numbers is 1180 and accuracy is 0.764000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 200 and accuracy is 0.960000
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 423 and accuracy is 0.915400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 214 and accuracy is 0.957200
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 298 and accuracy is 0.940400
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 236 and accuracy is 0.952800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 337 and accuracy is 0.932600
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 206 and accuracy is 0.958800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 170 and accuracy is 0.966000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.050000 :
+Mistake numbers is 460 and accuracy is 0.908000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 211 and accuracy is 0.957800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 190 and accuracy is 0.962000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.010000 :
+Mistake numbers is 733 and accuracy is 0.853400
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 211 and accuracy is 0.957800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 159 and accuracy is 0.968200
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.005000 :
+Mistake numbers is 885 and accuracy is 0.823000
+When eta is 1.500000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 211 and accuracy is 0.957800
+When eta is 0.005000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 230 and accuracy is 0.954000
+When eta is 0.001000, gammaP is 0.050000 and gammaN is 0.001000 :
+Mistake numbers is 892 and accuracy is 0.821600
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 200 and accuracy is 0.960000
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 423 and accuracy is 0.915400
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 214 and accuracy is 0.957200
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 271 and accuracy is 0.945800
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 477 and accuracy is 0.904600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 331 and accuracy is 0.933800
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.100000 :
+Mistake numbers is 476 and accuracy is 0.904800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 195 and accuracy is 0.961000
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 187 and accuracy is 0.962600
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.050000 :
+Mistake numbers is 454 and accuracy is 0.909200
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 226 and accuracy is 0.954800
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.010000 :
+Mistake numbers is 190 and accuracy is 0.962000
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 234 and accuracy is 0.953200
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.005000 :
+Mistake numbers is 146 and accuracy is 0.970800
+When eta is 1.500000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 185 and accuracy is 0.963000
+When eta is 0.001000, gammaP is 0.010000 and gammaN is 0.001000 :
+Mistake numbers is 300 and accuracy is 0.940000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 200 and accuracy is 0.960000
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 423 and accuracy is 0.915400
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 214 and accuracy is 0.957200
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 271 and accuracy is 0.945800
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 351 and accuracy is 0.929800
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 195 and accuracy is 0.961000
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 250 and accuracy is 0.950000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.050000 :
+Mistake numbers is 449 and accuracy is 0.910200
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 194 and accuracy is 0.961200
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.010000 :
+Mistake numbers is 206 and accuracy is 0.958800
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 210 and accuracy is 0.958000
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 156 and accuracy is 0.968800
+When eta is 1.500000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 232 and accuracy is 0.953600
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.001000 :
+Mistake numbers is 249 and accuracy is 0.950200
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 200 and accuracy is 0.960000
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 423 and accuracy is 0.915400
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 1.000000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 214 and accuracy is 0.957200
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 271 and accuracy is 0.945800
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.500000 :
+Mistake numbers is 481 and accuracy is 0.903800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 219 and accuracy is 0.956200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 346 and accuracy is 0.930800
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.100000 :
+Mistake numbers is 475 and accuracy is 0.905000
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 195 and accuracy is 0.961000
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 242 and accuracy is 0.951600
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.050000 :
+Mistake numbers is 453 and accuracy is 0.909400
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 234 and accuracy is 0.953200
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.010000 :
+Mistake numbers is 235 and accuracy is 0.953000
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 235 and accuracy is 0.953000
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.005000 :
+Mistake numbers is 221 and accuracy is 0.955800
+When eta is 1.500000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.250000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 277 and accuracy is 0.944600
+When eta is 0.030000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.005000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 229 and accuracy is 0.954200
+When eta is 0.001000, gammaP is 0.001000 and gammaN is 0.001000 :
+Mistake numbers is 269 and accuracy is 0.946200

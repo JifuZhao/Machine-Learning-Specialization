@@ -1,0 +1,69 @@
+
+*******************************************
+Experiment with l = 10, m = 100, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 400 and accuracy is 0.960000
+
+Perception with Margin Experiment
+When eta is 0.005000:
+Mistake numbers is 44 and accuracy is 0.995600
+
+Winnow Experiment
+When alpha is 1.100000:
+Mistake numbers is 401 and accuracy is 0.959900
+
+Winnow with Margin Experiment
+When alpha is 1.100000 and gamma is 0.006000 
+Mistake numbers is 389 and accuracy is 0.961100
+
+AdaGrad Experiment
+When eta is 0.250000:
+Mistake numbers is 4 and accuracy is 0.999600
+
+*******************************************
+Experiment with l = 10, m = 500, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 2476 and accuracy is 0.752400
+
+Perception with Margin Experiment
+When eta is 0.005000:
+Mistake numbers is 1909 and accuracy is 0.809100
+
+Winnow Experiment
+When alpha is 1.100000:
+Mistake numbers is 1478 and accuracy is 0.852200
+
+Winnow with Margin Experiment
+When alpha is 1.100000 and gamma is 0.040000 
+Mistake numbers is 1959 and accuracy is 0.804100
+
+AdaGrad Experiment
+When eta is 1.500000:
+Mistake numbers is 1069 and accuracy is 0.893100
+
+*******************************************
+Experiment with l = 10, m = 1000, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 2653 and accuracy is 0.734700
+
+Perception with Margin Experiment
+When eta is 0.030000:
+Mistake numbers is 1875 and accuracy is 0.812500
+
+Winnow Experiment
+When alpha is 1.100000:
+Mistake numbers is 2547 and accuracy is 0.745300
+
+Winnow with Margin Experiment
+When alpha is 1.100000 and gamma is 0.001000 
+Mistake numbers is 2521 and accuracy is 0.747900
+
+AdaGrad Experiment
+When eta is 1.500000:
+Mistake numbers is 1827 and accuracy is 0.817300

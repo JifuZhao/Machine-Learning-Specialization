@@ -1,0 +1,22 @@
+Name: Jifu Zhao
+
+Email: jzhao59@illinois.edu
+
+
+
+All source codes are included in ./Code/src
+
+To compile the code:
+
+1, Enter the file named Code (cd Code/), run the following command in terminal
+
+chmod +x ./main.sh
+./main.sh
+
+2, The screen will show that the code is running, and all the result will be stored in the folder named result
+
+All generated features are stored in the ./feature/attribute file
+
+All result are stored in ./result file.
+
+For SGD algorithm, it is written in Python. To run Python, you need to make sure that you have numpy pre-installed

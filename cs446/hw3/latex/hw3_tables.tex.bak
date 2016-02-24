@@ -1,0 +1,52 @@
+\input{cs446.tex}
+\usepackage{amsmath,amssymb,url,color,multirow,array}
+\sloppy
+\newcommand{\ignore}[1]{}
+
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\topmargin -0.5in
+\textheight 9.0in
+
+\begin{document}
+
+
+  \begin{center}
+    \begin{tabular}{|p{3.0cm}|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+      \hline
+      Algorithm               &  Parameters & Dataset n=500 & Dataset n=1000\\\hline\hline
+      Perceptron              &             &               &      \\\hline
+      Perceptron w/margin     &             &               &      \\\hline
+      Winnow                  &             &               &      \\\hline
+      Winnow w/margin         &             &               &      \\\hline
+      AdaGrad                 &             &               &      \\\hline
+    \end{tabular}
+  \end{center}
+  
+  \begin{center}
+    \begin{tabular}{|p{3.0cm}|p{2.2cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+      \hline
+      Algorithm             &  Parameters & n=40 & n=80 & n=120 & n=160 & n=200\\\hline\hline
+      Perceptron            &             &      &      &       &       &      \\\hline
+      Perceptron w/margin   &             &      &      &       &       &      \\\hline
+      Winnow                &             &      &      &       &       &      \\\hline
+      Winnow w/margin       &             &      &      &       &       &      \\\hline
+      AdaGrad               &             &      &      &       &       &      \\\hline
+    \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+ Algorithm      &  \multicolumn{2}{c|}{m=100} & \multicolumn{2}{c|}{m=500} & \multicolumn{2}{c|}{m=1000}\\\hline\hline
+ & acc. & params. & acc. & params. & acc. & params.\\\hline
+ Perceptron     & & & & & &\\\hline
+ Perceptron w/margin & & & & & &\\\hline
+ Winnow              & & & & & &\\\hline
+ Winnow w/margin     & & & & & &\\\hline
+ AdaGrad & & & & & &\\\hline
+\end{tabular}
+\end{center}
+
+\end{document}

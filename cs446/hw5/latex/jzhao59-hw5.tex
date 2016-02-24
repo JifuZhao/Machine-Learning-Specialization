@@ -1,0 +1,303 @@
+\input{cs446.tex}
+
+\usepackage{graphicx,amssymb,amsmath, listings}
+\usepackage{float}
+\lstset{language = Matlab}
+\lstset{breaklines}
+\lstset{extendedchars=false}
+
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\topmargin -0.5in
+\textheight 9.0in
+\begin{document}
+
+\solution{Jifu Zhao}{11/06/2015}{5}{Fall 2015}
+% Fill in the above, for example, as follows:
+% \solution{Joe Smith}{\today}{1}{Fall 2012}
+
+\pagestyle{myheadings}  % Leave this command alone
+
+\begin{enumerate}
+\item {\bf Answer to problem 1}
+\begin{enumerate}
+\item[{\bf (a)}]
+\begin{enumerate}
+\item[{\bf 1, }]
+${\bf W} = [-1, 1]^T$ \\
+$\theta = 0$\\
+
+\item[{\bf 2, }]
+${\bf W} = [-0.5, 0.25]^T$ \\
+$\theta = 0$\\
+
+\item[{\bf 3, }]
+For SVM method in this problem, we need to find three lines that $$w_1x1 + w_2x_2 + \theta = 0$$
+$$w_1x1 + w_2x_2 + \theta = -1$$
+$$w_1x1 + w_2x_2 + \theta = 1$$
+The first step is to find the two support vectors. Considering all the points from the table, it is easy to conclude that {\bf (-1.2, 1.6, (+1))} and {\bf (2, 0, (-1))} has the least distance. So, we can derive:
+$$-1.2w_1 + 1.6w_2x_2 + \theta = 1$$
+$$2w_1 + 0w_2 + \theta = -1$$
+
+Through these two questions, we can get that: $\theta = -2w_1-1$ and $w_2 = 2w_1+1.25$.
+So, we can derive that $$w_1^2 + w_2^2 = 5w_1^2 + 5w_1 + 1.25^2$$
+so, in order to get the least value for $w_1^2 + w_2^2$, we need ${\bf w_1 = -0.5}$, so ${\bf w_2 = 0.25}$ and ${\bf \theta = 0}$.\\
+
+So, we need that: ${\bf W} = [{\bf -0.5, 0.25}]^T$, \qquad ${\bf \theta = 0}$.\\
+\end{enumerate}
+
+\item[{\bf (b)}]
+\begin{enumerate}
+\item[{\bf 1, }]
+$\bf I = \{1, 6\}$ or $\bf I = \{(-1.2, 1.6), (2, 0)\}$\\
+\item[{\bf 2, }]
+${\bf \alpha = \{\frac{5}{32},  \frac{5}{32}\}}$\\
+\item[{\bf 3, }]
+$objective function value$ = ${\bf \frac{5}{32}}$\\
+\end{enumerate}
+
+\item[{\bf (c)}]
+C controls the tradeoff between large margin (small $||w||$) and small loss. When C is larger, we concerned more on the mistakes. When C is smaller, we concerned more on larger margin.\\
+
+{\bf 1}, When $C = \infty$, we need $\xi_i$ to be 0, so, when $C = \infty$, we get the same answer in (a)-2.\\
+{\bf 2}, When $C = 1$, we will make more misclassifications, but we can also have a larger margin.\\
+{\bf 3}, When $C = 0$, we will concerned more on the larger margin. So, we have larger margin, but we will also make more misclassifications.\\
+
+\end{enumerate}
+
+\item {\bf Answer to problem 2}
+
+\begin{enumerate}
+\item[{\bf (a)}]
+{\bf Dual Perceptron:}
+\begin{enumerate}
+\item[{\bf 1, }] Initialize $\alpha$ and $\theta$ to zero vectors
+\item[{\bf 2, }] For each example $(x_m, y_m)$:\\
+\qquad if $y_m \sum_{i = 1}^m\alpha_ix_ix_m < 0$, $\alpha_m = \alpha_m+1$
+\item[{\bf 3, }] Output the final result $w$\\
+\end{enumerate}
+
+\item[{\bf (b)}]
+Suppose that: $\vec{x} = (x_1, x_2)^T$ and $\vec{z} = (z_1, z_2)^T$, so $$K(\vec{x}, \vec{z}) = (\vec{x}^T\vec{z})^3 + 400(\vec{x}^T\vec{z})^2 + 100(\vec{x}^T\vec{z})$$ can be written as:
+$$K(\vec{x}, \vec{z}) = (x_1z_1 + x_2z_2)^3 + 400(x_1z_1 + x_2z_2)^2 + 100(x_1z_1 + x_2z_2)$$\\
+{\bf First}, let's prove that $K_1 = (x_1z_1 + x_2z_2)^3$ is a valid kernel.
+$$K_1 = x_1^3z_1^3 + 3x_1^2x_2z_1^2z_2 + 3x_1x_2^2z_1z_2^2 + x_2^3z_2^3$$
+$$K_1 = (x_1^3, \sqrt{3}x_1^2x_2, \sqrt{3}x_1x_2^2, x_2^3)(z_1^3, \sqrt{3}z_1^2z_2, \sqrt{3}z_1z_2^2, z_2^3)^T = \psi_1(\vec{x})^T\psi_1(\vec{z})$$
+{\bf So, $K_1$ is a valid kernel.}\\
+
+{\bf Now}, let's prove that $K_2 = 400(x_1z_1 + x_2z_2)^2$ is a valid kernel.
+$$K_2 = 400(x_1^2z_1^2 + 2x_1x_2z_1z_2 + x_2^2z_2^2)$$
+$$K_2 = 20(x_1^2, \sqrt{2}x_1x_2, x_2^2) 20(z_1^2, \sqrt{2}z_1z_2, z_2^2)^T = \psi_2(\vec{x})^T\psi_2(\vec{z})$$
+{\bf So, $K_2$ is valid kernel.}\\
+
+{\bf Finally}, $K_3 = 100(x_1z_1 + x_2z_2) = 10(x_1, x_2) 10(z_1, z_2)^T = \psi_3(\vec{x})^T\psi_3(\vec{z})$ is also a kernel.\\
+
+Since, $K_1$, $K_2$ and $K_3$ are all valid kernels, so
+$$K(\vec{x}, \vec{z}) = K_1 + K_2 + K_3 = \psi_1(\vec{x})^T\psi_1(\vec{z}) + \psi_2(\vec{x})^T\psi_2(\vec{z}) + \psi_3(\vec{x})^T\psi_3(\vec{z})$$
+$$K(\vec{x}, \vec{z}) = [\psi_1(\vec{x}) \psi_2(\vec{x}) \psi_3(\vec{x})] [\psi_1(\vec{z}) \psi_2(\vec{z}) \psi_3(\vec{z})]^T$$
+So, ${\bf K(\vec{x}, \vec{z})}$ is also valid kernels.\\
+\end{enumerate}
+
+\item {\bf Answer to problem 3}
+    \begin{table}[H]
+      {\centering
+        \begin{tabular}{|c|c||c|c|c|c||c|c|c|c|}
+
+          \hline
+          & & \multicolumn{4}{c||}{Hypothesis 1}
+	  & \multicolumn{4}{c|}{Hypothesis 2} \\
+          \cline{3-10}
+          {\em i} & Label & $D_0$ & $x_1 \equiv $ & $x_2 \equiv $ & $h_1\equiv$ & $D_1$ &  $x_1 \equiv $ & $x_2 \equiv $ & $h_2 \equiv $ \\
+          & & & [$\bf x > 5$] & [$\bf y > 6$] & [$\bf x_1 $] & & [$\bf x > 3$] & [$\bf y > 8$] & [$\bf x_2$] \\
+
+          \tiny{(1)} & \tiny{(2)} & \tiny{(3)} & \tiny{(4)} &  \tiny{(5)} & \tiny{(6)} & \tiny{(7)} & \tiny{(8)} & \tiny{(9)} & \tiny{(10)}\\
+          \hline \hline
+          {\em 1} & $-$ &$1/10$&$-$&$+$&$-$&$1/16$&$-$&$+$&$+$ \\
+          \hline
+          {\em 2} & $-$ &$1/10$&$-$&$-$&$-$&$1/16$&$+$&$-$&$-$ \\
+          \hline
+          {\em 3} & $+$ &$1/10$&$+$&$+$&$+$&$1/16$&$+$&$-$&$-$\\
+          \hline
+          {\em 4} & $-$ &$1/10$&$-$&$-$&$-$&$1/16$&$+$&$-$&$-$\\
+          \hline
+          {\em 5} & $-$ &$1/10$&$-$&$+$&$-$&$1/16$&$-$&$+$&$+$\\
+          \hline
+          {\em 6} & $+$ &$1/10$&$+$&$+$&$+$&$1/16$&$+$&$-$&$-$\\
+          \hline
+          {\em 7} & $+$ &$1/10$&$+$&$+$&$+$&$1/16$&$+$&$+$&$+$\\
+          \hline
+          {\em 8} & $-$ &$1/10$&$-$&$-$&$-$&$1/16$&$+$&$-$&$-$\\
+          \hline
+          {\em 9} & $+$ &$1/10$&$-$&$+$&$-$&$1/4$&$+$&$+$&$+$\\
+          \hline
+          {\em 10} & $-$ &$1/10$&$+$&$+$&$+$&$1/4$&$+$&$-$&$-$\\
+          \hline
+        \end{tabular}
+        \caption{Table for Boosting results} \label{table:ltu}}
+    \end{table}
+
+\begin{enumerate}
+\item[{\bf (a)}]
+There are 10 samples in total, so $m=10$, in this way, $D_0 = 1/m = 0.1$.\\
+In order to reduce the error rate, through comparison, finally we find that for x and y, when we choose $x>5$ and $y>6$, the error rate will be smallest, which are 0.2 and 0.3. So, ${\bf x_1 = [x>5]}$ and ${\bf x_2 = [y>6]}$.\\
+
+\item[{\bf (b)}]
+Since error rate is 0.2 and 0.3, we should choose ${\bf x_1 = [x>5]}$ as the first hypothesis ${\bf h_1 = [x_1]}$. The prediction are shown in tables.\\
+
+\item[{\bf (c)}]
+From (a), we know that error rate $\epsilon = 0.2$. According to $$\alpha = 0.5*ln[(1-\epsilon)/\epsilon]$$
+ we can get that $\alpha = ln2 = 0.693$. According to $$z_t  = \sum D_t exp(-\alpha_t y h(x))$$
+When $y_i = h(x_i)$, $D_t exp(-\alpha_t y h(x)) = 1/10*exp(-ln2) = 0.05$,\\
+When $y_i \neq h(x_i)$, $D_t exp(-\alpha_t y h(x)) = 1/10*exp(ln2) = 0.2$.\\
+
+So, 
+$$z_t  = \sum D_t exp(-\alpha_t y h(x)) = 8*0.05 + 2*0.2 = 0.8$$
+Then, according to $D_{t+1} = D_t/z_t* exp(-\alpha_t y h(x))$,\\
+
+{\bf when $y_i = h(x_i)$, $$D_1 = 0.1/0.8*exp(-ln2) = 1/16$$}
+{\bf when $y_i \neq h(x_i)$, $$D_1 = 0.1/0.8*exp(ln2) = 1/4$$}
+
+So, we can fill in the Table as shown above.\\
+
+\item[{\bf (d)}]
+First, let's calculate $\alpha_2$. For $h_2 = x_2 = [y > 8]$, error rate $\epsilon = 4/16 = 1/4$, so, according to $$\alpha = 0.5*ln[(1-\epsilon)/\epsilon]$$
+we can get that 
+$$\alpha_2 = 0.5*ln[(1-0.25)/0.25] = 1/2*ln3 = 0.549$$
+
+So, ${\bf \alpha_1 = 0.693}$, ${\bf \alpha_2 = 0.549}$\\
+
+According to the above analysis, we can write the final hypothesis as follows:
+$${\bf h = sign(\sum \alpha_t h_t) = sign[0.693(x>5) + 0.549(y>8)]}$$
+\end{enumerate}
+
+\item {\bf Answer to problem 4}
+
+\begin{enumerate}
+\item[{\bf (a)}]
+\begin{enumerate}
+\item[{\bf i. }]
+{\bf The expected number of children in towns A is 1 and 2 in towns B}\\
+
+{\bf Proof:}\\
+In {\bf town A}, each family has just one child, so the expected number of children in towns A is 1.\\
+
+In {\bf town B}, the probability of a family has k children is: $$P(k) =(\frac{1}{2})^{k-1}\frac{1}{2} = (\frac{1}{2})^{k}$$
+so the expected number of children will be: 
+$$N = \sum_{1}^{\infty}k(\frac{1}{2})^{k} = 2$$
+So, the expected number of children in towns B is {\bf 2}.\\
+
+\item[{\bf ii. }]
+{\bf The boy to girl ratio in towns A is ${\bf 1:1}$ and ${\bf 1:1}$ in towns B}\\
+
+{\bf Proof:}\\
+In {\bf town A}, at first the boy to girl ratio is 1:1. So, the probability of boy and girl is 0.5 and 0.5. Now, when they have children, they will have only one child, with the probability of 0.5 to be a boy and 0.5 to be a girl. So, at the end of the first generation, the probability of boy will be:$0.5*0.5*2 = 0.5$ and the probability of girl will be:$0.5*0.5*2 = 0.5$. So, the boy to girl ratio in towns A is ${\bf 1:1}$.\\
+
+In {\bf town B}, at first the boy to girl ratio is 1:1. So, the probability of boy and girl is 0.5 and 0.5. Now, for each family, there be definitely one boy, so the number of boy for each family will be: $1$. For girls, the expected number of girls will be: $$\sum_{1}^{\infty}k(\frac{1}{2})^{k+1} = 1$$
+So, after one generation, the expected number of boys will be: $0.5*1=0.5$. and the expected number of girls will be: $0.5*1=0.5$. So the boy to girl ratio in towns B is ${\bf 1:1}$.\\
+\end{enumerate}
+
+\item[{\bf (b)}]
+\begin{enumerate}
+\item[{\bf i. }]
+{\bf Proof:}\\
+$$P(A|B) = \frac{P(A, B)}{P(B)}$$
+Since $P(A, B) = P(A)P(B|A)$, so $$\frac{P(A, B)}{P(B)} = \frac{P(A)P(B|A)}{P(B)}$$
+So, $${\bf P(A|B) = \frac{P(B|A)P(A)}{P(B)}}$$\\
+
+\item[{\bf ii. }]
+$$P(A, B, C) = P(A|B, C)P(B, C)$$
+Since $$P(B, C) = P(B|C)P(C)$$
+So: $$P(A, B, C) = P(A|B, C)P(B, C) = P(A|B, C)P(B|C)P(C)$$
+So:
+$${\bf P(A, B, C) = P(A|B, C)P(B|C)P(C)}$$\\
+
+\end{enumerate}
+
+\item[{\bf (c)}]
+{\bf Proof:}\\
+First, let's calculate the probability distribution of X. Suppose that for n events, A events will occur for m times. So, $$P(A) = \frac{m}{n}$$
+And, it is clear that:
+$$P(X=1) = \frac{m}{n} \qquad P(X=0) = \frac{n-m}{n}$$
+So, $$E(X) = P(X=1)*1 + P(X=0)*0 = P(X=1) = \frac{m}{n}$$
+So, $${\bf E(X) = P(A)}$$\\
+
+\item[{\bf (d)}]
+
+First, let's calculate the distribution for (X, Y). The result are shown in following Table 2:\\
+
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline 
+			& $X = 0$ & $X = 1$ &\\ 
+			\hline 
+			$Y = 0$ & $30/90$ &  $18/90$ & $48/90$ \\ 
+			\hline 
+			$Y = 1$ & $25/90$ &  $17/90$ & $42/90$ \\ 
+			\hline 
+			 & $55/90$ &  $35/90$ & $1$ \\ 
+			\hline 
+		\end{tabular}
+		\caption{T(X, Y) Distribution \label{table:lltu}}
+	\end{table}
+\begin{enumerate}
+\item[{\bf i. }]
+{\bf X is not independent of Y}.\\
+
+{\bf Reason}: If X is independent of Y, we should have: $P(X, Y) = P(X)P(Y)$. So, for example, from Table 2, we can know that:$P(X=1, Y=1) = 18/90$, and $P(X = 1) = 35/90$, $P(Y=1) = 42/90$. It is clear that $P(X, Y) \neq P(X)P(Y)$.\\
+
+So, X is not independent of Y.\\
+
+\item[{\bf ii. }] {\bf X is conditionally independent of Y given Z}\\
+
+{\bf Reason}: According to Table 3: 
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline 
+			& \multicolumn{2}{|c|}{$Z = 0$} & \multicolumn{2}{|c|}{ $Z = 1$}  \\ 
+			\hline 
+			& $X = 0$ & $X = 1$ & $X = 0$ & $X = 1$ \\ 
+			\hline 
+			$Y = 0$ & $1/15$ &   $1/15$ &  $4/15$ &  $2/15$  \\ 
+			$Y = 1$ & $1/10$ &   $1/10$ &  $8/45$ &  $4/45$  \\ 
+			\hline 
+		\end{tabular}
+		\caption{Table for (X, Y) Distribution \label{table:llltu}}
+	\end{table}
+
+We can get that: \\
+$P(Z=0) = 30/90$, $P(X=0|Z=0) = 15/30$, $P(X=1|Z=0) = 15/30$, $P(Y=0|Z=0) = 12/30$, $P(Y=1|Z=0) = 18/30$,\\
+
+So, $${\bf P(X, Y |Z=0) = P(X|Z=0)P(Y|Z=0)}$$\\
+
+
+Similarly,\\
+$P(Z=1) = 60/90$, $P(X=0|Z=1) = 40/60$, $P(X=1|Z=1) = 20/60$, $P(Y=0|Z=1) = 36/60$, $P(Y=1|Z=1) = 24/60$, \\
+So, $${\bf P(X, Y |Z=1) = P(X|Z=1)P(Y|Z=1)}$$\\
+
+In conclusion, {\bf X is conditionally independent of Y given Z}.\\
+
+\item[{\bf iii. }]
+
+From Table 2, we can know that: $$\{X + Y > 0\} = \{(X=0, Y=1), (X=1, Y=0), (X=1, Y=1)\}$$
+So, 
+$$P(X=0|X+Y>0) = P(X=0|\{(X=0, Y=1), (X=1, Y=0), (X=1, Y=1)\})$$
+So $$P(X=0|X+Y>0) = \frac{P(X=0, X+Y>0)}{P(\{(X=0, Y=1), (X=1, Y=0), (X=1, Y=1)\})}$$
+And\\
+$$P(X=0, X+Y>0)=P(X=0, Y=1)=25/90$$
+$$P(\{(X=0, Y=1), (X=1, Y=0), (X=1, Y=1)\}) = 25/90+18/90+17/90 = 60/90$$
+So\\
+$$P(X=0|X+Y>0) = \frac{25/90}{60/90} = 5/12$$
+
+So, $${\bf P(X=0|X+Y>0) = 5/12}$$
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
+

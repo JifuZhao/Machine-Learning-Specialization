@@ -1,0 +1,146 @@
+\input{cs446.tex}
+
+\usepackage{graphicx,amssymb,amsmath, listings}
+\lstset{language = Matlab}
+\lstset{breaklines}
+\lstset{extendedchars=false}
+
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\topmargin -0.5in
+\textheight 9.0in
+\begin{document}
+
+\solution{Jifu Zhao}{11/21/2015}{7}{Fall 2015}
+% Fill in the above, for example, as follows:
+%\solution{Jifu Zhao}{\today}{1}{Fall 2012}
+
+\pagestyle{myheadings}  % Leave this command alone
+
+\begin{enumerate}
+\item {\bf Answer to problem 1}
+\begin{enumerate}
+\item[\bf (a). ]
+According to the definition, we can get that:
+$$P(w_j, d_i) = P(d_i)P(w_j|d_i) = P(d_i)\sum_k P(w_j|c_k)P(c_k|d_i) $$
+
+$$\bf P(w_j, d_i) = P(d_i)\sum_k P(w_j|c_k)P(c_k|d_i)$$\\
+
+\item[\bf (b). ]
+
+$$P(c_k| w_j, \: d_i) = \frac{P(c_k, w_j, d_i)}{P(w_j, d_i)}$$
+
+According to (a), $P(w_j, d_i) = P(d_i)\sum_k P(w_j|c_k)P(c_k|d_i)$\\
+
+And, we also have:
+$$P(c_k, w_j, d_i) = P(w_j|c_k)P(c_k) = P(w_j|c_k)P(c_k|d_i)P(d_i)$$
+
+So, finally:
+
+$$\bf P(c_k| w_j, \: d_i) = \frac{P(w_j|c_k)P(c_k|d_i)}{\sum_k P(w_j|c_k)P(c_k|d_i)}$$\\
+
+\item[\bf (c). ]
+
+Likelihood should be:
+$$L = \prod_i \prod_j P(w_j, d_i)^{n(d_i, w_j)}$$
+$$LL = \sum_i \sum_j n(d_i, w_j)log P(d_i, w_j)$$
+Since that:
+$$P(d_i, w_j) = P(d_i)\sum_k P(w_j|c_k)P(c_k|d_i)$$
+$$LL = \sum_i \sum_j n(d_i, w_j)log[P(d_i)\sum_k P(w_j|c_k)P(c_k|d_i)]$$
+
+Suppose that k can be 1 and 2, so:
+$${\bf E[LL]} = \sum_i \sum_j n(d_i, w_j)\{ P(c_1|w_j, d_i)log[P(d_i) P(w_j|c_1)P(c_1|d_i)] $$
+$$ + P(c_2|w_j, d_i)log[P(d_i) P(w_j|c_2)P(c_2|d_i)] \}$$\\
+
+\item[\bf (d). ]
+
+Given the value to be maximized:
+$${\bf E[LL]} = \sum_i \sum_j n(d_i, w_j)\{ P(c_1|w_j, d_i)log[P(d_i) P(w_j|c_1)P(c_1|d_i)] $$
+$$ + P(c_2|w_j, d_i)log[P(d_i) P(w_j|c_2)P(c_2|d_i)] \}$$\\
+
+Also notice that:
+$$\sum_i P(d_i) = 1$$
+$$\sum_k P(c_k|d_i) = 1$$
+$$\sum_j P(w_j|c_k) = 1$$
+
+Solve these equations, solve for $\bf P(w_j|c_k)$ and $\bf P(c_k|d_i)$,  we can find that in order to maximize ${\bf E[LL]}$, we should have that:\\
+
+$${\bf P(w_j|c_k)} = \frac{\sum_{i=1}^M n(d_i, w_j)P(c_k|d_i, w_j)}{\sum_{i=1}^M\sum_{l=1}^V n(d_i, w_l)P(c_k|d_i, w_l)}$$\\
+
+$${\bf P(c_k|d_i)} = \frac{\sum_{j=1}^V n(d_i, w_j)P(c_k|d_i, w_j)}
+{\sum_{j=1}^V n(d_i, w_j)}$$\\
+
+Finally, estimate $P(d_i)$ to be $P(d_i) = 1/M$\\
+
+\item[\bf (e). ]
+
+From (d), we can know the expression for $\bf P(w_j|c_k)$ , $\bf P(c_k|d_i)$ and 
+$\bf P(d_i)$. They are the corresponding update rule. \\
+
+1, For $\bf P(w_j|c_k)$, the value of:
+$$\frac{\sum_{i=1}^M n(d_i, w_j)P(c_k|d_i, w_j)}{\sum_{i=1}^M\sum_{l=1}^V n(d_i, w_l)P(c_k|d_i, w_l)}$$
+ means that we first iterate all documents (i = 1 to M), calculate how many times that $w_j$ has appeared with category of $c_k$, then, this value is divided by the total number of documents that has category $c_k$.\\
+
+2, For $\bf P(c_k|d_i)$, the value of:
+$$\frac{\sum_{j=1}^V n(d_i, w_j)P(c_k|d_i, w_j)}
+{\sum_{j=1}^V n(d_i, w_j)}$$
+
+means that first, when given the particular document $d_i$, we calculate how many times the category $c_k$ appeared, and then this value is divided by the total number of words in the document $d_i$.\\
+
+3, For $\bf P(d_i)$, we only need to randomly choose one document from all documents without any more information, so its value is: $P(d_i) = 1/M$.\\
+
+ 
+\item[\bf (f). ] The pseudocode is shown as below:\\
+
+\rule{15cm}{.1pt}
+\begin{enumerate}
+\item[\bf 1, ] Choose the initial value for $P(w_j|c_k)$ , $P(c_k|d_i)$ and 
+$P(d_i)$. They can be random numbers, or you can guess them based on experience.\\
+
+\item[\bf 2, ] Do iteration:
+\begin{enumerate}
+\item[I), ] According to the expression of $E(LL)$ from part(a), (b), (c), calculate the current log likelihood.
+\item[II), ] According to part(d), calculate new values for $P(w_j|c_k)$ , $P(c_k|d_i)$ and $P(d_i)$.
+
+\item[III), ] According to the new value for $P(w_j|c_k)$ , $P(c_k|d_i)$ and $P(d_i)$, do the next iteration.
+
+\item[IV), ] Stop until the expression converged.\\
+\end{enumerate}
+
+\item[\bf 3, ] Output the final conclusion.
+
+\end{enumerate}
+
+\rule{15cm}{.1pt}\\
+\end{enumerate}
+
+
+\item {\bf Answer to problem 2}
+
+\begin{enumerate}
+\item[\bf (a). ]
+
+In this question, it means that no matter we choose which one as the root node, finally, the directed tree we finally built is equivalent.\\
+
+So, no matter which one $y$ as the root node, the probability 
+$$P(y, x_1, x_2, ......) = P(y)\prod_i (x_i| Parents(x_i))$$
+should be the same for all $y$.\\
+
+\item[\bf (b). ]
+
+The mutual information between x and y, is:
+$$I(x, y) = \sum_{x, y} P(x, y)\frac{P(x, y)}{P(x)P(y)}$$
+In this question, we can get that:
+$$I(x_i, x_j) = \sum_{x_i, x_j} Px_i, x_j)\frac{P(x_i, x_j)}{P(x_i)P(x_j)}$$
+
+So, it is easy to derive that: $I(x_i, x_j) = I(x_j, x_i)$, so, the weight for edge $(x_i, x_j)$ and $(x_j, x_i)$. \\
+
+This means that, no matter which node in T is chosen as the root for the "direction" stage, since the weight for edge $(x_i, x_j)$ and $(x_j, x_i)$ are the same, so the resulting joint probability distribution is the same, so, the resulting directed trees are all equivalent.\\
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
+

@@ -1,0 +1,15 @@
+Name: Jifu Zhao
+Email: jzhao59@illinois.edu
+
+All source codes are included in ./code/src
+
+To compile the code:
+
+1,
+Run the following command in terminal
+
+chmod +x ./code/main.sh
+./main.sh
+
+2, 
+The screen will show that the code is running, and all the result will be stored in the folder named result

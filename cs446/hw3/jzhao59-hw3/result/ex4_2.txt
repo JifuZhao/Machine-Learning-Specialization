@@ -1,0 +1,33 @@
+
+*******************************************
+Experiment with l = 10, m = 100, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 1117 and accuracy is 0.888300
+
+Perception Experiment
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 1.000000 :
+Mistake numbers is 1000 and accuracy is 0.900000
+
+*******************************************
+Experiment with l = 10, m = 500, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 1761 and accuracy is 0.823900
+
+Perception Experiment
+When eta is 0.001000, gammaP is 1.000000 and gammaN is 1.000000 :
+Mistake numbers is 1000 and accuracy is 0.900000
+
+*******************************************
+Experiment with l = 10, m = 1000, n = 1000
+*******************************************
+
+Perception Experiment
+Mistake numbers is 247 and accuracy is 0.975300
+
+Perception Experiment
+When eta is 0.001000, gammaP is 0.005000 and gammaN is 0.005000 :
+Mistake numbers is 88 and accuracy is 0.991200
