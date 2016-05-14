@@ -16,16 +16,11 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCostMulti) and gradient here.
     %
-
-
-
-
-
-
-
-
-
-
+    Sum = X' * (X * theta - y); % compute the training set update sum
+    
+    update = - alpha ./ m * Sum;
+    
+    theta = theta + update; % compute the new theta
 
     % ============================================================
 

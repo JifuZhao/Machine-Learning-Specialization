@@ -13,8 +13,9 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+Sum = sum((X * theta - y) .^ 2);   % compute the sum of squared errors
 
-
+J = Sum ./ (2 .* m);  % compute the loss
 
 
 % =========================================================================
