@@ -63,22 +63,59 @@ Theta2_grad = zeros(size(Theta2));
 %
 
 
+a1 = [ones(m, 1), X];    % add bias item to first layer
 
+labels = zeros(m, num_labels);  % construct matrix for labels
+for i = 1:m
+    labels(i, y(i, 1)) = 1;  
+end
 
+z2 = a1 * Theta1';
 
+a2 = [ones(m, 1), sigmoid(z2)];
 
+z3 = a2 * Theta2';
 
+a3 = sigmoid(z3);
 
+Sum1 = sum(sum(log(a3) .* labels));
+Sum2 = sum(sum(log(1 - a3) .* (1 - labels)));
 
+J = J + (-1 ./ m .* (Sum1 + Sum2));
 
+% compute the regularized item
+Reg = sum(sum(Theta1(:, 2:(input_layer_size+1)) .^ 2)) + ... 
+    sum(sum(Theta2(:, 2:(hidden_layer_size+1)) .^ 2));
 
+J = J + lambda ./ (2 .* m) .* Reg;
 
+% Backpropagation
+for t = 1:m
+    temp_a1 = a1(t, :)';
+    temp_z2 = Theta1 * temp_a1;
+    temp_a2 = [1; sigmoid(temp_z2)];
+    temp_z3 = Theta2 * temp_a2;
+    temp_a3 = sigmoid(temp_z3);
+    
+    % compute the errors
+    delta_3 = temp_a3 - labels(t, :)';
+    
+    delta_2 = Theta2' * delta_3 .* [1; sigmoidGradient(temp_z2)];
+    
+    delta_2 = delta_2(2:end);
+    
+    Theta2_grad = Theta2_grad + delta_3 * temp_a2';
+    
+    Theta1_grad = Theta1_grad + delta_2 * temp_a1';
+    
+end
 
+Theta1_grad = Theta1_grad ./ m;
+Theta2_grad = Theta2_grad ./ m;
 
-
-
-
-
+% add the regularized item into the gradient
+Theta1_grad(:, 2:end) = Theta1_grad(:, 2:end) + lambda ./ m * Theta1(:, 2:end);
+Theta2_grad(:, 2:end) = Theta2_grad(:, 2:end) + lambda ./ m * Theta2(:, 2:end);
 
 % -------------------------------------------------------------
 
