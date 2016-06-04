@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Echo state network - Scholarpedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.17" />
+<meta name="citation_title" content="Echo state network" />
+<meta name="citation_author" content="Herbert Jaeger" />
+<meta name="citation_date" content="2007/9/6" />
+<meta name="citation_journal_title" content="Scholarpedia" />
+<meta name="citation_issn" content="1941-6016" />
+<meta name="citation_volume" content="2" />
+<meta name="citation_issue" content="9" />
+<meta name="citation_firstpage" content="2330" />
+<meta name="citation_doi" content="10.4249/scholarpedia.2330" />
+<link rel="shortcut icon" href="/w/images/6/64/Favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Scholarpedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://www.scholarpedia.org/w/api.php?action=rsd" />
+<link rel="alternate" type="application/atom+xml" title="Scholarpedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://www.scholarpedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<link rel="stylesheet" href="/w/skins/vector/font-awesome.min.css" />
+<link rel="stylesheet" href="/w/skins/vector/local-screen.css" /><meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://www.scholarpedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: wikidb:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */</style>
+
+<script src="http://www.scholarpedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Echo_state_network","wgTitle":"Echo state network","wgCurRevisionId":151757,"wgArticleId":2330,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pattern Recognition","Computational Intelligence","Spiking Networks","Recurrent Neural Networks","Neural Networks"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Echo_state_network","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":false,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"simplesearch":true,"experiments":true}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"vector-simplesearch":1,"vector-collapsiblenav":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs200":false,"searchNs201":false,"searchNs400":false,"searchNs401":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: wikidb:resourceloader:filter:minify-js:7:e87579b4b142a5fce16144e6d8ce1889 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://www.scholarpedia.org/article/Echo_state_network" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Echo_state_network skin-vector action-view cp-body-published">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Echo state network</span>
+			</h1>
+			<!-- /firstHeading -->
+
+                            <div class="cp-googleplus">
+                    <div class="g-plusone" align="right" data-size="small" data-annotation="inline"
+                         data-width="180"></div>
+                    <script type="text/javascript">
+                        (function () {
+                            var po = document.createElement('script');
+                            po.type = 'text/javascript';
+                            po.async = true;
+                            po.src = 'https://apis.google.com/js/plusone.js';
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(po, s);
+                        })();
+                    </script>
+                </div>
+            
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Scholarpedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"><span class="subpages"><table class="cp-citation-subtitle" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr valign="bottom">
+<td align="left">Herbert Jaeger (2007), Scholarpedia, 2(9):2330.</td>
+<td align="center"><a href="http://dx.doi.org/10.4249/scholarpedia.2330">doi:10.4249/scholarpedia.2330</a></td>
+<td align="right">revision #151757 [<a href="/w/index.php?title=Echo_state_network&amp;action=cite&amp;rev=151757" title="Echo state network">link to/cite this article</a>]</td>
+</tr>
+</table>
+</span></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="cp-box-container"><div class="cp-curator-box noprint"><b><u>Post-publication activity</u></b><br /><button class="cp-button btn"></button><p><span class="cp-title-label">Curator:</span> <a href="/article/User:Herbert_Jaeger" title="User:Herbert Jaeger">Herbert Jaeger</a>
+</p><div class="cp-assistants hidden"><div><span class="cp-title-label">Contributors:</span><p>&nbsp;</p></div><div><span>0.25 - </span><p><a href="/article/User:Eugene_M._Izhikevich" title="User:Eugene M. Izhikevich">Eugene M. Izhikevich</a>
+</p></div><div><span>0.10 - </span><p><a href="/article/User:Jie_Bao" title="User:Jie Bao">Jie Bao</a>
+</p></div><div><span>0.05 - </span><p><a href="/article/User:Mantas_Luko%C5%A1evi%C4%8Dius" title="User:Mantas Lukoševičius">Mantas Lukoševičius</a>
+</p></div><div><span>0.05 - </span><p><a href="/article/User:Sam_Fok" title="User:Sam Fok">Sam Fok</a>
+</p></div><div><span>0.05 - </span><p><a href="/article/User:Benjamin_Bronner" title="User:Benjamin Bronner">Benjamin Bronner</a>
+</p></div><div><span>0.05 - </span><p><a href="/article/User:Nick_Orbeck" title="User:Nick Orbeck">Nick Orbeck</a>
+</p></div><div><span></span><p><a href="/article/User:Benjamin_Schrauwen" title="User:Benjamin Schrauwen">Benjamin Schrauwen</a>
+</p></div><div><span></span><p><a href="/article/User:Hava_T._Siegelmann" title="User:Hava T. Siegelmann">Hava T. Siegelmann</a>
+</p></div></div></div></div><div class="cp-author-order"><ul id="sp_authors"><li id="sort-1"><p><a href="/article/User:Herbert_Jaeger" title="User:Herbert Jaeger"><span class="bold">Herbert Jaeger</span>, Jacobs University Bremen, Bremen, Germany</a>
+</p></li></ul></div><p><strong><span class="tex2jax_ignore">Echo state networks</span></strong> (ESN) provide an architecture and supervised learning principle for <a href="/article/Recurrent_neural_networks" title="Recurrent neural networks">recurrent neural networks</a> (RNNs). The main idea is (i) to drive a random, large, fixed recurrent neural network with the input signal, thereby inducing in each <a href="/article/Neuron" title="Neuron">neuron</a> within this "reservoir" network a nonlinear response signal, and (ii) combine a desired output signal by a trainable linear combination of all of these response signals. 
+</p><p>The basic idea of ESNs is shared with <i><a href="/article/Liquid_State_Machine" title="Liquid State Machine">Liquid State Machines</a></i> (LSM), which were developed independently from and simultaneously with ESNs by Wolfgang Maass (Maass W., Natschlaeger T., Markram H. 2002). Increasingly often, LSMs, ESNs and the more recently explored <i>Backpropagation Decorrelation</i> learning rule for RNNs (Schiller and Steil 2005) are subsumed under the name of <i>Reservoir Computing</i>. Schiller and Steil (2005) also showed that in traditional training methods for RNNs, where all weights (not only the output weights) are adapted, the dominant changes are in the output weights. In cognitive <a href="/article/Neuroscience" title="Neuroscience">neuroscience</a>, a related mechanism has been investigated by Peter F. Dominey in the context of modelling sequence processing in mammalian <a href="/article/Brain" title="Brain">brains</a>, especially speech recognition in humans (e.g., Dominey 1995, Dominey, Hoen and Inui 2006). Dominey was the first to explicitly state the principle of reading out target information from a randomly connected RNN. The basic idea also informed a model of temporal input discrimination in biological neural networks (Buonomano and Merzenich 1995).
+</p><p>For an illustration, consider the task of training an RNN to behave
+as a tunable frequency generator (<a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/freqGen.zip">download</a> the <a href="/article/MATLAB" title="MATLAB">MATLAB</a> code of this example). The
+input signal \(u(n)\) is a slowly varying frequency setting, the desired
+output \(y(n)\) is a sinewave of a frequency indicated by the current
+input.  Assume that a training input-output sequence \(D = (u(1),y(1)),
+\ldots, (u(n_{max}),y(n_{max}))\)
+is given (see the input and output signals in  ; here
+the input is a slow random step function indicating frequencies
+ranging from 1/16 to 1/4 Hz). The task is to train a RNN from these
+training data such that on slow test input signals, the output is
+again a sinewave of the input-determined frequency.
+</p>
+<div id="fig:FreqGenSchema.png" class="thumb tright"><div class="thumbinner" style="width:502px;"><a href="/article/File:FreqGenSchema.png" class="image"><img alt="" src="/w/images/thumb/c/c6/FreqGenSchema.png/500px-FreqGenSchema.png" width="500" height="294" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/article/File:FreqGenSchema.png" class="internal" title="Enlarge"><img src="/w/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Figure 1: The basic schema of an ESN, illustrated with a tuneable frequency generator task. Solid arrows indicate fixed, random connections; dotted arrows trainable connections.</div></div></div>
+<p>In the ESN approach, this task is solved by the following steps.
+</p>
+<ul><li> <b>Step 1: Provide a random RNN.</b> (i) Create a random <i>dynamical reservoir</i> RNN, using any neuron model (in the frequency generator demo example, non-spiking leaky integrator neurons were used). The reservoir size \(N\) is task-dependent. In the frequency generator demo task, \(N = 200\) was used.  (ii) Attach input units to the reservoir by creating random all-to-all connections. (iii) Create output units. If the task requires output feedback (the frequency-generator task does), install randomly generated output-to-reservoir connections (all-to-all). If the task does not require output feedback, do not create any connections to/from the output units in this step.
+</li><li> <b>Step 2: Harvest reservoir states.</b> Drive the dynamical reservoir with the training data \(D\) for times \(n = 1, \ldots, n_{max}\ .\) In the demo example, where there are output-to-reservoir feedback connections, this means to write both the input \(u(n)\) into the input unit and the teacher output \(y(n)\) into the output unit ("teacher forcing"). In tasks without output feedback, the reservoir is driven by the input \(u(n)\) only. This results in a sequence \(\mathbf{x}(n)\) of \(N\)-dimensional reservoir states. Each component signal \(x(n)\) is a nonlinear transform of the driving input. In the demo, each \(x(n)\) is an individual mixture of both the slow step input signal and the fast output sinewave (see the five exemplary neuron state plots in  Figure <a href="#fig:FreqGenSchema.png">1</a>).
+</li><li> <b>Step 3: Compute output weights.</b> Compute the output weights as the linear regression weights of the teacher outputs \(y(n)\) on the reservoir states \(\mathbf{x}(n)\ .\) Use these weights to create reservoir-to-output connections (dotted arrows in  Figure <a href="#fig:FreqGenSchema.png">1</a>). The training is now completed and the ESN ready for use.  Figure <a href="#fig:FreqGenTestOverlay.png">2</a> shows the output signal obtained when the trained ESN was driven with the slow step input shown in the same figure.
+</li></ul>
+<div id="fig:FreqGenTestOverlay.png" class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="/article/File:FreqGenTestOverlay.png" class="image"><img alt="" src="/w/images/thumb/c/ce/FreqGenTestOverlay.png/400px-FreqGenTestOverlay.png" width="400" height="128" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/article/File:FreqGenTestOverlay.png" class="internal" title="Enlarge"><img src="/w/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Figure 2: A test run of the frequency generator demo network. The plotted step function is the input signal which was fed to the trained ESN; the black sinewaves are the correct output (unknown to the network); the gray sinewaves are the network output. Notice that phase differences are inevitable.</div></div></div>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Variants"><span class="tocnumber">1</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Formalism_and_theory"><span class="tocnumber">2</span> <span class="toctext">Formalism and theory</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Practical_issues:_tuning_global_controls_and_regularization"><span class="tocnumber">3</span> <span class="toctext">Practical issues: tuning global controls and regularization</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Significance"><span class="tocnumber">4</span> <span class="toctext">Significance</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Research_topics"><span class="tocnumber">5</span> <span class="toctext">Research topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Optimization_of_reservoirs"><span class="tocnumber">5.1</span> <span class="toctext">Optimization of reservoirs</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Stability_of_pattern-generating_ESNs"><span class="tocnumber">5.2</span> <span class="toctext">Stability of pattern-generating ESNs</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Hierarchical_.2F_modular_ESNs"><span class="tocnumber">5.3</span> <span class="toctext">Hierarchical / modular ESNs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Online_resources"><span class="tocnumber">6</span> <span class="toctext">Online resources</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Patent"><span class="tocnumber">7</span> <span class="toctext">Patent</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_Also"><span class="tocnumber">9</span> <span class="toctext">See Also</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Variants">Variants</span></h2>
+<p>Echo state networks can be set up with or without direct trainable input-to-output
+connections, with or without output-to-reservoir feedback, with
+different neuron types, different reservoir-internal connectivity
+patterns, etc. Furthermore, the output weights can be computed with
+any of the available offline or online <a href="/article/Algorithm" title="Algorithm">algorithms</a> for linear regression. Besides least-mean-square error solutions (i.e., linear regression weights),
+margin-maximization criteria known from training support vector
+machines have been used to determine output weights (Schmidhuber et al. 2007)
+</p><p>The unifying theme throughout all these variations is to use a
+<i>fixed</i> RNN as a <i>random nonlinear excitable medium</i>, whose
+high-dimensional dynamical "echo" response to a driving input
+(and/or output feedback) is used as a non-orthogonal signal basis to
+reconstruct the desired output by a linear combination, minimizing
+some error criteria.
+</p>
+<h2> <span class="mw-headline" id="Formalism_and_theory">Formalism and theory</span></h2>
+<p><b>System equations.</b> The basic
+discrete-time, sigmoid-unit echo state network with \(N\) reservoir units,
+\(K\) inputs and \(L\) outputs is governed by the
+state update equation
+</p><p>(1)  \(\mathbf{x}(n+1) = f(\mathbf{W} \mathbf{x}(n) + \mathbf{W}^{in}
+\mathbf{u}(n+1) + \mathbf{W}^{fb} \mathbf{y}(n))\ ,\)
+</p><p>where \(\mathbf{x}(n)\) is the \(N\)-dimensional
+reservoir state, \(f\) is a sigmoid function (usually the
+logistic sigmoid or the tanh function), \(\mathbf{W}\) is the
+\(N \times N\) reservoir weight matrix,
+\(\mathbf{W}^{in}\) is the \(N \times K\) input
+weight matrix, \(\mathbf{u}(n)\) is the
+\(K\)dimensional input signal, \(\mathbf{W}^{fb}\)
+is the \(N \times L\) output feedback matrix, and
+\(\mathbf{y}(n)\) is the \(L\)-dimensional output
+signal. In tasks where no output feedback is required,
+\(\mathbf{W}^{fb}\) is nulled. The extended system state
+\(\mathbf{z}(n) = [\mathbf{x}(n); \mathbf{u}(n)]\) at
+time \(n\) is the concatenation of the reservoir and input
+states. The output is obtained from the extended system state by
+</p><p>(2)  \(\mathbf{y}(n) = g(\mathbf{W}^{out} \mathbf{z}(n))\ ,\)
+</p><p>where \(g\) is an output activation function (typically the
+identity or a sigmoid) and \(\mathbf{W}^{out}\) is a
+\(L \times (K+N)\)-dimensional matrix of output
+weights. 
+</p><p><b>Learning equations.</b> In the state harvesting stage of the
+training, the ESN is driven by an input sequence \(\mathbf{u}(1),
+\ldots, \mathbf{u}(n_{max})\ ,\) which yields a sequence
+\(\mathbf{z}(1), \ldots, \mathbf{z}(n_{max})\) of extended
+system states. The system equations (1), (2) are used here. If the
+model includes output feedback (i.e., nonzero
+\(\mathbf{W}^{fb}\)), then during the generation of the
+system states, the correct outputs \(\mathbf{d}(n)\) (part of
+the training data) are written into the output units ("teacher
+forcing"). The obtained extended system states are filed row-wise into
+a state collection matrix \(\mathbf{S}\) of size
+\(n_{max} \times (N + K)\ .\) Usually some initial portion of
+the states thus collected are discarded to accommodate for a washout of
+the arbitrary (random or zero) initial reservoir state needed at time
+1. Likewise, the desired outputs \(\mathbf{d}(n)\) are sorted
+row-wise into a teacher output collection matrix
+\(\mathbf{D}\) of size \(n_{max} \times L\ .\)
+</p><p>The desired output weights \(\mathbf{W}^{out}\) are the
+linear regression weights of the desired outputs
+\(\mathbf{d}(n)\) on the harvested extended states
+\(\mathbf{z}(n)\ .\) Let \(\mathbf{R} =
+\mathbf{S}'\mathbf{S}\) be the correlation matrix of the extended
+reservoir states (the prime denotes transpose), and let
+\(\mathbf{P} = \mathbf{S}'\mathbf{D}\) be the
+cross-correlation matrix of the states vs. the desired outputs.  Then,
+one way to compute
+\(\mathbf{W}^{out}\) is to invoke the <i>Wiener-Hopf</i>
+solution
+</p><p>(3)  \(\mathbf{W}^{out} = (\mathbf{R}^{-1}\mathbf{P})'\ .\)
+</p><p>Another way is to use the pseudoinverse (denoted by
+\(\cdot^{\dagger}\)) of \(\mathbf{S}\ :\)
+</p><p>(4)  \(\mathbf{W}^{out} =
+     (\mathbf{S}^{\dagger}\mathbf{D})'\ .\)
+</p><p>Both methods are, in principle, equivalent, but when
+\(\mathbf{R}\) is ill-conditioned, (4) is numerically
+<a href="/article/Stability" title="Stability">stable</a>, while (3) is not. However, (3) is faster to compute than (4)
+(<i>much</i> faster if \(n_{max}\) is large), so one should
+choose between the two versions on a case by case basis. (3) and (4)
+are offline algorithms. Online adaptive methods known from linear
+signal processing can also be used to compute output weights (Jaeger 2003).
+</p><p><b>Echo state property.</b> In order for the ESN principle to work, the
+reservoir must have the <i>echo state property</i> (ESP), which relates
+asymptotic properties of the excited reservoir <a href="/article/Dynamical_Systems" title="Dynamical Systems">dynamics</a> to the driving
+signal. Intuitively, the ESP states that the reservoir will
+asymptotically wash out any information from initial conditions. The
+ESP is guaranteed for additive-sigmoid neuron reservoirs, if the
+reservoir weight matrix (and the leaking rates) satisfy certain
+algebraic conditions in terms of singular values. For such reservoirs
+with a tanh sigmoid, the ESP is violated <i>for zero input</i> if the
+spectral radius of the reservoir weight matrix is larger than
+unity. Conversely, it is empirically observed that the ESP is granted
+for any input if this spectral radius is smaller than unity. This has
+led in the literature to a far-spread but erroneous identification of
+the ESP with a spectral radius below 1. Specifically, the larger the
+input amplitude, the further above unity the spectral radius may be
+while still obtaining the ESP. An abstract characterization of the ESP
+for arbitrary reservoir types, and algebraic conditions for
+additive-sigmoid neuron reservoirs are given in Jaeger (2001a); for an
+important subclass of reservoirs, tighter algebraic conditions are
+given in Buehner and Young (2006) and Yildiz et al. (2012); for leaky integrator neurons,
+algebraic conditions are spelled out in Jaeger et al. (2007). The relationship between input signal characteristics and the ESP are explored in Manjunath and Jaeger (2012), where a fundamental 0-1-law is shown: if the input comes from a stationary source, the ESP holds with probability 1 or 0. 
+</p><p><b><a href="/article/Memory" title="Memory">Memory</a> capacity.</b> Due to the auto-feedback nature of RNNs, the
+reservoir states \(\mathbf{x}(n)\) reflect traces of the past input
+history. This can be seen as a dynamical short-term memory. For a
+single-input ESN, this short-term memory's capacity \(C\) can be
+quantified by \(C = \sum_{i = 1, 2, \ldots} r^2(u(n-i), y_i(n))\ ,\) where
+\(r^2(u(n-i), y_i(n))\) is the squared correlation coefficient between
+the input signal delayed by \(i\) and a trained output signal \(y_i(n)\)
+which was trained on the task to retrodict (memorize) \(u(n-i)\) on the
+input signal \(u(n)\ .\) It turns out that for i.i.d. input, the memory
+capacity \(C\) of an echo state network of size \(N\) is bounded by \(N\ ;\) in the absence
+of numerical errors and with a linear reservoir the bound is attained
+(Jaeger 2002a; White and Sompolinsky 2004; Hermans &amp; Schrauwen 2009). These findings imply that
+it is impossible to train ESNs on tasks which require unbounded-time
+memory, like for instance context-free
+grammar parsing tasks (Schmidhuber et al. 2007). However, if output
+units with feedback to the reservoir are trained as <a href="/article/Attractor" title="Attractor">attractor</a> memory
+units, unbounded memory spans can be realized with ESNs, too (cf. the
+multistable switch example in Jaeger 2002a; beginnings of a theory of feedback-induced memory-hold attractors in Maass, Joshi &amp; Sontag 2007; an ESN based model of <a href="/article/Working_memory" title="Working memory">working memory</a> with stable attractor states in Pascanu &amp; Jaeger 2010). 
+</p><p><b>Universal computation and approximation properties.</b> ESNs can
+realize every nonlinear filter with bounded memory arbitrarily
+well. This line of theoretical research has been started and advanced
+in the field of Liquid State Machines (Maass, Natschlaeger &amp; Markram 2002; Maass, Joshi &amp; Sontag 2007), and the reader is
+referred to the LSM article for detail.
+</p>
+<h2> <span class="mw-headline" id="Practical_issues:_tuning_global_controls_and_regularization">Practical issues: tuning global controls and regularization</span></h2>
+<p>When using ESNs in practical nonlinear modeling tasks, the ultimate
+objective is to minimize the test error. A standard method in machine
+learning to get an
+estimate of the test error is to use only a part of the available
+training data for model estimation, and monitor the model's
+performance on the withheld portion of the original training
+data (the <i>validation set</i>).  The question is, how can the ESN models be optimized in order
+to reduce the error on the validation set? In the terminology of
+machine learning, this boils down to the question how one can equip
+the ESN models with a task-appropriate <i>bias</i>. With ESNs, there are
+three sorts of bias (in a wide sense) which one  should adjust. 
+</p><p>The first sort of bias is to employ <i>regularization</i>. This
+essentially means that the models are smoothed. Two standard ways to
+achieve some kind of smoothing are the following:
+</p>
+<ul><li> <b>Ridge regression</b> (also known as Tikhonov regularization): modify the linear regression equation (3) for the output weights:
+</li></ul>
+<dl><dd> (5)  \(\mathbf{W}^{out} = (\mathbf{R} + \alpha^2
+     \mathbf{I})^{-1}\mathbf{P}\ ,\)
+</dd></dl>
+<dl><dd> where \(\alpha^2\) is some nonnegative number (the larger, the stronger the smoothing effect), and \(\mathbf{I}\) is the identity matrix. 
+</dd></dl>
+<ul><li> <b>State noise</b>: During the state harvesting, instead of (1) use a state update which adds a noise vector \(\mathbf{\nu}(n)\) to the reservoir states:
+</li></ul>
+<dl><dd> (6)  \(\mathbf{x}(n+1) = f(\mathbf{W} \mathbf{x}(n) + \mathbf{W}^{in}
+\mathbf{u}(n+1) + \mathbf{W}^{fb} \mathbf{y}(n)) +
+\mathbf{\nu}(n)\ .\)
+</dd></dl>
+<p>Both methods lead to smaller output weights. Adding state noise is computationally more expensive, but appears to have the additional benefit of stabilizing solutions in models with output feedback (Jaeger 2002a; Jaeger, Lukosevicius, Popovici &amp; Siewert 2007). 
+</p><p>The second sort of bias is effected by making the echo state network, as one could say, "dynamically similar" to the system that one wants to model. For instance, if the original system is evolving on a slow timescale, the ESN should do the same; or if the original system has long memory spans, so should the ESN. This shaping of major dynamical characteristics is realized by adjusting a small number of <i>global control parameters</i>:
+</p>
+<ul><li> The <b>spectral radius</b> of the reservoir weight matrix codetermines (i) the effective time constant of the echo state network (larger spectral radius implies slower decay of impulse response) and (ii) the amount of nonlinear interaction of input components through time (larger spectral radius implies longer-range interactions).
+</li></ul>
+<ul><li> The <b>input scaling</b> codetermines the degree of nonlinearity of the reservoir dynamics. In one extreme, with very small effective input amplitudes the reservoir behaves almost like a linear medium, while in the other extreme, very large input amplitudes drive the neurons to the saturation of the sigmoid and a binary switching dynamics results.
+</li></ul>
+<ul><li> The <b>output feedback scaling</b> determines the extent to which the trained ESN has an autonomous pattern generation component. ESNs without any output feedback are the typical choice for purely input-driven dynamical pattern recognition and classification tasks. The frequency generator demo task, on the other hand, needed strong output feedback to generate <a href="/article/Periodic_Orbit" title="Periodic Orbit">oscillations</a> (which are not present in the input). Nonzero output feedback entails the danger of dynamical instability.
+</li></ul>
+<ul><li> The <b>connectivity</b> of the reservoir weight matrix is often claimed (starting with the early techreports of Jaeger) to be responsible for the "richness" of the response signals in the reservoir, following this line of reasoning: sparse connectivity \(\to\) decomposition of reservoir dynamics into loosely coupled subsystems \(\to\) large variation among the reservoir signals (desirable). However, contrary to this intuition, many authors have reported that fully connected reservoirs work as well as sparsely connected ones. Considering that sparsely but randomly connected networks have <a href="/article/Small-World_Network" title="Small-World Network">small-world</a> properties, it appears plausible that a sparse random wiring does not lead to a dynamical decoupling, so the original intuitions are misguided. A more practically important aspect of a sparse connectivity is that it engenders linear scaling of computational <a href="/article/Complexity" title="Complexity">complexity</a>. If reservoirs are set up such that each neuron on average connects to a fixed number \(K\) of other neurons, regardless of network size \(N\ ,\) the computational cost of running the trained networks grows only linearly with \(N\ .\)
+</li></ul>
+<p><br />
+Finally, a third sort of bias (here the terminology is stretched a bit) is simply the reservoir size \(N\ .\) In the sense of statistical learning theory, increasing the reservoir size is the most direct way of increasing the <i>model capacity</i>. 
+</p><p>All these kinds of bias have to be optimized jointly. The current standard practice to do this is manual experimentation. Practical "tricks of the trade" are collected in Lukoševičius (2012).
+</p>
+<h2> <span class="mw-headline" id="Significance">Significance</span></h2>
+<p>A number of algorithms for the supervised training of RNNs have been
+known since the early 1990s, most notably <i>real-time recurrent learning</i> (Williams and Zipser 1989), <i>backpropagation through time</i>
+(Werbos 1990), <i>extended Kalman filtering</i> based methods (Puskorius
+and Feldkamp 2004), and the Atiya-Parlos algorithm (Atiya and Parlos
+2000). All of these algorithms adapt all connections (input,
+recurrent, output) by some version of gradient descent. This renders
+these algorithms slow, and what is maybe even more cumbersome, makes
+the learning process prone to become disrupted by <a href="/article/Bifurcation" title="Bifurcation">bifurcations</a> (Doya 1992); convergence cannot be guaranteed. As a consequence,
+RNNs were rarely fielded in practical engineering
+applications. ESN training, by contrast, is fast, does not suffer from
+bifurcations, and is easy to implement. On a number of benchmark
+tasks, ESNs have starkly outperformed all other methods of nonlinear
+dynamical modelling (Jaeger and Haas 2004, Jaeger et al. 2007). Reservoir
+computing techniques thus promise to re-invigorate RNN research and
+applications (Jaeger, Maass and Principe 2007).
+</p>
+<h2> <span class="mw-headline" id="Research_topics">Research topics</span></h2>
+<p>Besides work on practical applications and biologically oriented
+modelling studies in the LSM branch of reservoir computing, there are
+three research themes which are relevant to enlarge the spectrum of
+engineering applications.
+</p>
+<h3> <span class="mw-headline" id="Optimization_of_reservoirs"><a href="/article/Optimization" title="Optimization">Optimization</a> of reservoirs</span></h3>
+<p>It has been pointed out above in the discussion of global control
+parameters that a dynamical reservoir should be adapted to the task,
+and that this is currently mostly done by manual search. Optimizing
+reservoirs for a particular task or a class of tasks in an automated
+fashion is currently the most important field of engineering-oriented
+echo state network research. Numerous methods for an unsupervised, semi-supervised or
+supervised optimization of reservoirs, by structural or algebraic
+design, genetic search, online adaptation or pre-training are being
+investigated.  A comprehensive survey is given in Lukoševičius and Jaeger (2009). 
+</p>
+<h3> <span class="mw-headline" id="Stability_of_pattern-generating_ESNs">Stability of pattern-generating ESNs</span></h3>
+<p>An ESN without output feedback is inherently stable due to the echo
+state property, but with nonzero feedback of output signals into the
+reservoir, stability can be lost. A formal analysis of stability
+conditions is challenging; fundamental insights about conditions that
+preclude noise magnification are made in Maass, Joshi and Sontag
+(2007). For practical purposes, inserting state or teacher noise
+during training appears to aid stabilizing solutions, as does
+statistical regularization (Jaeger et al. 2007). Research on this topic
+has just begun.
+</p>
+<h3> <span class="mw-headline" id="Hierarchical_.2F_modular_ESNs">Hierarchical / modular ESNs</span></h3>
+<p>In mature fields of machine learning, tasks which involve complex
+multiscale datasets invariably have led to modular / hierarchical
+models, where different modules / levels take care of different modes
+/ scales in the data. A first stride in this direction has been taken
+for ESNs by the construction of hierarchical ESNs in Jaeger (2007).
+</p>
+<h2> <span class="mw-headline" id="Online_resources">Online resources</span></h2>
+<p>A number of reservoir computing groups (among them the groups of Wolfgang Maass, Herbert Jaeger, Jochen Steil, Peter F. Dominey and Benjamin Schrauwen, i.e. the original proposers of the reservoir computing approach) have created a jointly administered <a rel="nofollow" class="external text" href="http://organic.elis.ugent.be">Web portal for reservoir computing</a>. It assembles introductions to the main flavors of the field, listings of groups active in the field, a publications repository, numerous publicly available programming toolboxes, and a mailing list. The portal is funded by the <a rel="nofollow" class="external text" href="http://organic.elis.ugent.be/organic">European FP7 project "Organic"</a> and the University of Gent.
+</p>
+<h2> <span class="mw-headline" id="Patent">Patent</span></h2>
+<p>The <a rel="nofollow" class="external text" href="http://www.iais.fraunhofer.de">Fraunhofer Institute for Intelligent Analysis and Information Systems</a> claims international <a rel="nofollow" class="external text" href="http://www.wipo.int/pctdb/en/wo.jsp?wo=2002031764">patents</a> for commercial exploits of the ESN architecture and learning principle.
+</p>
+<h2> <span class="mw-headline" id="References">References</span></h2>
+<ul><li> Atiya A.F. and Parlos A.G. (2000) New results on recurrent network training: Unifying the algorithms and accelerating convergence. IEEE Trans. Neural Networks, 11(3):697-709
+</li><li> Buehner M. and Young P. (2006) A tighter bound for the echo state property. IEEE Transactions on Neural Networks, 17(3):820-824
+</li><li> Buonomano, D.V. and Merzenich, M.M. (1995) Temporal Information Transformed into a Spatial Code by a Neural Network with Realistic Properties. Science 267, 1028-1030
+</li><li> Dominey P.F. (1995) Complex sensory-motor <a href="/article/Sequence_learning" title="Sequence learning">sequence learning</a> based on recurrent state representation and <a href="/article/Reinforcement_learning" title="Reinforcement learning">reinforcement learning</a>. Biol. Cybernetics, Vol. 73, 265-274
+</li><li> Dominey P.F., Hoen M., and Inui T. (2006) A neurolinguistic model of grammatical construction processing. Journal of Cognitive Neuroscience 18(12), 2088–2107
+</li><li> Doya K. (1992) Bifurcations in the learning of recurrent neural networks. In Proceedings of 1992 IEEE Int. Symp. on Circuits and Systems, Vol. 6, pages 2777-2780
+</li><li> Manjunath, G. and Jaeger, H. (2012) Echo State Property Linked to an Input: Exploring a Fundamental Characteristic of Recurrent Neural Networks. Neural Computation, to appear 
+</li><li> Hermans M. and Schrauwen B. (2009) Memory in linear neural networks in continuous time. Neural Networks 23(3), 341-55
+</li><li> Jaeger H. (2001a) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/EchoStatesTechRep.pdf">The "echo state" approach to analysing and training recurrent neural networks</a>. GMD Report 148, GMD - German National Research Institute for Computer Science
+</li><li> Jaeger H. (2002a) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/STMEchoStatesTechRep.pdf">Short term memory in echo state networks</a>. GMD-Report 152, GMD - German National Research Institute for Computer Science
+</li><li> Jaeger H. (2002b) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/ESNTutorialRev.pdf">Tutorial on training recurrent neural networks, covering BPPT, RTRL, EKF and the echo state network approach</a>. GMD Report 159, Fraunhofer Institute AIS
+</li><li> Jaeger H. (2003): <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/esn_NIPS02.pdf">Adaptive nonlinear system identification with echo state networks.</a> In Advances in Neural Information Processing Systems 15, S. Becker, S. Thrun, K. Obermayer (Eds), (MIT Press, Cambridge, MA, 2003) pp. 593-600
+</li><li> Jaeger H. (2007) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/hierarchicalesn_techrep10.pdf">Discovering multiscale dynamical features with hierarchical echo state networks</a>. Technical report 10, School of Engineering and Science, Jacobs University 
+</li><li> Jaeger H. and Haas H. (2004) Harnessing nonlinearity: Predicting <a href="/w/index.php?title=Chaos&amp;action=edit&amp;redlink=1" class="new" title="Chaos (page does not exist)">chaotic systems</a> and saving energy in wireless communication. Science, 304:78-80, 2004. 
+</li><li> Jaeger H., Lukoševičius M., Popovici D., and Siewert U. (2007) Optimization and applications of echo state networks with leaky integrator neurons. Neural Networks, 20(3):335-352
+</li><li> Jaeger H., Maass W., and Principe J. (2007) Special issue on echo state networks and liquid state machines: Editorial. Neural Networks, 20(3), 287-289
+</li><li> Lukoševičius M. (2012) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/PracticalESN.pdf">A Practical Guide to Applying Echo State Networks</a>. In: G. Montavon, G. B. Orr, and K.-R. Müller (eds.) Neural Networks: Tricks of the Trade, 2nd ed. Springer LNCS 7700, 659-686
+</li><li> Lukoševičius M. and Jaeger H. (2009) <a rel="nofollow" class="external text" href="http://minds.jacobs-university.de/sites/default/files/uploads/papers/2261_LukoseviciusJaeger09.pdf">Reservoir Computing Approaches to Recurrent Neural Network Training (draft version)</a>. Computer Science Review 3(3), 127-149 
+</li><li> Maass W., Joshi P., and Sontag E. (2007) Computational aspects of feedback in neural circuits. PLOS Computational Biology, 3(1):1-20
+</li><li> Maass W., Natschlaeger T., and Markram H. (2002) Real-time computing without stable states: A new framework for neural computation based on perturbations. Neural Computation, 14(11):2531-2560.
+</li><li> Pascanu R. and Jaeger H. (2010) A Neurodynamical Model for Working Memory. Neural Networks 24(2), 199-207
+</li><li> Puskorius G.V. and  Feldkamp L.A. (1994) Neurocontrol of nonlinear dynamical systems with Kalman filter trained recurrent network. IEEE Trans. Neural Networks, 5(2):279-297
+</li><li> Schiller U.D. and Steil J. J. (2005) <a rel="nofollow" class="external text" href="http://www.techfak.uni-bielefeld.de/ags/ni/publications/media/SchillerSteil2004-ATW.pdf">Analyzing the weight dynamics of recurrent learning algorithms</a>. Neurocomputing, 63C:5-23 
+</li><li> Schmidhuber J., Gomez F., Wierstra D., and Gagliolo M. (2007) Training recurrent networks by evolino. Neural Computation, 19(3):757-779
+</li><li> Werbos P.J. (1990) Backpropagation through time: what it does and how to do it. Proc. of the IEEE, October, 78(10, October):1550-1560
+</li><li> White O.L., Lee D.D., and Sompolinsky H.S. (2004) Short-term memory in orthogonal neural networks. Phys. Rev. Lett., 92(14):148102 
+</li><li> Williams R.J. and Zipser D. (1989) A learning algorithm for continually running fully recurrent neural networks. Neural Computation, 1:270-280
+</li><li> Yildiz, I. B., Jaeger, H. and Kiebel, S. J. (2012) Re-visiting the echo state property. Neural Networks 35, 1-20
+</li></ul>
+<p><b>Internal references</b>
+</p>
+<ul><li> John W. Milnor (2006) <a href="/article/Attractor" title="Attractor">Attractor</a>. <a href="/article/Scholarpedia" title="Scholarpedia">Scholarpedia</a>, 1(11):1815.
+</li><li> Valentino Braitenberg (2007) <a href="/article/Brain" title="Brain">Brain</a>. Scholarpedia, 2(11):2918.
+</li><li> James Meiss (2007) <a href="/article/Dynamical_systems" title="Dynamical systems">Dynamical systems</a>. Scholarpedia, 2(2):1629.
+</li><li> Philip Holmes and Eric T. Shea-Brown (2006) <a href="/article/Stability" title="Stability">Stability</a>. Scholarpedia, 1(10):1838.
+</li></ul>
+<h2> <span class="mw-headline" id="See_Also">See Also</span></h2>
+<p><a href="/article/Liquid_State_Machine" title="Liquid State Machine">Liquid State Machine</a>, <a href="/article/Recurrent_Neural_Networks" title="Recurrent Neural Networks">Recurrent Neural Networks</a>, <a href="/w/index.php?title=Supervised_Learning&amp;action=edit&amp;redlink=1" class="new" title="Supervised Learning (page does not exist)">Supervised Learning</a>
+</p>
+<!-- Tidy found serious XHTML errors -->
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 95/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+ExtLoops count: 0/100
+-->
+<div class="cp-footer"><table cellpadding="0" border="0"><tr><td>Sponsored by: <a href="/article/User:Eugene_M._Izhikevich" title="User:Eugene M. Izhikevich"><span>Eugene M. Izhikevich</span>, <span>Editor-in-Chief of Scholarpedia, the peer-reviewed open-access encyclopedia</span></a></td></tr><tr><td><a rel="nofollow" class="external text" href="http://www.scholarpedia.org/w/index.php?title=Echo_state_network&amp;oldid=20147">Reviewed by</a>: <a href="/article/User:Hava_T._Siegelmann" title="User:Hava T. Siegelmann"><span>Dr. Hava T. Siegelmann</span>, <span>Computer Science, University of Massachusetts, Amherst, MA</span></a></td></tr><tr><td><a rel="nofollow" class="external text" href="http://www.scholarpedia.org/w/index.php?title=Echo_state_network&amp;oldid=19968">Reviewed by</a>: <a href="/article/User:Benjamin_Schrauwen" title="User:Benjamin Schrauwen"><span>Dr. Benjamin Schrauwen</span>, <span>University Ghent, Belgium</span></a></td></tr><tr><td>Accepted on: <a rel="nofollow" class="external text" href="http://www.scholarpedia.org/w/index.php?title=Echo_state_network&amp;oldid=20147">2007-09-06 07:00:11 GMT</a></td></tr></table></div>
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://www.scholarpedia.org/w/index.php?title=Echo_state_network&amp;oldid=151757">http://www.scholarpedia.org/w/index.php?title=Echo_state_network&amp;oldid=151757</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/article/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/article/Category:Pattern_Recognition" title="Category:Pattern Recognition">Pattern Recognition</a></li><li><a href="/article/Category:Computational_Intelligence" title="Category:Computational Intelligence">Computational Intelligence</a></li><li><a href="/article/Category:Spiking_Networks" title="Category:Spiking Networks">Spiking Networks</a></li><li><a href="/article/Category:Recurrent_Neural_Networks" title="Category:Recurrent Neural Networks">Recurrent Neural Networks</a></li><li><a href="/article/Category:Neural_Networks" title="Category:Neural Networks">Neural Networks</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Echo+state+network" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in / create account</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/article/Echo_state_network"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/w/index.php?title=Talk:Echo_state_network&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/article/Echo_state_network" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/w/index.php?title=Echo_state_network&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Echo_state_network&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Scholarpedia [f]" accesskey="f" id="searchInput" />						<button name="button" title="Search the pages for this text" id="searchButton"><img src="/w/skins/vector/images/search-ltr.png?303" alt="Search" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(/w/skins/vector/images/splogo.png);" href="/article/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/article/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-About"><a href="/article/Scholarpedia:About">About</a></li>
+			<li id="n-Propose-a-new-article"><a href="/article/Special:ProposeArticle">Propose a new article</a></li>
+			<li id="n-Instructions-for-Authors"><a href="/article/Scholarpedia:Instructions_for_Authors">Instructions for Authors</a></li>
+			<li id="n-randompage"><a href="/article/Special:Random" title="Load a random page [x]" accesskey="x">Random article</a></li>
+			<li id="n-FAQs"><a href="/article/Help:Frequently_Asked_Questions">FAQs</a></li>
+			<li id="n-Help"><a href="/article/Scholarpedia:Help">Help</a></li>
+			<li id="n-Blog"><a href="http://blog.scholarpedia.org" rel="nofollow">Blog</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- Focal areas -->
+<div class="portal" id='p-Focal_areas'>
+	<h5>Focal areas</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Astrophysics"><a href="/article/Encyclopedia:Astrophysics">Astrophysics</a></li>
+			<li id="n-Celestial-mechanics"><a href="/article/Encyclopedia:Celestial_Mechanics">Celestial mechanics</a></li>
+			<li id="n-Computational-neuroscience"><a href="/article/Encyclopedia:Computational_neuroscience">Computational neuroscience</a></li>
+			<li id="n-Computational-intelligence"><a href="/article/Encyclopedia:Computational_intelligence">Computational intelligence</a></li>
+			<li id="n-Dynamical-systems"><a href="/article/Encyclopedia:Dynamical_systems">Dynamical systems</a></li>
+			<li id="n-Physics"><a href="/article/Encyclopedia:Physics">Physics</a></li>
+			<li id="n-Touch"><a href="/article/Encyclopedia:Touch">Touch</a></li>
+			<li id="n-More-topics"><a href="/article/Scholarpedia:Topics">More topics</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Focal areas -->
+
+<!-- Activity -->
+<div class="portal" id='p-Activity'>
+	<h5>Activity</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Recently-published-articles"><a href="/article/Special:RecentlyPublished">Recently published articles</a></li>
+			<li id="n-Recently-sponsored-articles"><a href="/article/Special:RecentlySponsored">Recently sponsored articles</a></li>
+			<li id="n-recentchanges"><a href="/article/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-All-articles"><a href="/article/Special:AllPages">All articles</a></li>
+			<li id="n-List-all-Curators"><a href="/article/Special:ListCurators">List all Curators</a></li>
+			<li id="n-List-all-users"><a href="/article/Special:ListUsers">List all users</a></li>
+			<li id="n-Journal"><a href="/article/Special:Journal">Scholarpedia Journal</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Activity -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Tools</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/article/Special:WhatLinksHere/Echo_state_network" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/article/Special:RecentChangesLinked/Echo_state_network" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/article/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/w/index.php?title=Echo_state_network&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Echo_state_network&amp;oldid=151757" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+
+                
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+
+            
+
+            <div id="footer-icons">
+                <ul class="social">
+                    <li><a href="https://twitter.com/scholarpedia" target="_blank"><img src="/w/skins/vector/images/twitter.png?303" /></a></li>
+                    <li><a href="https://plus.google.com/112873162496270574424" target="_blank"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" /></a></li>
+                    <li><a href="http://www.facebook.com/Scholarpedia" target="_blank"><img src="/w/skins/vector/images/facebook.png?303" /></a></li>
+                    <li><a href="http://www.linkedin.com/groups/Scholarpedia-4647975/about" target="_blank"><img src="/w/skins/vector/images/linkedin.png?303" /></a></li>
+                </ul>
+
+                                    <ul id="footer-icons" class="noprint">
+                                                    <li id="footer-poweredbyico">
+                                                                    <a href="http://www.mediawiki.org/"><img src="/w/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>                                                                    <a href="http://www.mathjax.org/"><img src="/w/skins/common/images/MathJaxBadge.gif" alt="Powered by MathJax" width="88" height="31" /></a>                                                                    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img src="/w/skins/common/88x31.png" alt="Creative Commons License" width="88" height="31" /></a>                                                            </li>
+                                            </ul>
+                            </div>
+
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 September 2015, at 22:04.</li>
+											<li id="footer-info-viewcount">This page has been accessed 135,529 times.</li>
+											<li id="footer-info-copyright">
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"Echo state network"</span> by
+            <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.scholarpedia.org/article/Echo_state_network" property="cc:attributionName" rel="cc:attributionURL">
+                Herbert Jaeger
+            </a> is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">
+	    Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Permissions beyond the scope of this license are described in the <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.scholarpedia.org/article/Scholarpedia:Terms_of_use" rel="cc:morePermissions">Terms of Use</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/article/Scholarpedia:Privacy_policy" title="Scholarpedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/article/Scholarpedia:About" class="mw-redirect" title="Scholarpedia:About">About Scholarpedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/article/Scholarpedia:General_disclaimer" title="Scholarpedia:General disclaimer">Disclaimers</a></li>
+									</ul>
+			
+			<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script src="http://www.scholarpedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["jquery.ui.dialog","curatorpedia.dashboard","curatorpedia.confirm","mediawiki.user","mediawiki.page.ready","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.simpleSearch"], null, true);
+}</script>
+<script>
+var wgSitename = 'http://www.scholarpedia.org';</script>
+
+<script type='text/x-mathjax-config'>
+//<![CDATA[
+    MathJax.Hub.Config({
+	styles: { 
+	     ".MathJax_Display": { 
+	       display: "table-cell ! important", 
+	       padding: "1em 0 ! important", 
+	       width: (MathJax.Hub.Browser.isMSIE && (document.documentMode||0) < 8 ? 
+			 "100% ! important" : "1000em ! important") 
+	       } 
+        },
+        extensions: ["tex2jax.js","TeX/noErrors.js", "TeX/AMSmath.js","TeX/AMSsymbols.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: false,
+            element: "content",
+            ignoreClass: "(tex2jax_ignore|mw-search-results|searchresults)", /* note: this is part of a regex, check the docs! */
+            skipTags: ["script","noscript","style","textarea","code"] /* removed pre as wikimedia renders math in there */
+        },
+        TeX: {
+          Macros: {
+            /* Wikipedia compatibility: these macros are used on Wikipedia */
+            empty: '\\emptyset',
+            P: '\\unicode{xb6}',
+            Alpha: '\\unicode{x391}', /* FIXME: These capital Greeks don't show up in bold in \boldsymbol ... */
+            Beta: '\\unicode{x392}',
+            Epsilon: '\\unicode{x395}',
+            Zeta: '\\unicode{x396}',
+            Eta: '\\unicode{x397}',
+            Iota: '\\unicode{x399}',
+            Kappa: '\\unicode{x39a}',
+            Mu: '\\unicode{x39c}',
+            Nu: '\\unicode{x39d}',
+            Pi: '\\unicode{x3a0}',
+            Rho: '\\unicode{x3a1}',
+            Sigma: '\\unicode{x3a3}',
+            Tau: '\\unicode{x3a4}',
+            Chi: '\\unicode{x3a7}',
+            C: '\\mathbb{C}',        /* the complex numbers */
+            N: '\\mathbb{N}',        /* the natural numbers */
+            Q: '\\mathbb{Q}',        /* the rational numbers */
+            R: '\\mathbb{R}',        /* the real numbers */
+            Z: '\\mathbb{Z}',        /* the integer numbers */
+
+            /* some extre macros for ease of use; these are non-standard! */
+            F: '\\mathbb{F}',        /* a finite field */
+            HH: '\\mathcal{H}',      /* a Hilbert space */
+            bszero: '\\boldsymbol{0}', /* vector of zeros */
+            bsone: '\\boldsymbol{1}',  /* vector of ones */
+            bst: '\\boldsymbol{t}',    /* a vector 't' */
+            bsv: '\\boldsymbol{v}',    /* a vector 'v' */
+            bsw: '\\boldsymbol{w}',    /* a vector 'w' */
+            bsx: '\\boldsymbol{x}',    /* a vector 'x' */
+            bsy: '\\boldsymbol{y}',    /* a vector 'y' */
+            bsz: '\\boldsymbol{z}',    /* a vector 'z' */
+            bsDelta: '\\boldsymbol{\\Delta}', /* a vector '\Delta' */
+            E: '\\mathrm{e}',          /* the exponential */
+            rd: '\\,\\mathrm{d}',      /*  roman d for use in integrals: $\int f(x) \rd x$ */
+            rdelta: '\\,\\delta',      /* delta operator for use in sums */
+            rD: '\\mathrm{D}',         /* differential operator D */
+
+            /* example from MathJax on how to define macros with parameters: */
+            /* bold: ['{\\bf #1}', 1] */
+
+            RR: '\\mathbb{R}',
+            ZZ: '\\mathbb{Z}',
+            NN: '\\mathbb{N}',
+            QQ: '\\mathbb{Q}',
+            CC: '\\mathbb{C}',
+            FF: '\\mathbb{F}'
+          }
+        }
+    });
+//]]>
+//<![CDATA[
+MathJax.Hub.config.tex2jax.inlineMath.push(['$','$']);
+MathJax.Hub.config.tex2jax.displayMath.push(['$$','$$']);
+//]]>
+</script>
+
+<script type='text/javascript' src='http://cdn.mathjax.org/mathjax/2.3-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+<script src="http://www.scholarpedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-22078568-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><!-- Served in 0.566 secs. -->
+        
+	</body>
+</html>
