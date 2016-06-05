@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://class.coursera.org/neuralnets-2012-001/quiz/attempt?quiz_id=69 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/quiz/attempt?quiz_id=69"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera</title>    <link href="./Coursera_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./Coursera_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/neuralnets/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./Coursera_files/ga.js"></script><script type="text/javascript" src="./Coursera_files/MathJax.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/routes" src="./Coursera_files/routes.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+</style><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coursera"><meta name="twitter:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="twitter:image:src" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./Coursera_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/400" src="./Coursera_files/400.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page" src="./Coursera_files/student-page.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page.html" src="./Coursera_files/student-page.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" src="./Coursera_files/sparkSurveyQuestionsSessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" src="./Coursera_files/sessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" src="./Coursera_files/sessionModel(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionCollection" src="./Coursera_files/QuestionCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionModel" src="./Coursera_files/QuestionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/lib/backbone.hascollections" src="./Coursera_files/backbone.hascollections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/underscore.extend" src="./Coursera_files/underscore.extend.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/student-page" src="./Coursera_files/student-page(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./Coursera_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./Coursera_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./Coursera_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./Coursera_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./Coursera_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./Coursera_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./Coursera_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./Coursera_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./Coursera_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./Coursera_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./Coursera_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/util" src="./Coursera_files/util.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./Coursera_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./Coursera_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./Coursera_files/sidebar(1).js"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://learner.coursera.help/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Neural Networks for Machine Learning</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8379441">Jifu Zhao<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/neuralnets-2012-001/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><form action="https://class.coursera.org/api/logoutSsr/v1?csrf3-token=1465651753.XOAxk09ATVSSeSCm" method="post"><button data-popup-close="data-popup-close" type="submit" class="course-topbar-sublist-item">Sign Out</button></form></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/utoronto" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/utoronto" class="coursera-university-color"><img src="./Coursera_files/university_logo" alt="utoronto"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/neuralnets-2012-001/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Neural Networks for Machine Learning</a><br><span style="" class="course-topbanner-instructor">by Geoffrey Hinton</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/neuralnets-2012-001" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./Coursera_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/neuralnets-2012-001/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item in-class-qqs-tab"><a href="https://class.coursera.org/neuralnets-2012-001/questions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_" class="coursera-university-color"><span>Quick Questions</span><span></span><span class="in-class-qqs-number-display">15</span></a></li><li class="course-navbar-item in-class-qqs-tab"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home" class="coursera-university-color"><span>Home </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Student_Survey" class="coursera-university-color"><span>Student Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Video_Lectures" class="coursera-university-color"><span>Video Lectures </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Quizzes" class="coursera-university-color"><span>Quizzes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics" class="coursera-university-color"><span>Course Logistics </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Syllabus" class="coursera-university-color"><span>Syllabus </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_Us" class="coursera-university-color"><span>About Us </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/octaveinstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Octave_Installation" class="coursera-university-color"><span>Octave Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://share.coursera.org/wiki/index.php/neuralnets-2012-001:Main" target="_blank" title="Open course wiki in new window" class="coursera-university-color">Course Wiki<span class="icon-share"></span><span class="accessible-text-for-reader">opens in new browser tab</span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://learner.coursera.help/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Center</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;">
+
+<h2 class="course-page-header">
+  <span>
+Programming Assignment 1: The perceptron learning algorithm.  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/neuralnets-2012-001/help/quizzes?url=https%3A%2F%2Fclass.coursera.org%2Fneuralnets-2012-001%2Fquiz%2Fattempt%3Fquiz_id%3D69">
+     Help Center
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+<div class="course-quiz-attempt-warning-message alert alert-error">
+    <p><strong>Warning: </strong> The hard deadline has passed. You can attempt it, but  <b>you will not get credit for it</b>.  You are welcome to try it as a learning exercise.</p>
+</div>
+
+
+
+
+
+
+
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+        <div class="course-quiz-preamble">
+        <p><b>DISCLAIMER:</b> Before beginning the actual quiz portion of the assignment, download the code and fill in the missing pieces. You do not have to submit the quiz until the deadline.</p>
+<p>In this assignment you will take the provided starter code and fill in the missing details in order to create a working perceptron implementation.</p>
+
+<p>To start, download the following code files:
+</p><ul>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/learn_perceptron.m">learn_perceptron.m</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/plot_perceptron.m">plot_perceptron.m</a></li>
+</ul><p></p>
+<p>And the following datasets:
+</p><ul>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset1.mat">dataset1.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset2.mat">dataset2.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset3.mat">dataset3.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset4.mat">dataset4.mat</a></li>
+</ul><p></p>
+
+<p><b>Attention:</b> some people have notified us that the provided datasets do not load under some versions of Octave. We are providing the <i>same</i> datasets in a different format that will hopefully work with more versions. You can find these files below.</p>
+
+<p>And the following datasets:
+</p><ul>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset1_ancient_octave.mat">dataset1_ancient_octave.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset2_ancient_octave.mat">dataset2_ancient_octave.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset3_ancient_octave.mat">dataset3_ancient_octave.mat</a></li>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Datasets/dataset4_ancient_octave.mat">dataset4_ancient_octave.mat</a></li>
+</ul><p></p>
+
+<p>For those who want to download all of the files together in a zip archive, you get get them here: <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/Assignment1.zip">Assignment1.zip</a></p>
+
+<p>To run the code, you first need to load a dataset. To do so enter the following command in the Octave console (to load dataset 1):</p>
+
+<p><b>load dataset1</b></p>
+
+<p>This should load 4 variables:
+<ui>
+</ui></p><li>neg_examples_nobias - The matrix containing the examples belonging to class 0.</li>
+<li>pos_examples_nobias - The matrix containing the examples belonging to class 1.</li>
+<li>w_init - Some initial weight vector.</li>
+<li>w_gen_feas - A generously feasible weight vector (empty if one doesn't exist).</li>
+<p></p>
+
+<p>The variables have _nobias appended to their names because they do not have an additional column of 1's appended to them. This is done automatically in the learn_perceptron.m code already. Now that you have loaded a dataset, you can run the algorithm by entering the following at the Octave console:</p>
+
+<p><b>w = learn_perceptron(neg_examples_nobias,pos_examples_nobias,w_init,w_gen_feas)</b></p>
+
+<p>This will start the algorithm and plot the results as it proceeds. Until the algorithm converges you can keep pressing enter to run the next iteration. Pressing 'q' will terminate the program. At each iteration it should produce a plot that looks something <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Programming%20Assignment%201/As1Screen.png">like this</a>.</p>
+
+<p>The top left plot shows the data points. The circles represent one class while the squares represent the other. The line shows the decision boundary of the perceptron using the current set of weights. The green examples are those that are correctly classified while the red are incorrectly classified. The top-right plot will show the number of mistakes made by the perceptron. If a generously feasible weight vector is provided (and not empty), then the bottom left plot will show the distance of the learned weight vectors to the generously feasible weight vector.</p>
+
+<p>Currently, the code doesn't do any learning. It is your job to fill this part in. Specifically, you need to fill in the lines under learn_perceptron.m marked %YOUR CODE HERE (lines 114 and 122). When you are finished, use this program to help you answer the questions below.</p>    </div>
+    
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the provided datasets are linearly separable? Check all that apply.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[a670f7b85c779b5821e4a1f32c358db4][]" id="gensym_57537cde421dc" value="b9a546af639393810960cc8690df0114"><label for="gensym_57537cde421dc" style="cursor:pointer;">Dataset 1</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[a670f7b85c779b5821e4a1f32c358db4][]" id="gensym_57537cde45057" value="6f89d9d8a951daac1953a8f347f40127"><label for="gensym_57537cde45057" style="cursor:pointer;">Dataset 2</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[a670f7b85c779b5821e4a1f32c358db4][]" id="gensym_57537cde47d07" value="c657f213b8e063aebb873de5d3bcb30a"><label for="gensym_57537cde47d07" style="cursor:pointer;">Dataset 3</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[a670f7b85c779b5821e4a1f32c358db4][]" id="gensym_57537cde4aa21" value="c4e39a1c278b0c48a31103c82155c1eb"><label for="gensym_57537cde4aa21" style="cursor:pointer;">Dataset 4</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div dir="auto" class="course-quiz-question-text">True or false: if the dataset is <i>not</i> linearly separable, then it is possible for the number of classification errors to <i>increase</i> during learning.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[835efe47d7f52b6202460fc8e4087248][]" id="gensym_57537cde559f8" value="acefb428bee1ec88394d88313fc68cbf"><label for="gensym_57537cde559f8" style="cursor:pointer;">True</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[835efe47d7f52b6202460fc8e4087248][]" id="gensym_57537cde587de" value="16166afd7fbbe077e6ebfd7c93537fdc"><label for="gensym_57537cde587de" style="cursor:pointer;">False</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div dir="auto" class="course-quiz-question-text">True or false: If a generously feasible region exists, then the distance between the current weight vector and a weight vector in the <i>generously feasible</i> region will monotonically decrease as the learning proceeds.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[be542de3bf53d160fb6cc45ab80e8dde][]" id="gensym_57537cde616d1" value="e49a8c95fa6c93440559214ace4083ee"><label for="gensym_57537cde616d1" style="cursor:pointer;">True</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[be542de3bf53d160fb6cc45ab80e8dde][]" id="gensym_57537cde6444e" value="371d7335b96eb08ee8a10daacee5d899"><label for="gensym_57537cde6444e" style="cursor:pointer;">False</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div dir="auto" class="course-quiz-question-text">The perceptron algorithm as implemented and described in class implicitly uses a learning rate of 1. We can modify the algorithm to use a different learning rate <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-1"><span style="display: inline-block; position: relative; width: 11px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math; font-style: italic;">α</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 9.5px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">\alpha</script> so that the update rule for an input <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-2-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-4"><span style="display: inline-block; position: relative; width: 10px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-5"><span class="mi" id="MathJax-Span-6" style="font-family: MathJax_Math; font-style: italic;">x</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 9.5px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-2">x</script> and target <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-7"><span style="display: inline-block; position: relative; width: 6px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(28.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-8"><span class="mi" id="MathJax-Span-9" style="font-family: MathJax_Math; font-style: italic;">t</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 12.6px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-3">t</script> becomes: <br>
+<span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-4-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-10"><span style="display: inline-block; position: relative; width: 246px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(28.1px 16660px 53.2px -8.7px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-11"><span class="msubsup" id="MathJax-Span-12"><span style="display: inline-block; position: relative; width: 27.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math; font-style: italic;">w</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -45px; left: 12px;"><span class="texatom" id="MathJax-Span-14"><span class="mrow" id="MathJax-Span-15"><span class="mo" id="MathJax-Span-16" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-17" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span class="mo" id="MathJax-Span-18" style="font-size: 70.7%; font-family: MathJax_Main;">)</span></span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span></span></span><span class="mo" id="MathJax-Span-19" style="font-family: MathJax_Main; padding-left: 4.6px;">←</span><span class="msubsup" id="MathJax-Span-20" style="padding-left: 4.6px;"><span style="display: inline-block; position: relative; width: 42.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-21" style="font-family: MathJax_Math; font-style: italic;">w</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -45px; left: 12px;"><span class="texatom" id="MathJax-Span-22"><span class="mrow" id="MathJax-Span-23"><span class="mo" id="MathJax-Span-24" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-25" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span class="mo" id="MathJax-Span-26" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mn" id="MathJax-Span-27" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-28" style="font-size: 70.7%; font-family: MathJax_Main;">)</span></span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span></span></span><span class="mo" id="MathJax-Span-29" style="font-family: MathJax_Main; padding-left: 3.7px;">+</span><span class="mi" id="MathJax-Span-30" style="font-family: MathJax_Math; font-style: italic; padding-left: 3.7px;">α</span><span class="mo" id="MathJax-Span-31" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-32" style="font-family: MathJax_Math; font-style: italic;">t</span><span class="mo" id="MathJax-Span-33" style="font-family: MathJax_Main; padding-left: 3.7px;">−</span><span class="mtext" id="MathJax-Span-34" style="font-family: MathJax_Main; padding-left: 3.7px;">prediction</span><span class="mo" id="MathJax-Span-35" style="font-family: MathJax_Main;">)</span><span class="mi" id="MathJax-Span-36" style="font-family: MathJax_Math; font-style: italic;">x</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 21px; vertical-align: -5.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-4">w^{(t)} \leftarrow w^{(t-1)} + \alpha (t - \text{prediction})x</script>,<br>
+where <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-5-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-37"><span style="display: inline-block; position: relative; width: 74px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.4px 16660px 52.2px -9px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-38"><span class="mtext" id="MathJax-Span-39" style="font-family: MathJax_Main;">prediction</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 16.8px; vertical-align: -4.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-5">\text{prediction}</script> is the decision made by the perceptron using the current weight vector <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-6-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-40"><span style="display: inline-block; position: relative; width: 42px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(18.1px 16660px 39.2px -8.7px); top: -36px; left: 0px;"><span class="mrow" id="MathJax-Span-41"><span class="msubsup" id="MathJax-Span-42"><span style="display: inline-block; position: relative; width: 42.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-43" style="font-family: MathJax_Math; font-style: italic;">w</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -45px; left: 12px;"><span class="texatom" id="MathJax-Span-44"><span class="mrow" id="MathJax-Span-45"><span class="mo" id="MathJax-Span-46" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-47" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span class="mo" id="MathJax-Span-48" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mn" id="MathJax-Span-49" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-50" style="font-size: 70.7%; font-family: MathJax_Main;">)</span></span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 36px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 17.1px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-6">w^{(t-1)}</script>, given by:
+<br>
+<span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-7-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-51"><span style="display: inline-block; position: relative; width: 200px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(39.9px 16660px 85.8px -9px); top: -67px; left: 0px;"><span class="mrow" id="MathJax-Span-52"><span class="mtext" id="MathJax-Span-53" style="font-family: MathJax_Main;">prediction</span><span class="mo" id="MathJax-Span-54" style="font-family: MathJax_Main; padding-left: 4.6px;">=</span><span class="mfenced" id="MathJax-Span-55" style="padding-left: 4.6px;"><span class="mo" id="MathJax-Span-57" style="vertical-align: 0px;"><span style="font-family: MathJax_Size3;">{</span></span><span class="mtable" id="MathJax-Span-58" style="padding-right: 2.8px; padding-left: 2.8px;"><span style="display: inline-block; position: relative; width: 88px; height: 0px;"><span style="position: absolute; clip: rect(41.2px 16660px 81.5px -8.4px); top: -67px; left: 0px;"><span style="display: inline-block; position: relative; width: 88px; height: 0px;"><span style="position: absolute; clip: rect(29px 16660px 51.3px -7.6px); top: -54.8px; left: 0px;"><span class="mtd" id="MathJax-Span-59"><span class="mrow" id="MathJax-Span-60"><span class="mn" id="MathJax-Span-61" style="font-family: MathJax_Main;">1</span><span class="mtext" id="MathJax-Span-62" style="font-family: MathJax_Main;">&nbsp;if&nbsp;</span><span class="msubsup" id="MathJax-Span-63"><span style="display: inline-block; position: relative; width: 22.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-64" style="font-family: MathJax_Math; font-style: italic;">w</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -44px; left: 12px;"><span class="mi" id="MathJax-Span-65" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 1.4px;"></span></span><span style="display: inline-block; width: 0px; height: 38px;"></span></span></span></span><span class="mi" id="MathJax-Span-66" style="font-family: MathJax_Math; font-style: italic;">x</span><span class="mo" id="MathJax-Span-67" style="font-family: MathJax_Main; padding-left: 4.6px;">≥</span><span class="mn" id="MathJax-Span-68" style="font-family: MathJax_Main; padding-left: 4.6px;">0</span></span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span><span style="position: absolute; clip: rect(31.4px 16660px 49.4px -8.4px); top: -34.8px; left: 0px;"><span class="mtd" id="MathJax-Span-69"><span class="mrow" id="MathJax-Span-70"><span class="mn" id="MathJax-Span-71" style="font-family: MathJax_Main;">0</span><span class="mtext" id="MathJax-Span-72" style="font-family: MathJax_Main;">&nbsp;otherwise&nbsp;</span></span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="display: inline-block; width: 0px; height: 67px;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 67px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 42px; vertical-align: -16.8px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-7">
+\text{prediction} = 
+\begin{cases}
+1 \text{ if } w^Tx \geq 0 \\
+0 \text{ otherwise }
+\end{cases}
+</script><br>
+True or false: if we use a learning rate of -1, then the perceptron algorithm will always converge to a solution for linearly separable datasets.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[57756f4b7fbfd2560c84f224c53bc900][]" id="gensym_57537cde6d844" value="bc7190156c70681dcc59459472df8c45"><label for="gensym_57537cde6d844" style="cursor:pointer;">True</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[57756f4b7fbfd2560c84f224c53bc900][]" id="gensym_57537cde70781" value="b405b9a6ec61948c645c9fcc51022874"><label for="gensym_57537cde70781" style="cursor:pointer;">False</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div dir="auto" class="course-quiz-question-text">According to the code, how many iterations does it take for the perceptron to converge to a solution on <i>dataset 3</i> using the provided initial weight vector <i>w_init</i>?
+<br>
+Note: the program will output<br>
+Number of errors in iteration <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-8-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-73"><span style="display: inline-block; position: relative; width: 10px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-74"><span class="mi" id="MathJax-Span-75" style="font-family: MathJax_Math; font-style: italic;">x</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 9.5px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-8">x</script>:	0<br>
+You simply need to report <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-9-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-76"><span style="display: inline-block; position: relative; width: 10px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-77"><span class="mi" id="MathJax-Span-78" style="font-family: MathJax_Math; font-style: italic;">x</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 9.5px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-9">x</script>.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[b5da153c78cdb01f9877e057ef1b6b9f][]" id="gensym_57537cde7b56c" value="2716aebfaaed17b554990c02f07f4e0c"><label for="gensym_57537cde7b56c" style="cursor:pointer;">2</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[b5da153c78cdb01f9877e057ef1b6b9f][]" id="gensym_57537cde7ea55" value="f5b8528f19b8c6105a09b81f023e8744"><label for="gensym_57537cde7ea55" style="cursor:pointer;">6</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[b5da153c78cdb01f9877e057ef1b6b9f][]" id="gensym_57537cde81f42" value="12e0bdb6b3c860d5b8c86d8dd6869dde"><label for="gensym_57537cde81f42" style="cursor:pointer;">9</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[b5da153c78cdb01f9877e057ef1b6b9f][]" id="gensym_57537cde854c9" value="0fd3f7c186c7e1ad60561606c15f77a3"><label for="gensym_57537cde854c9" style="cursor:pointer;">It doesn't converge.</label>
+</div>
+</div>
+</div>
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+            <div class="course-quiz-submit-button-container">
+        <input type="hidden" name="__csrf-token" value="1J1LefSZQaMrojVZXNJ4">
+        <input class="btn btn-success" type="submit" name="submit_answers" value="Submit Answers" disabled="disabled">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="btn btn-primary" type="submit" name="save_answers" value="Save Answers">
+
+        <div class="course-quiz-honor-code-status" style="margin-top: 10px;">You cannot submit your work until you agree to the Honor Code. Thanks!</div>
+
+    </div>
+    
+
+
+    </form>
+
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./Coursera_files/jquery.v1-7.js"></script>
+      <script src="./Coursera_files/underscore.v1-3-1.js"></script>
+      <script src="./Coursera_files/quiz_timer.js"></script>
+      <script src="./Coursera_files/get_query_parameters.js"></script>
+      <script src="./Coursera_files/quiz_attempt.js"></script>
+      <script src="./Coursera_files/latex_preview.js"></script>
+      <script src="./Coursera_files/db_class.js"></script>
+      <script src="./Coursera_files/initRunQuery.js"></script>
+      <script src="./Coursera_files/loadOrRefreshMathJax.js"></script>
+      <script src="./Coursera_files/grid_questions.js"></script>
+      <script src="./Coursera_files/quiz_error_box_dummy.js"></script>
+  <script src="./Coursera_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/" data-version="9f219be0ea3df7bfad5dda615f0d601772d5fca9" data-timestamp="1464221811626" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8379441,\"email_address\":\"jifuzhao@gmail.com\",\"full_name\":\"Jifu Zhao\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1463695384\",\"last_access_time\":\"1465078695\",\"last_access_ip\":\"128.174.163.160\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Jifu\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"6\",\"7\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"19\",\"20\",\"43\",\"45\",\"47\",\"49\",\"51\",\"65\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":256,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Neural Networks for Machine Learning\",\"instructor\":\"Geoffrey Hinton\",\"sessionName\":\"neuralnets-2012-001\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"neuralnets\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":null,\"linkable\":false,\"universityShortname\":\"utoronto\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/www.coursera.org\\\/login?post_redirect=https%3A%2F%2Fwww.coursera.org%2Flogin%3Fuser_action%3Dclass%26course_id%3D256%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fneuralnets-2012-001%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/www.coursera.org\\\/signup?enroll_cid=256&enroll_sn=neuralnets&enroll_n=Neural Networks for Machine Learning\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/neuralnets\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/www.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fneuralnets\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/neuralnets-2012-001\\\/\",\"search\":true,\"hideWiki\":false,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":null,\"aceExamDuration\":null,\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":null,\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":false,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":null,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":null,\"honorCodeCustomButton\":null,\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Student Survey\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=survey\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Quizzes\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Course Logistics\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"About Us\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Octave Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"octaveinstallation\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size4, sans-serif;"></div></body></html>

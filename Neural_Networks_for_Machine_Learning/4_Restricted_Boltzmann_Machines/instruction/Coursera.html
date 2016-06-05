@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://class.coursera.org/neuralnets-2012-001/quiz/attempt?quiz_id=203 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/quiz/attempt?quiz_id=203"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera</title>    <link href="./Coursera_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./Coursera_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/neuralnets/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./Coursera_files/ga.js"></script><script type="text/javascript" src="./Coursera_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/routes" src="./Coursera_files/routes.js"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coursera"><meta name="twitter:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="twitter:image:src" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./Coursera_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/400" src="./Coursera_files/400.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page" src="./Coursera_files/student-page.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page.html" src="./Coursera_files/student-page.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" src="./Coursera_files/sparkSurveyQuestionsSessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" src="./Coursera_files/sessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" src="./Coursera_files/sessionModel(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionCollection" src="./Coursera_files/QuestionCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionModel" src="./Coursera_files/QuestionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/lib/backbone.hascollections" src="./Coursera_files/backbone.hascollections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/underscore.extend" src="./Coursera_files/underscore.extend.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/student-page" src="./Coursera_files/student-page(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./Coursera_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./Coursera_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./Coursera_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./Coursera_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./Coursera_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./Coursera_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./Coursera_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./Coursera_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./Coursera_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./Coursera_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./Coursera_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/util" src="./Coursera_files/util.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./Coursera_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./Coursera_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./Coursera_files/sidebar(1).js"></script></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://learner.coursera.help/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Neural Networks for Machine Learning</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8379441">Jifu Zhao<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/neuralnets-2012-001/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><form action="https://class.coursera.org/api/logoutSsr/v1?csrf3-token=1465651753.XOAxk09ATVSSeSCm" method="post"><button data-popup-close="data-popup-close" type="submit" class="course-topbar-sublist-item">Sign Out</button></form></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/utoronto" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/utoronto" class="coursera-university-color"><img src="./Coursera_files/university_logo" alt="utoronto"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/neuralnets-2012-001/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Neural Networks for Machine Learning</a><br><span style="" class="course-topbanner-instructor">by Geoffrey Hinton</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/neuralnets-2012-001" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./Coursera_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/neuralnets-2012-001/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item in-class-qqs-tab"><a href="https://class.coursera.org/neuralnets-2012-001/questions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_" class="coursera-university-color"><span>Quick Questions</span><span></span><span class="in-class-qqs-number-display">15</span></a></li><li class="course-navbar-item in-class-qqs-tab"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home" class="coursera-university-color"><span>Home </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Student_Survey" class="coursera-university-color"><span>Student Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Video_Lectures" class="coursera-university-color"><span>Video Lectures </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Quizzes" class="coursera-university-color"><span>Quizzes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics" class="coursera-university-color"><span>Course Logistics </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Syllabus" class="coursera-university-color"><span>Syllabus </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_Us" class="coursera-university-color"><span>About Us </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/octaveinstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Octave_Installation" class="coursera-university-color"><span>Octave Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://share.coursera.org/wiki/index.php/neuralnets-2012-001:Main" target="_blank" title="Open course wiki in new window" class="coursera-university-color">Course Wiki<span class="icon-share"></span><span class="accessible-text-for-reader">opens in new browser tab</span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://learner.coursera.help/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Center</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;">
+
+<h2 class="course-page-header">
+  <span>
+Programming Assignment 4: Restricted Boltzmann Machines  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/neuralnets-2012-001/help/quizzes?url=https%3A%2F%2Fclass.coursera.org%2Fneuralnets-2012-001%2Fquiz%2Fattempt%3Fquiz_id%3D203">
+     Help Center
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+<div class="course-quiz-attempt-warning-message alert alert-error">
+    <p><strong>Warning: </strong> The hard deadline has passed. You can attempt it, but  <b>you will not get credit for it</b>.  You are welcome to try it as a learning exercise.</p>
+</div>
+
+
+
+
+
+
+
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+        <div class="course-quiz-preamble">
+        <i>
+
+This description was last modified on Wed Nov 14 11:54:00 UTC. I fixed the sample output for questions 6 and 7.<br><br>
+
+The most recent version (the 3rd version) of the starter code was published on Wed Nov 14 20:48:30 2012, UTC. The change is that there's now more
+program output in questions 6 and 7.<br><br>
+
+Announcement, added on Wed Nov 14 20:48:30 2012, UTC. The way I made the randomness predictable for this assignment has some flaws that affect
+question 6, for some students. See that question for a clarification.<br><br>
+
+Watch <a href="https://class.coursera.org/neuralnets-2012-001/forum/thread?thread_id=906">this forum thread</a> for announcements about this
+assignment. I recommend that you "subscribe" to that thread.
+
+</i><br><br>
+    </div>
+    
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">This assignment is about Restricted Boltzmann Machines (RBMs). We'll first make a few basic functions for dealing with RBMs, and then we'll train an
+RBM. We'll use it as the visible-to-hidden layer in a network exactly like the one we made in programming assignment 3 (PA3).<br><br>
+
+For PA3, there was (and still is) a great deal of very good discussion going on, on the forum. Students learned a lot, helped others a lot, figured
+things out together, and provided valuable feedback. I want to thank everybody who participated in that discussion. I would never have been able to
+respond to every question, comment, and request for clarification on my own, but because of the community of this course, I wasn't alone. I'm looking
+forward to the community discussion about this assignment.<br><br>
+
+This assignment is designed to be easier than PA3: for this assignment, you get more feedback and partial marks along the way, in contrast to PA3,
+where you were only told (by the gradient checker) whether you did <b>everything</b> right or not. However, for those of you who feel like taking on
+an extra challenge: you'll find that challenge in the last question of this assignment.
+
+<br><br><h3>Randomness</h3>
+
+RBMs are intrinsically stochastic (random), which presents problems with automated marking: if everybody's randomness comes out differently, then it
+gets difficult for us to tell whether the result of your simulations is right or wrong. To remedy that situation, I made the random number generator
+as predictable as possible, hopefully without significantly diminishing its effectiveness. You should not write any code that uses randomness
+explicitly. If you need to sample the state of binary units, given their probabilities of turning on, then use the function <b>sample_bernoulli</b>
+that I wrote. That's the only randomness that you'll need. <i>Added on November 14:</i> Whenever <b>sample_bernoulli</b> is called (except when
+<b>a4_main</b> is running), it prints out the size of the matrix that it received. That output provides additional information, making it easier for
+you to verify that your program is doing the same as the reference solution.<br><br>
+
+I don't expect that many of you will come up with correct implementations that have different results from my implementation. However, if that does
+happen, mention it on the discussion board, and we'll discuss it and find a good way forward.
+
+<br><br><h3>Part 1: Setting up</h3>
+
+Download <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a4/v3/a4.zip">a4.zip</a>, unzip it in some directory,
+start Octave, <b>cd</b> to that directory, and issue the command "<b>a4_init</b>" (without the quote signs). That loads the data. You always have to
+run <b>a4_init</b> after starting Octave, before you can use any of the code.<br><br>
+
+To verify that everything is properly set up, run <b>a4_main(300, 0, 0, 0)</b>. What is the validation data classification cross-entropy loss that it
+reports? Write the answer with at least five digits after the decimal point. </div> </div>
+<label for="gensym_57537db479341" class="hidden">Answer for Question 1</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db479341" class="course-quiz-input" name="answer[5f212c67f0e7452b9cbb6591681552f1][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<h3>Part 2: Programming the basics</h3>
+
+First, we must establish some conventions for programming RBMs.<ul>
+<li>To keep things as simple as possible, we don't use biases. Biases do serve a purpose, but they're not entirely necessary. Because we don't use
+biases, all of our model parameters are in the weights on the connections between the visible units and the hidden units. That nicely simplifies some
+parts of the program. Here's what our RBM looks like:<br><img src="./Coursera_files/rbm.png" alt="rbm.png">
+</li>
+<li>We'll store the model parameters in a matrix of size <u>number of hidden units</u> by <u>number of visible units</u>. We'll store gradients in the
+same format (just like we did in PA3).
+
+</li>
+<li>Units in an RBM have binary states: they're either <b>on</b> or <b>off</b>. We'll represent those states with the number 1 for the <b>on</b> state
+and the number 0 for the <b>off</b> state.
+
+</li>
+<li>The state of, say, the visible units, for a number of different configurations that we're handling in parallel (typically one configuration per
+data case that we're working on), will be stored in a matrix of size <u>number of visible units</u> by <u>number of cases, a.k.a. configurations that
+we're dealing with in parallel</u>. Because the state for each unit in each configuration is either 1 or 0, we'll call this a <i>binary
+matrix</i>. When we store not the state of the units but the conditional activation probability <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-1"><span style="display: inline-block; position: relative; width: 85px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(30.5px 16660px 53.2px -8.5px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math; font-style: italic;">P<span style="display: inline-block; overflow: hidden; height: 1px; width: 1.8px;"></span></span><span class="mo" id="MathJax-Span-4" style="font-family: MathJax_Main;">(</span><span class="msubsup" id="MathJax-Span-5"><span style="display: inline-block; position: relative; width: 15.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-6" style="font-family: MathJax_Math; font-style: italic;">v</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -35.5px; left: 9px;"><span class="mi" id="MathJax-Span-7" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 38px;"></span></span></span></span><span class="mo" id="MathJax-Span-8" style="font-family: MathJax_Main; padding-left: 4.6px;">=</span><span class="mn" id="MathJax-Span-9" style="font-family: MathJax_Main; padding-left: 4.6px;">1</span><span class="texatom" id="MathJax-Span-10"><span class="mrow" id="MathJax-Span-11"><span class="mo" id="MathJax-Span-12" style="font-family: MathJax_Main;">|</span></span></span><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math; font-style: italic;">h</span><span class="mo" id="MathJax-Span-14" style="font-family: MathJax_Main;">)</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 18.7px; vertical-align: -5.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">P(v_i=1 | h)</script> of the units, or some other property
+of every unit in a number of configurations, we do it in a matrix of the same size, but of course it won't be binary.
+
+</li>
+</ul>
+
+We'll start by writing a number of fairly basic functions related to RBMs. Some of these are independent; others build on previous ones. You can earn
+marks for each of these functions. For each one, a skeleton implementation is made available to you. <b>Read the comments in that skeleton
+implementation for important details of what exactly you're asked to implement.</b><br><br><br><h3>visible_state_to_hidden_probabilities</h3>
+
+When we have the (binary) state of all visible units in an RBM, the conditional probability for each hidden unit to turn on (conditional on the states
+of the visible units) can be calculated. Conditional on the state of the visible units, the hidden units are independent of each other, so this is
+simply a separate computation for each hidden unit. Implement it in the file <b>visible_state_to_hidden_probabilities.m</b>.<br><br>
+
+There's no gradient checker for this assignment, because it's not focused on gradients as much as PA3 is, but here's another way to find out early if
+you're going in the wrong direction. I set up a testing RBM, with 256 visible units and 100 hidden units, and some test configurations for that
+RBM. After you finish the function <b>visible_state_to_hidden_probabilities</b>, run the command
+<b>describe_matrix(visible_state_to_hidden_probabilities(test_rbm_w, data_1_case))</b>, to see how the function deals with a single case (a single
+configuration). When I did that, I got this output:<br><br><pre>Describing a matrix of size 100 by 1. The mean of the elements is 0.447562. The sum of the elements is 44.756160</pre>
+
+If you get something very different, then there's probably a bug somewhere. If you get something different and you think that your code is correct,
+then please mention it on the forum and we'll figure out what's going on.<br><br>
+
+Let's also test with 10 cases (configurations) in parallel: <b>describe_matrix(visible_state_to_hidden_probabilities(test_rbm_w, data_10_cases))</b>
+gave me this output:<pre>Describing a matrix of size 100 by 10. The mean of the elements is 0.459927. The sum of the elements is 459.927012</pre>
+
+Now run <b>describe_matrix(visible_state_to_hidden_probabilities(test_rbm_w, data_37_cases))</b>, and write down the sum value with at least 2 digits
+after the decimal point. </div> </div>
+<label for="gensym_57537db487a81" class="hidden">Answer for Question 2</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db487a81" class="course-quiz-input" name="answer[c450d70ed960c6d794c41a94cf305e3a][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>hidden_state_to_visible_probabilities</h3>
+
+When we have the state of the hidden units in the RBM, we can calculate the conditional probability of each of the visible units turning on, in a very
+similar way (RBMs are quite symmetrical!) Finish file <b>hidden_state_to_visible_probabilities.m</b>, and you can again compare to what I got.<br><br><b>describe_matrix(hidden_state_to_visible_probabilities(test_rbm_w, test_hidden_state_1_case))</b> gave me this:
+
+<pre>Describing a matrix of size 256 by 1. The mean of the elements is 0.474996. The sum of the elements is 121.598898</pre>
+
+<b>describe_matrix(hidden_state_to_visible_probabilities(test_rbm_w, test_hidden_state_10_cases))</b> gave me this:
+
+<pre>Describing a matrix of size 256 by 10. The mean of the elements is 0.469464. The sum of the elements is 1201.828527</pre>
+
+Now run <b>describe_matrix(hidden_state_to_visible_probabilities(test_rbm_w, test_hidden_state_37_cases))</b> and report the sum, with at least 2
+digits after the decimal point. </div> </div>
+<label for="gensym_57537db495842" class="hidden">Answer for Question 3</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db495842" class="course-quiz-input" name="answer[9e8428cbaa6a06e4ca1609e7c250ca33][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>configuration_goodness</h3>
+
+If we have the (binary) state of all units (both the visibles and the hiddens), i.e. if we have a full configuration, we can calculate the energy of
+that configuration, or the goodness (which is negative the energy). Implement that in <b>configuration_goodness.m</b> (take note of the comments in
+that file).<br><br><b>configuration_goodness(test_rbm_w, data_1_case, test_hidden_state_1_case)</b> gave me 13.540 (using Octave 3.2.4) or 13.5399 (using Matlab R2012a);<br><b>configuration_goodness(test_rbm_w, data_10_cases, test_hidden_state_10_cases)</b> gave me -32.961 (using Octave 3.2.4) or -32.9614 (using Matlab R2012a).<br><br>
+
+Report the result of <b>configuration_goodness(test_rbm_w, data_37_cases, test_hidden_state_37_cases)</b>, with at least 3 digits after the decimal
+point. </div> </div>
+<label for="gensym_57537db4a06c4" class="hidden">Answer for Question 4</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4a06c4" class="course-quiz-input" name="answer[7fe41ff790ecc47d8db31f431d4cba7f][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>configuration_goodness_gradient</h3>
+
+When we get to training an RBM, we want to make some configurations better (give them higher probability) and others worse (give those lower
+probability). To do that, we need to find out the gradient of the goodness of a configuration: when we change the model parameters (the weights), the
+goodness of a configuration changes, and we need to know in which direction to change the weights in order to increase the goodness of a
+configuration. Implement that in <b>configuration_goodness_gradient.m</b> (take note of the comments in that file).<br><br><b>describe_matrix(configuration_goodness_gradient(data_1_case, test_hidden_state_1_case))</b> gave me this:
+
+<pre>Describing a matrix of size 100 by 256. The mean of the elements is 0.159922. The sum of the elements is 4094.000000</pre>
+
+<b>describe_matrix(configuration_goodness_gradient(data_10_cases, test_hidden_state_10_cases))</b> gave me this:
+
+<pre>Describing a matrix of size 100 by 256. The mean of the elements is 0.116770. The sum of the elements is 2989.300000</pre>
+
+Run <b>describe_matrix(configuration_goodness_gradient(data_37_cases, test_hidden_state_37_cases))</b>, and report the sum, with at least two digits
+after the decimal point. </div> </div>
+<label for="gensym_57537db4aa157" class="hidden">Answer for Question 5</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4aa157" class="course-quiz-input" name="answer[f2599ae7fa421380cab07c63aea4457f][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 6</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>cd1</h3>
+
+Now that we have all those small functions, we're ready for a bigger job. Let's implement the Contrastive Divergence gradient estimator with 1 full
+Gibbs update, a.k.a. CD-1. CD-1 was introduced in the lecture. If you feel unsure about what it is, or what the details are, I recommend that you
+review the lectures first, before you try to write it here, in Octave. <br><br>
+
+There are a number of variations of CD-1, all of which are reasonable in their own way. The variation that we're using here is the one where every
+time after calculating a conditional probability for a unit, we sample a state for the unit from that conditional probability (using the function
+<b>sample_bernoulli</b>), and then we forget about the conditional probability. There are other variations where we do less sampling, but for now,
+we're going to do sampling everywhere: we'll sample a binary state for the hidden units conditional on the data; we'll sample a binary state for the
+visible units conditional on that binary hidden state (this is sometimes called the "reconstruction" for the visible units); and we'll sample a binary
+state for the hidden units conditional on that binary visible "reconstruction" state. Then we base our gradient estimate on all those sampled binary
+states. This is not the best strategy, but it is the simplest, so for now we use it.<br><br>
+
+The conditional probability functions will be useful for the Gibbs update. The configuration goodness gradient function will be useful twice, for
+CD-1:<ul>
+<li>We use it once on the given data and the hidden state that it gives rise to. That gives us the direction of changing the weights that will make
+the data have greater goodness, which is what we want to achieve.
+
+</li>
+<li>We also use it on the "reconstruction" visible state and the hidden state that it gives rise to. That gives us the direction of changing the
+weights that will make the reconstruction have greater goodness, so we want to go in the opposite direction, because we want to make the
+reconstruction have less goodness.
+
+</li>
+</ul>
+<i>Added on November 14:</i> This is the first time that we'll be using randomness, and we have to do it carefully, to ensure that your solution does
+it in the same way as the reference solution. Whenever <b>sample_bernoulli</b> is called (except when
+<b>a4_main</b> is running), it prints out the size of the matrix that it received. That output provides additional information, making it easier for
+you to verify that your program is doing the same as the reference solution. Be sure to have the most recent version of the starter code, because older versions don't have that extra output.<br><br>
+
+Implement CD-1 in the file <b>cd1.m</b>. Vectorize it, i.e. don't use loops, and also otherwise, make sure that the calls to <b>sample_bernoulli</b>
+exactly match the ones that you see below about 1 case and 10 cases. <br><br><b>describe_matrix(cd1(test_rbm_w, data_1_case))</b> gave me this:
+
+<pre>sample_bernoulli() was called with a matrix of size 100 by 1. sample_bernoulli() was called with a matrix of size 256 by 1. sample_bernoulli() was called with a matrix of size 100 by 1. Describing a matrix of size 100 by 256. The mean of the elements is -0.160742. The sum of the elements is -4115.000000</pre>
+
+<b>describe_matrix(cd1(test_rbm_w, data_10_cases))</b> gave me this:
+
+<pre>sample_bernoulli() was called with a matrix of size 100 by 10. sample_bernoulli() was called with a matrix of size 256 by 10. sample_bernoulli() was called with a matrix of size 100 by 10. Describing a matrix of size 100 by 256. The mean of the elements is -0.185137. The sum of the elements is -4739.500000</pre>
+
+Run <b>describe_matrix(cd1(test_rbm_w, data_37_cases))</b>, and report the sum, with at least two digits after the decimal point. </div> </div>
+<label for="gensym_57537db4b5494" class="hidden">Answer for Question 6</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4b5494" class="course-quiz-input" name="answer[ed48d2a3f81a80538a7e2c361ba6c79d][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 7</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>Improving CD-1</h3>
+
+If you go through the math (either on your own on with your fellow students on the forum), you'll see that sampling the hidden state that results from
+the "reconstruction" visible state is useless: it does not change the <i>expected value</i> of the gradient estimate that CD-1 produces; it only
+increases its variance. More variance means that we have to use a smaller learning rate, and that means that it'll learn more slowly; in other words,
+we don't want more variance, especially if it doesn't give us anything pleasant to compensate for that slower learning. <br><br>
+
+Let's modify the CD-1 implementation to simply no longer do that sampling at the hidden state that results from the "reconstruction" visible
+state. Instead of a sampled state, we'll simply use the conditional probabilities. Of course, the configuration goodness gradient function expects a
+binary state, but you've probably already implemented it in such a way that it can gracefully take probabilities instead of binary states. If not, now
+would be a good time to do that. <br><br>
+
+After improving the CD-1 implementation that way, running <b>describe_matrix(cd1(test_rbm_w, data_1_case))</b> gives me this:
+
+<pre>sample_bernoulli() was called with a matrix of size 100 by 1. sample_bernoulli() was called with a matrix of size 256 by 1. Describing a matrix of size 100 by 256. The mean of the elements is -0.164335. The sum of the elements is -4206.981332</pre>
+
+Running <b>describe_matrix(cd1(test_rbm_w, data_10_cases))</b> gives me this:
+
+<pre>sample_bernoulli() was called with a matrix of size 100 by 10. sample_bernoulli() was called with a matrix of size 256 by 10. Describing a matrix of size 100 by 256. The mean of the elements is -0.185591. The sum of the elements is -4751.142054</pre>
+
+Please run <b>describe_matrix(cd1(test_rbm_w, data_37_cases))</b> and report the sum, with at least 2 digits after the decimal point. </div> </div>
+<label for="gensym_57537db4c2f46" class="hidden">Answer for Question 7</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4c2f46" class="course-quiz-input" name="answer[67077646c10af731c20511096cecf312][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 8</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>Training an RBM on real-valued pixel intensities</h3>
+
+We want to train our RBM on the handwritten digit data that we used in PA3, but that presents a problem: that data is not binary (it's pixel
+intensities between 0 and 1), but our RBM is designed for binary data. <br><br>
+
+We'll treat each training data case as a distribution over binary data vectors. A <i>product of independent Bernoulli-distributed random
+variables</i>, if you like mathematical descriptions. What it means in practice is that every time we have a real-valued data case, we turn it into a
+binary one by sampling a state for each visible unit, where we treat the real-valued pixel intensity as <i>the probability of the unit turning
+on</i>. Let's add this line of code as the new first line of the <b>cd1</b> function: <b>visible_data = sample_bernoulli(visible_data);</b><br><br>
+
+Now we're ready to start training our RBM. (By the way, if that description was a little too brief or unclear to be maximally helpful, then ask on the
+forum and we'll have a group discussion about it.)<br><br><br><h3>Part 3: Using the RBM as part of a feedforward network</h3>
+
+Here's the plan: we're going to train an RBM (using CD-1), and then we're going to make the weights of that RBM into the weights from the input layer
+to the hidden layer, in <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/model_diagram.png">the deterministic
+feed-forward network that we used for PA3 </a>. We're not going to tell the RBM that that's how it's going to end up being used, but a variety of
+practical and theoretical findings over the past several years have shown that this is a reasonable thing to do anyway. The lectures explain this in
+more detail.<br><br>
+
+This brings up an interesting contrast with PA3. In PA3, we tried to reduce overfitting by <i>learning <b>less</b></i> (early stopping, fewer hidden
+units, etc). This approach with the RBM, on the other hand, reduces overfitting by <i>learning <b>more</b></i>: the RBM part is being trained
+unsupervised, so it's working to discover a lot of relevant regularity in the distribution of the input images, and that learning distracts the model
+from excessively focusing on the digit class labels. This is much more constructive distraction: instead of early-stopping the model after only a
+little bit of learning, we instead give the model something much more meaningful to do. In any case, it works great for regularization, as well as
+training speed (though the advantage in training speed becomes most visible when we use multiple hidden layers, which we're not doing here).<br><br>
+
+We're using exactly the same data as we did in PA3, so the results will be comparable (but of course the results of PA4 will be better than those of
+PA3).<br><br>
+
+In PA3, we did a very careful job of selecting the right number of training iterations, the right number of hidden units, and the right weight
+decay. For PA4, we don't need to do all that: although it might still help a little, the unsupervised training of the RBM basically provides all the
+regularization we need. If we select a decent learning rate, that will be plenty. We'll use lots of hidden units, because we're much less worried
+about overfitting now.<br><br>
+
+Script <b>a4_main</b> trains an RBM using your CD-1 implementation. Then it turns that RBM into the input-to-hidden weight matrix of the NN of PA3,
+and trains the hidden-to-class layer in basically the same way as we did it in PA3. Normally one would also want to keep training those
+input-to-hidden weights using the backpropagation-based learning, i.e. one would use the RBM as initialization and then do exactly what we did in PA3,
+but it's not absolutely necessary. I decided not to do that here because then I'd have to either ask you to use your PA3 code, or I'd have to give you
+the PA3 solution, and lots of students are still working on PA3.<br><br>
+
+An initial run <b>a4_main(300, .02, .005, 1000)</b> should give you an interesting display of what the RBM learns, as well as the classification loss
+and error rates, like we saw them in PA3. If the validation data classification cross-entropy loss on that run was not 0.322890 (that's what I got) or
+something very close to that, then you might have a bug in your code and you should address that first. (If you got 0.336870, carefully read over
+question 7 again.) <br><br>
+
+Keep the number of hidden units at 300, the learning rate for the RBM at 0.02, and the number of iterations at 1000. Explore what learning rate for
+the hidden-to-class weights works best, where "best" means best for the validation data classification cross-entropy loss. Report that learning
+rate. If your answer is more than 0.5 times what I found with a very extensive search, and less than 2 times what I found, then it will be considered
+correct for this question. </div> </div>
+<label for="gensym_57537db4ce9a4" class="hidden">Answer for Question 8</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4ce9a4" class="course-quiz-input" name="answer[41262656d81c71b92511fd762c84ed6b][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 9</h3>
+<div style="float:none;width:100%"> <div class="course-quiz-question-text">For the settings that you chose in the previous question, report the test set classification error rate, with at least four digits after the decimal
+point. (Not for the assignment, but simply as an observation: is it better or worse than what you got on PA3?) </div>
+</div>
+<label for="gensym_57537db4db7dc" class="hidden">Answer for Question 9</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4db7dc" class="course-quiz-input" name="answer[0115e19c3f317d4046bb17cca5a9ef9c][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 10</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<br><h3>Going further</h3>
+
+Of course, you can do much more. For example, explore what number of hidden units works best, and you'll see that that number is indeed much larger
+than it was on PA3. Or use your PA3 code to properly train the feedforward NN after its RBM initialization. Or add some more hidden
+layers. Or... creatively combine everything else that you're learning in this course, to see how much this RBM-based <i>unsupervised pre-training</i>
+can do.<br><br>
+
+There's only one more question in this assignment, and it's not one that you need to complete in order to get a good mark. This question is worth only
+5% of the grade for the assignment, and it's difficult, so it's mostly here for those of you who feel like taking on a challenge. Not only is the
+question more difficult in itself, but also I'm not going to give you any hints or verification methods or anything else, except that I'll tell you
+this: you don't need a lot of computer runtime for answering the question.<br><br>
+
+The partition function a.k.a. normalization constant that you see in the formula for the Boltzmann distribution (the probabality of a particular
+configuration of an RBM), can take a long time to compute. That's because it's a sum of very many numbers: one for each possible configuration. If you
+have an RBM with only 2 visible units and 1 hidden unit, then those 3 units mean that there are only 8 possible configurations, so then the partition
+function can easily be computed. But with a bigger RBM, you quickly run into runtime problems.<br><br><b>a4_init</b> not only makes <b>test_rbm_w</b> and some data sets, but also <b>small_test_rbm_w</b>, which has only 10 hidden units (it still has 256
+visible units). Calculate the logarithm (base e) of the partition function of that small RBM, and report it with at least two digits after the decimal
+point. </div> </div>
+<label for="gensym_57537db4e5ee0" class="hidden">Answer for Question 10</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db4e5ee0" class="course-quiz-input" name="answer[d23d1584cf30bc6ca9a7ee21e0e1b0f6][answer]"></textarea>
+</div>
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+            <div class="course-quiz-submit-button-container">
+        <input type="hidden" name="__csrf-token" value="1J1LefSZQaMrojVZXNJ4">
+        <input class="btn btn-success" type="submit" name="submit_answers" value="Submit Answers" disabled="disabled">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="btn btn-primary" type="submit" name="save_answers" value="Save Answers">
+
+        <div class="course-quiz-honor-code-status" style="margin-top: 10px;">You cannot submit your work until you agree to the Honor Code. Thanks!</div>
+
+    </div>
+    
+
+
+    </form>
+
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./Coursera_files/jquery.v1-7.js"></script>
+      <script src="./Coursera_files/underscore.v1-3-1.js"></script>
+      <script src="./Coursera_files/quiz_timer.js"></script>
+      <script src="./Coursera_files/get_query_parameters.js"></script>
+      <script src="./Coursera_files/quiz_attempt.js"></script>
+      <script src="./Coursera_files/latex_preview.js"></script>
+      <script src="./Coursera_files/db_class.js"></script>
+      <script src="./Coursera_files/initRunQuery.js"></script>
+      <script src="./Coursera_files/loadOrRefreshMathJax.js"></script>
+      <script src="./Coursera_files/grid_questions.js"></script>
+      <script src="./Coursera_files/quiz_error_box_dummy.js"></script>
+  <script src="./Coursera_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/" data-version="9f219be0ea3df7bfad5dda615f0d601772d5fca9" data-timestamp="1464221811626" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8379441,\"email_address\":\"jifuzhao@gmail.com\",\"full_name\":\"Jifu Zhao\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1463695384\",\"last_access_time\":\"1465078695\",\"last_access_ip\":\"128.174.163.160\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Jifu\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"6\",\"7\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"19\",\"20\",\"43\",\"45\",\"47\",\"49\",\"51\",\"65\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":256,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Neural Networks for Machine Learning\",\"instructor\":\"Geoffrey Hinton\",\"sessionName\":\"neuralnets-2012-001\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"neuralnets\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":null,\"linkable\":false,\"universityShortname\":\"utoronto\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/www.coursera.org\\\/login?post_redirect=https%3A%2F%2Fwww.coursera.org%2Flogin%3Fuser_action%3Dclass%26course_id%3D256%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fneuralnets-2012-001%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/www.coursera.org\\\/signup?enroll_cid=256&enroll_sn=neuralnets&enroll_n=Neural Networks for Machine Learning\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/neuralnets\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/www.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fneuralnets\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/neuralnets-2012-001\\\/\",\"search\":true,\"hideWiki\":false,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":null,\"aceExamDuration\":null,\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":null,\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":false,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":null,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":null,\"honorCodeCustomButton\":null,\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Student Survey\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=survey\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Quizzes\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Course Logistics\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"About Us\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Octave Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"octaveinstallation\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size4, sans-serif;"></div><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>

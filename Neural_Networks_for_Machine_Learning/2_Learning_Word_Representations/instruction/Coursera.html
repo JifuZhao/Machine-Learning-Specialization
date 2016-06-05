@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://class.coursera.org/neuralnets-2012-001/quiz/attempt?quiz_id=79 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/quiz/attempt?quiz_id=79"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera</title>    <link href="./Coursera_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./Coursera_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/neuralnets/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./Coursera_files/ga.js"></script><script type="text/javascript" src="./Coursera_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/routes" src="./Coursera_files/routes.js"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coursera"><meta name="twitter:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="twitter:image:src" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./Coursera_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/400" src="./Coursera_files/400.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page" src="./Coursera_files/student-page.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page.html" src="./Coursera_files/student-page.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" src="./Coursera_files/sparkSurveyQuestionsSessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" src="./Coursera_files/sessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" src="./Coursera_files/sessionModel(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionCollection" src="./Coursera_files/QuestionCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionModel" src="./Coursera_files/QuestionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/lib/backbone.hascollections" src="./Coursera_files/backbone.hascollections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/underscore.extend" src="./Coursera_files/underscore.extend.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/student-page" src="./Coursera_files/student-page(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./Coursera_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./Coursera_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./Coursera_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./Coursera_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./Coursera_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./Coursera_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./Coursera_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./Coursera_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./Coursera_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./Coursera_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./Coursera_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/util" src="./Coursera_files/util.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./Coursera_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./Coursera_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./Coursera_files/sidebar(1).js"></script></head><body><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://learner.coursera.help/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Neural Networks for Machine Learning</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8379441">Jifu Zhao<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/neuralnets-2012-001/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><form action="https://class.coursera.org/api/logoutSsr/v1?csrf3-token=1465651753.XOAxk09ATVSSeSCm" method="post"><button data-popup-close="data-popup-close" type="submit" class="course-topbar-sublist-item">Sign Out</button></form></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/utoronto" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/utoronto" class="coursera-university-color"><img src="./Coursera_files/university_logo" alt="utoronto"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/neuralnets-2012-001/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Neural Networks for Machine Learning</a><br><span style="" class="course-topbanner-instructor">by Geoffrey Hinton</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/neuralnets-2012-001" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./Coursera_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/neuralnets-2012-001/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item in-class-qqs-tab"><a href="https://class.coursera.org/neuralnets-2012-001/questions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_" class="coursera-university-color"><span>Quick Questions</span><span></span><span class="in-class-qqs-number-display">15</span></a></li><li class="course-navbar-item in-class-qqs-tab"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home" class="coursera-university-color"><span>Home </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Student_Survey" class="coursera-university-color"><span>Student Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Video_Lectures" class="coursera-university-color"><span>Video Lectures </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Quizzes" class="coursera-university-color"><span>Quizzes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics" class="coursera-university-color"><span>Course Logistics </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Syllabus" class="coursera-university-color"><span>Syllabus </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_Us" class="coursera-university-color"><span>About Us </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/octaveinstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Octave_Installation" class="coursera-university-color"><span>Octave Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://share.coursera.org/wiki/index.php/neuralnets-2012-001:Main" target="_blank" title="Open course wiki in new window" class="coursera-university-color">Course Wiki<span class="icon-share"></span><span class="accessible-text-for-reader">opens in new browser tab</span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://learner.coursera.help/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Center</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;">
+
+<h2 class="course-page-header">
+  <span>
+Programming Assignment 2: Learning Word Representations.  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/neuralnets-2012-001/help/quizzes?url=https%3A%2F%2Fclass.coursera.org%2Fneuralnets-2012-001%2Fquiz%2Fattempt%3Fquiz_id%3D79">
+     Help Center
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+<div class="course-quiz-attempt-warning-message alert alert-error">
+    <p><strong>Warning: </strong> The hard deadline has passed. You can attempt it, but  <b>you will not get credit for it</b>.  You are welcome to try it as a learning exercise.</p>
+</div>
+
+
+
+
+
+
+
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+        <div class="course-quiz-preamble">
+        <p>
+We are now ready to start using neural nets for solving real problems!
+</p>
+<p>
+In this assignment we will design a neural net language model. The model will learn to predict the next word given the previous three words. The network looks like this: </p>
+<img src="./Coursera_files/network.png" width="400px/">
+
+<p>
+To get started, download any one of the following archives. <br>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/assignment2.tar.gz">assignment2.tar.gz</a> <br>
+Or <br>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/assignment2.zip">assignment2.zip</a> <br>
+Or each file individually
+</p><ul>
+<li><a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/README.txt">README.txt</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/train.m">train.m</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/data.mat">data.mat</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/raw_sentences.txt">raw_sentences.txt</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/fprop.m">fprop.m</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/word_distance.m">word_distance.m</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/display_nearest_word.m">display_nearest_word.m</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/predict_next_word.m">predict_next_word.m</a> </li>
+<li>
+<a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/load_data.m">load_data.m</a> </li>
+</ul>
+<p></p>
+<p>
+The starter code implements a basic framework for training neural nets with mini-batch gradient descent. Your job is to write code to complete the implementation of forward and back propagation. See the README file for a description of the dataset, starter code and how to run it.
+<br>
+This <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/Assignment2/sample_output.txt">sample_output</a> shows you what output to expect once everything is implemented correctly. <br>
+Once you have implemented the required code and have the model running, answer the following questions. <br>
+Happy coding!
+</p>
+    </div>
+    
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div style="float:none;width:100%"> <div class="course-quiz-question-text">Train a model with 50 dimensional embedding space, 200 dimensional hidden layer and default setting of all other hyperparameters. What is average training set cross entropy as reported by the training program after 10 epochs ? Please provide a numeric answer (three decimal places). [4 points]</div>
+</div>
+<label for="gensym_57537d7b78337" class="hidden">Answer for Question 1</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537d7b78337" class="course-quiz-input" name="answer[2541de131c06b798da739d0601526a91][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div dir="auto" class="course-quiz-question-text">Train a model for 10 epochs with a 50 dimensional embedding space, 200 dimensional hidden layer, a learning rate of 0.0001 and default setting of all other hyperparameters. What do you observe ? [3 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[bc3c06e81b07e3ba0567c3fd27e2ce94][]" id="gensym_57537d7b8811b" value="01c95431f89e20f630c27d27fa9c8462"><label for="gensym_57537d7b8811b" style="cursor:pointer;">Cross Entropy on the training and validation set decreases very slowly.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[bc3c06e81b07e3ba0567c3fd27e2ce94][]" id="gensym_57537d7b8b368" value="4ef9ea01ee75983e539941471c293cb9"><label for="gensym_57537d7b8b368" style="cursor:pointer;">Cross Entropy on the training and validation set decreases very rapidly.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[bc3c06e81b07e3ba0567c3fd27e2ce94][]" id="gensym_57537d7b8df58" value="0955e6dc985187a0747c861b6471e7cd"><label for="gensym_57537d7b8df58" style="cursor:pointer;">Cross Entropy on the training set fluctuates wildly and eventually diverges.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[bc3c06e81b07e3ba0567c3fd27e2ce94][]" id="gensym_57537d7b90b45" value="188d16015a7100e4d17a2aee253ad81c"><label for="gensym_57537d7b90b45" style="cursor:pointer;">Cross Entropy on the validation set fluctuates wildly and eventually diverges.</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div style="float:none;width:100%"> <div class="course-quiz-question-text">If all weights and biases in this network were set to zero and no training was performed, what will be the average cross entropy on the validation set ? Please provide a numeric answer (three decimal places). [3 points]</div>
+</div>
+<label for="gensym_57537d7b93e0a" class="hidden">Answer for Question 3</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537d7b93e0a" class="course-quiz-input" name="answer[cf515bede6c97ddeca8416c39b4254dc][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div dir="auto" class="course-quiz-question-text">Train three models each with 50 dimensional embedding space, 200 dimensional hidden layer. <br><ul>
+<li>Model A: Learning rate = 0.001,</li>
+<li>Model B: Learning rate = 0.1</li>
+<li>Model C: Learning rate = 10.0.</li>
+</ul>
+Use a momentum of 0.5 and default settings for all other hyperparameters. Which model gives the lowest training set cross entropy after 1 epoch ? [3 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[3175c54ca6df8f44a9f87826b6fb8297][]" id="gensym_57537d7ba3490" value="85955a405617aa4b08574dcceed803ac"><label for="gensym_57537d7ba3490" style="cursor:pointer;">Model B</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[3175c54ca6df8f44a9f87826b6fb8297][]" id="gensym_57537d7ba63d3" value="af64c6686284ecd9ab40a8ff03d9b820"><label for="gensym_57537d7ba63d3" style="cursor:pointer;">Model C</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[3175c54ca6df8f44a9f87826b6fb8297][]" id="gensym_57537d7ba9456" value="c99a53588f87365c7ceca359b300627c"><label for="gensym_57537d7ba9456" style="cursor:pointer;">Model A</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div dir="auto" class="course-quiz-question-text">In the models trained in Question 4, which one gives the lowest training set cross entropy after 10 epochs ? [2 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[0483c633ff503028a87732aee9741d34][]" id="gensym_57537d7bb4369" value="6f658733d2bfdd244c42afc74a247a96"><label for="gensym_57537d7bb4369" style="cursor:pointer;">Model A</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[0483c633ff503028a87732aee9741d34][]" id="gensym_57537d7bb85d6" value="1980e10fdcf2d66c25f8400de89c7c03"><label for="gensym_57537d7bb85d6" style="cursor:pointer;">Model C</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[0483c633ff503028a87732aee9741d34][]" id="gensym_57537d7bbc87d" value="fff9177216ae4e763626085435400159"><label for="gensym_57537d7bbc87d" style="cursor:pointer;">Model B</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 6</h3>
+<div dir="auto" class="course-quiz-question-text">Train each of following models:
+<ul>
+<li>Model A: 5 dimensional embedding, 100 dimensional hidden layer </li>
+<li>Model B: 50 dimensional embedding, 10 dimensional hidden layer </li>
+<li>Model C: 50 dimensional embedding, 200 dimensional hidden layer </li>
+<li>Model D: 100 dimensional embedding, 5 dimensional hidden layer </li>
+</ul>
+Use default values for all other hyperparameters.
+Which model gives the best training set cross entropy after 10 epochs of training ? [3 points]
+</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[309f6f03fdf715c186e9dc5a75379235][]" id="gensym_57537d7bc8703" value="3b7896e443ec61dde2c7b0e15d00c0e0"><label for="gensym_57537d7bc8703" style="cursor:pointer;">Model A</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[309f6f03fdf715c186e9dc5a75379235][]" id="gensym_57537d7bcbc0b" value="dd641449b844ebce51704011a987e4a1"><label for="gensym_57537d7bcbc0b" style="cursor:pointer;">Model C</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[309f6f03fdf715c186e9dc5a75379235][]" id="gensym_57537d7bcf844" value="82dc0819e1d0c911b1b50f2b546b0ac4"><label for="gensym_57537d7bcf844" style="cursor:pointer;">Model B</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[309f6f03fdf715c186e9dc5a75379235][]" id="gensym_57537d7bd47f0" value="e0a6dd149a5027af88261f509e275f7a"><label for="gensym_57537d7bd47f0" style="cursor:pointer;">Model D</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 7</h3>
+<div dir="auto" class="course-quiz-question-text">In the models trained in Question 6, which one gives the best validation set cross entropy after 10 epochs of training ? [2 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[c9556628b0f3f3de568d5448c55bfb58][]" id="gensym_57537d7be180e" value="80bbf0c62b9003bf69bbf5384d7bceae"><label for="gensym_57537d7be180e" style="cursor:pointer;">Model C</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[c9556628b0f3f3de568d5448c55bfb58][]" id="gensym_57537d7be500f" value="8afbe35605c1ec2cab31a4c07090fafb"><label for="gensym_57537d7be500f" style="cursor:pointer;">Model A</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[c9556628b0f3f3de568d5448c55bfb58][]" id="gensym_57537d7be862e" value="d5bcfaeeba0965758edd968d099a7d4a"><label for="gensym_57537d7be862e" style="cursor:pointer;">Model D</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[c9556628b0f3f3de568d5448c55bfb58][]" id="gensym_57537d7bebafb" value="f1f87f8ce4b0a84674d775c18c91e700"><label for="gensym_57537d7bebafb" style="cursor:pointer;">Model B</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 8</h3>
+<div dir="auto" class="course-quiz-question-text">Train three models each with 50 dimensional embedding space, 200 dimensional hidden layer. <br><ul>
+<li>Model A: Momentum = 0.0</li>
+<li>Model B: Momentum = 0.5</li>
+<li>Model C: Momentum = 0.9</li>
+</ul>
+Use the default settings for all other hyperparameters. Which model gives the lowest training set cross entropy after 5 epochs ? [3 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[eec96721dcaf367644dc6a949063f66f][]" id="gensym_57537d7c02a26" value="d22a2189cb39ef989f671b628a9029ef"><label for="gensym_57537d7c02a26" style="cursor:pointer;">Model C</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[eec96721dcaf367644dc6a949063f66f][]" id="gensym_57537d7c05ec5" value="45e123a7539f8915db7fb760b4d4bcd4"><label for="gensym_57537d7c05ec5" style="cursor:pointer;">Model A</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[eec96721dcaf367644dc6a949063f66f][]" id="gensym_57537d7c093a0" value="ffbb3447e6a06511bc36544e64bdf567"><label for="gensym_57537d7c093a0" style="cursor:pointer;">Model B</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 9</h3>
+<div dir="auto" class="course-quiz-question-text">Train a model with 50 dimensional embedding layer and 200 dimensional hidden layer for 10 epochs. Use default values for all other hyperparameters. 
+Which words are among the 10 closest words to the word 'could'. [2 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcafd637a694c3bd54c4db6adb535715][]" id="gensym_57537d7c17807" value="685fcbb602a1851f43f3cb11cf49ead3"><label for="gensym_57537d7c17807" style="cursor:pointer;">'the'</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcafd637a694c3bd54c4db6adb535715][]" id="gensym_57537d7c1b28d" value="6484db29ad572ef738018fbdfc704cda"><label for="gensym_57537d7c1b28d" style="cursor:pointer;">'some'</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcafd637a694c3bd54c4db6adb535715][]" id="gensym_57537d7c1e902" value="672b035f2acc13c1a951e659fe6d2531"><label for="gensym_57537d7c1e902" style="cursor:pointer;">'should'</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcafd637a694c3bd54c4db6adb535715][]" id="gensym_57537d7c22130" value="1820957ec45db6fa0bb8a54376dcd7d5"><label for="gensym_57537d7c22130" style="cursor:pointer;">'might'</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 10</h3>
+<div dir="auto" class="course-quiz-question-text">In the model trained in Question 9, why is the word 'percent' close to 'dr.' even though they have very different contexts and are not expected to be close in word embedding space? [2 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[1a22f6cd233176f37c8acc9b0e86a752][]" id="gensym_57537d7c30268" value="aa13f7357e910c43eb0d289d91d3869e"><label for="gensym_57537d7c30268" style="cursor:pointer;">We trained the model with too large a learning rate.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[1a22f6cd233176f37c8acc9b0e86a752][]" id="gensym_57537d7c33e0a" value="8f5977eeb5dafbc406d84336c3adfae3"><label for="gensym_57537d7c33e0a" style="cursor:pointer;">Both words occur very rarely, so their embedding weights get updated very few times and remain close to their initialization.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[1a22f6cd233176f37c8acc9b0e86a752][]" id="gensym_57537d7c3765d" value="9587bee61b84d1d80a72246fdeb1453c"><label for="gensym_57537d7c3765d" style="cursor:pointer;">The model is not capable of separating them in embedding space, even if it got a much larger training set.
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[1a22f6cd233176f37c8acc9b0e86a752][]" id="gensym_57537d7c3ad4d" value="7939267c4f569ab5320e9eaf8fddbf9d"><label for="gensym_57537d7c3ad4d" style="cursor:pointer;">Both words occur too frequently.</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 11</h3>
+<div dir="auto" class="course-quiz-question-text">In the model trained in Question 9, why is 'he' close to 'she' even though they refer to completely different genders? [2 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[12555cc9d4f5759ab2058f2802beb665][]" id="gensym_57537d7c4602e" value="100503b9227297d7c84c43247e14ef1a"><label for="gensym_57537d7c4602e" style="cursor:pointer;">They often occur close by in sentences.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[12555cc9d4f5759ab2058f2802beb665][]" id="gensym_57537d7c49646" value="6c2f775865d7d92f7c7075204c3ff30a"><label for="gensym_57537d7c49646" style="cursor:pointer;">The model does not care about gender. It puts them close because if 'he' occurs in a 4-gram, it is very likely that substituting it by 'she' will also make a sensible 4-gram.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[12555cc9d4f5759ab2058f2802beb665][]" id="gensym_57537d7c4df1d" value="cd7ef32deaf32167337933bd190a3123"><label for="gensym_57537d7c4df1d" style="cursor:pointer;">They differ by only one letter.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[12555cc9d4f5759ab2058f2802beb665][]" id="gensym_57537d7c528d6" value="7c43ca695ab1d2eb8e2bea3f15af166a"><label for="gensym_57537d7c528d6" style="cursor:pointer;">Both words occur very rarely, so their embedding weights get updated very few times and remain close to their initialization.</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 12</h3>
+<div dir="auto" class="course-quiz-question-text">In conclusion, what kind of words does the model put close to each other in embedding space. Choose the <b>most</b> appropriate answer. [3 points]</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[e2fc8ee6d85078d87e1968ebb7ea5114][]" id="gensym_57537d7c5dc37" value="40a4d9d1f0df24e2f6d2610d2188f3dd"><label for="gensym_57537d7c5dc37" style="cursor:pointer;">Words that are such that if one word occurs in a 4-gram replacing it with the other also creates a sensible 4-gram.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[e2fc8ee6d85078d87e1968ebb7ea5114][]" id="gensym_57537d7c6117c" value="9e03b0333067aa371033c048fa863bd6"><label for="gensym_57537d7c6117c" style="cursor:pointer;">Words that have a lot of letters in common.</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[e2fc8ee6d85078d87e1968ebb7ea5114][]" id="gensym_57537d7c64704" value="b4040d93061c965edeac305f121fffcb"><label for="gensym_57537d7c64704" style="cursor:pointer;">Words that belong to similar topics. A topic is a semantic categorization (like 'sports', 'art', 'business', 'computers' etc).</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[e2fc8ee6d85078d87e1968ebb7ea5114][]" id="gensym_57537d7c67e17" value="8a7ca3b080a945608c4c3ca69d7363fc"><label for="gensym_57537d7c67e17" style="cursor:pointer;">Words that occur close to each other (within three words to the left or right) in many sentences.</label>
+</div>
+</div>
+</div>
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+            <div class="course-quiz-submit-button-container">
+        <input type="hidden" name="__csrf-token" value="1J1LefSZQaMrojVZXNJ4">
+        <input class="btn btn-success" type="submit" name="submit_answers" value="Submit Answers" disabled="disabled">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="btn btn-primary" type="submit" name="save_answers" value="Save Answers">
+
+        <div class="course-quiz-honor-code-status" style="margin-top: 10px;">You cannot submit your work until you agree to the Honor Code. Thanks!</div>
+
+    </div>
+    
+
+
+    </form>
+
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./Coursera_files/jquery.v1-7.js"></script>
+      <script src="./Coursera_files/underscore.v1-3-1.js"></script>
+      <script src="./Coursera_files/quiz_timer.js"></script>
+      <script src="./Coursera_files/get_query_parameters.js"></script>
+      <script src="./Coursera_files/quiz_attempt.js"></script>
+      <script src="./Coursera_files/latex_preview.js"></script>
+      <script src="./Coursera_files/db_class.js"></script>
+      <script src="./Coursera_files/initRunQuery.js"></script>
+      <script src="./Coursera_files/loadOrRefreshMathJax.js"></script>
+      <script src="./Coursera_files/grid_questions.js"></script>
+      <script src="./Coursera_files/quiz_error_box_dummy.js"></script>
+  <script src="./Coursera_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/" data-version="9f219be0ea3df7bfad5dda615f0d601772d5fca9" data-timestamp="1464221811626" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8379441,\"email_address\":\"jifuzhao@gmail.com\",\"full_name\":\"Jifu Zhao\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1463695384\",\"last_access_time\":\"1465078695\",\"last_access_ip\":\"128.174.163.160\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Jifu\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"6\",\"7\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"19\",\"20\",\"43\",\"45\",\"47\",\"49\",\"51\",\"65\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":256,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Neural Networks for Machine Learning\",\"instructor\":\"Geoffrey Hinton\",\"sessionName\":\"neuralnets-2012-001\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"neuralnets\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":null,\"linkable\":false,\"universityShortname\":\"utoronto\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/www.coursera.org\\\/login?post_redirect=https%3A%2F%2Fwww.coursera.org%2Flogin%3Fuser_action%3Dclass%26course_id%3D256%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fneuralnets-2012-001%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/www.coursera.org\\\/signup?enroll_cid=256&enroll_sn=neuralnets&enroll_n=Neural Networks for Machine Learning\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/neuralnets\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/www.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fneuralnets\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/neuralnets-2012-001\\\/\",\"search\":true,\"hideWiki\":false,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":null,\"aceExamDuration\":null,\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":null,\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":false,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":null,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":null,\"honorCodeCustomButton\":null,\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Student Survey\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=survey\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Quizzes\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Course Logistics\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"About Us\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Octave Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"octaveinstallation\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>

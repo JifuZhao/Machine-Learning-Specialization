@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://class.coursera.org/neuralnets-2012-001/quiz/attempt?quiz_id=155 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/quiz/attempt?quiz_id=155"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera</title>    <link href="./Coursera_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./Coursera_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/neuralnets/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./Coursera_files/ga.js"></script><script type="text/javascript" src="./Coursera_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/routes" src="./Coursera_files/routes.js"></script><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coursera"><meta name="twitter:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="twitter:image:src" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./Coursera_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/400" src="./Coursera_files/400.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page" src="./Coursera_files/student-page.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page.html" src="./Coursera_files/student-page.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" src="./Coursera_files/sparkSurveyQuestionsSessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" src="./Coursera_files/sessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" src="./Coursera_files/sessionModel(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionCollection" src="./Coursera_files/QuestionCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionModel" src="./Coursera_files/QuestionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/lib/backbone.hascollections" src="./Coursera_files/backbone.hascollections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/underscore.extend" src="./Coursera_files/underscore.extend.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/student-page" src="./Coursera_files/student-page(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./Coursera_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./Coursera_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./Coursera_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./Coursera_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./Coursera_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./Coursera_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./Coursera_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./Coursera_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./Coursera_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./Coursera_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./Coursera_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/util" src="./Coursera_files/util.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./Coursera_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./Coursera_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./Coursera_files/sidebar(1).js"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://learner.coursera.help/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Neural Networks for Machine Learning</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8379441">Jifu Zhao<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/neuralnets-2012-001/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><form action="https://class.coursera.org/api/logoutSsr/v1?csrf3-token=1465651753.XOAxk09ATVSSeSCm" method="post"><button data-popup-close="data-popup-close" type="submit" class="course-topbar-sublist-item">Sign Out</button></form></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/utoronto" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/utoronto" class="coursera-university-color"><img src="./Coursera_files/university_logo" alt="utoronto"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/neuralnets-2012-001/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Neural Networks for Machine Learning</a><br><span style="" class="course-topbanner-instructor">by Geoffrey Hinton</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/neuralnets-2012-001" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./Coursera_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/neuralnets-2012-001/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item in-class-qqs-tab"><a href="https://class.coursera.org/neuralnets-2012-001/questions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_" class="coursera-university-color"><span>Quick Questions</span><span></span><span class="in-class-qqs-number-display">15</span></a></li><li class="course-navbar-item in-class-qqs-tab"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home" class="coursera-university-color"><span>Home </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Student_Survey" class="coursera-university-color"><span>Student Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Video_Lectures" class="coursera-university-color"><span>Video Lectures </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Quizzes" class="coursera-university-color"><span>Quizzes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics" class="coursera-university-color"><span>Course Logistics </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Syllabus" class="coursera-university-color"><span>Syllabus </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_Us" class="coursera-university-color"><span>About Us </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/neuralnets-2012-001/wiki/octaveinstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Octave_Installation" class="coursera-university-color"><span>Octave Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://share.coursera.org/wiki/index.php/neuralnets-2012-001:Main" target="_blank" title="Open course wiki in new window" class="coursera-university-color">Course Wiki<span class="icon-share"></span><span class="accessible-text-for-reader">opens in new browser tab</span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://learner.coursera.help/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Center</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;">
+
+<h2 class="course-page-header">
+  <span>
+Programming assignment 3: Optimization and generalization  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/neuralnets-2012-001/help/quizzes?url=https%3A%2F%2Fclass.coursera.org%2Fneuralnets-2012-001%2Fquiz%2Fattempt%3Fquiz_id%3D155">
+     Help Center
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+<div class="course-quiz-attempt-warning-message alert alert-error">
+    <p><strong>Warning: </strong> The hard deadline has passed. You can attempt it, but  <b>you will not get credit for it</b>.  You are welcome to try it as a learning exercise.</p>
+</div>
+
+
+
+
+
+
+
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+        <div class="course-quiz-preamble">
+        <i>Announcement, added on November 9, 17:00 UTC. The most recent version of the gradient checker (see previous announcement) has a problem. When you run <b>a3(1e6, 7, 10, 0, 0, false, 4)</b> with it, after implementing the weight decay loss gradient but before implementing the classification loss gradient, it produces an error <b>Theta element #1831 (part of hid_to_class), with value -2.227744e-03, has finite difference gradient -2.227695e+03 but analytic gradient -2.227744e+03</b>. To overcome that problem, run <b>a3(1e7, 7, 10, 0, 0, false, 4)</b> instead (only the first parameter is different). Apparently, the weight decay has to be made even more dominant for this new gradient checker to forgive the fact that you don't have the classification loss gradient yet. I've modified the instructions below to use 1e7 instead of 1e6. My apologies for this mistake. </i><br><br>
+
+<i>Announcement, added on November 8, 01:37 UTC. Another small improvement has been made to the gradient checker: it now recognizes NaN's and infinity values as errors. You can download it <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/v4/a3.m">here</a>, if you want to use it.</i><br><br>
+
+<i>Announcement, added on November 6, 13:17 UTC. The version of the gradient checker published with the previous announcement was not Matlab-compatible. My apologies. It's been fixed. Please download it <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/v4/a3.m">here</a>, if you want to use that version of the gradient checker.</i><br><br>
+
+<i>Announcement, added on November 6, 00:31 UTC. A new version of the gradient checker is now available <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/v4/a3.m">here</a>. The change is that it produces more specific error messages. In particular, if your code computes the correct gradient for hid_to_class but the wrong gradient for input_to_hid (which is the more difficult of the two), then this new version will make that clear. Use it if you want to.</i><br><br>
+
+<i>Announcement, added on November 4, 20:03 UTC. Another version of the starter code, with the gradient checker again improved in a small way, is now available <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/v3/a3.m">here</a>. It does not detect any previously undetected gradient problems, but in some situations it provides more helpful information. Use it if you want to.</i><br><br>
+
+<i>Announcement, added on November 2, 3:09 UTC. It has come to my attention that there is one very specific potential mistake that the gradient checker won't notice. The gradient checker is of course never 100% failsafe, and it is your own responsibility to write the gradient computation code free of errors. However, I'm doing what I can to help you, by providing a good gradient checker. A different version of the starter code, with a more powerful gradient checker, is now available <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/v2/a3.m">here</a>. Use it if you want to.</i><br><br>
+
+<i>Announcement, added on Wednesday, October 31, at 23:20 UTC. I added some extra comments to a3.m, and I renamed "outputs" to "targets" because that's the name we used in the lectures. That means that "outputs" also had to be renamed to "targets" in the data file, so you should re-download both (or keep the old versions of both and just ignore this change).</i><br><br>
+
+<i>Announcement, added on Tuesday, October 30, at 16:10 UTC. There have been some compatibility problems with the code file, a3.m. I made some changes, and now I believe it works in Octave 3.2.4, Octave 3.4.0, and Matlab. If you're getting mysterious errors and you downloaded the code before this message appeared, then please re-download it.</i><br><br>
+
+In this assignment, you're going to train a simple Neural Network, for recognizing handwritten digits. You'll be programming, looking into efficient optimization, and looking into effective regularization.<br><br>
+
+The dataset for this assignment is the USPS collection of handwritten digits. It consists of scans (images) of digits that people wrote. The input is a 16 by 16 image of greyscale pixels, showing an image of a handwritten digit. The output is simply which of the 10 different digits it is, so we're using a 10-way softmax as the output layer of our Neural Network. The input layer is simply 256 units, i.e. one for each pixel. We use one hidden layer of logistic units. One of the issues we'll be investigating is what number of hidden units works best for generalization. To keep things as simple as possible, we're not including biases in our model. In the diagram you can see that this model is significantly simpler than the model that we used in programming assignment 2. <br>
+
+<img src="./Coursera_files/model_diagram.png"><br><br>
+
+In this assignment, we're mostly interested in the cross-entropy error, as opposed to the classification error rate. The reason for that is that the cross-entropy error is continuous and behaves better than the classification error rate. Only at the very end will we look at the classification error rate.<br><br>
+
+To investigate generalization, we need a training set, a validation set, and a test set, so the dataset has been split in 3 groups. We train our networks on the training set; we use the validation set to find out what's generalizing well and what isn't; and after we've made our choice of regularization strategy, we'll see how well our model performs on the test set. Those three subsets have already been made for you, and you're not expected to change them (you're not even allowed to change them). The full USPS dataset has 11,000 images. We're using 1,000 of them as training data, another 1,000 as validation data, and the remaining 9,000 as test data. Normally, one would use most of the data as training data, but for this assignment we'll use less, so that our programs run more quickly.<br><br>
+
+Before we get to the issue of generalization, we need a good optimization strategy. The optimizer that we're using is gradient descent with momentum, but we'll need to find good values for the learning rate and the momentum multiplier.<br><br>
+
+
+<h3>Part 1: Setting up</h3>
+
+We're using Octave. You probably already have that working well, because you also needed it for assignment 2. Download the code from <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/a3.m">here</a>, and the data from <a href="http://spark-public.s3.amazonaws.com/neuralnets/Programming%20Assignments/a3/data.mat">here</a>. Make sure that the code file is called "a3.m" and the data file is called "data.mat". Place both of them in the same directory, start Octave, <b>cd</b> to that directory, and run a test run without any training: <b>a3(0, 0, 0, 0, 0, false, 0)</b>. You should see messages that tell you the loss and classification error rate without any training.
+    </div>
+    
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div style="float:none;width:100%"> <div class="course-quiz-question-text">What is the loss on the training data for that test run? Write your answer with at least 5 digits after the decimal point. </div>
+</div>
+<label for="gensym_57537db5dcce4" class="hidden">Answer for Question 1</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db5dcce4" class="course-quiz-input" name="answer[267c6d2485c4d5d057546f64b160e223][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<h3>Part 2: Programming</h3>
+
+Most of the code has already been written for you. The script in a3.m loads the data (training, validation, and test), performs the optimization, and reports the results, including some numbers and a plot of the training data and validation data loss as training progresses. For the optimization it needs to be able to compute the gradient of the loss function, and that part is up to you to implement, in function d_loss_by_d_model. You're not allowed to change any other part of the code. However, you should take a quick look at it, and in particular you should make sure that you understand the meaning of the various parameters that the main script takes (see line 1 of a3.m). <br><br>
+
+The program checks your gradient computation for you, using a finite difference approximation to the gradient. If that finite difference approximation results in an approximate gradient that's very different from what your gradient computation procedure produced, then the program prints an error message. This is hugely helpful debugging information. Imagine that you have the gradient computation done wrong, but you don't have such a sanity check: your optimization would probably fail in many weird and wonderful ways, and you'd be worrying that perhaps you picked a bad learning rate or so. (In fact, that's exactly what happened to me when I was preparing this assignment, before I had the gradient checker working.) With a finite difference gradient checker, at least you'll know that you <b>probably</b> got the gradient right. It's all approximate, so the checker can never know for sure that you did it right, but if your gradient computation is seriously wrong, the checker will probably notice.<br><br>
+
+Take a good look at the loss computation, and make sure that you understand it. <ul>
+<li><br></li>
+<li>Notice that there's classification loss and weight decay loss, which are added together to make the loss.
+
+</li>
+<li>Also notice that the loss function is an average over training cases, as opposed to a sum. Of course, that affects the gradient as well.
+
+</li>
+</ul> Now take a pen &amp; paper, figure out how to compute the gradient, and implement it in Octave. <br><br>
+
+Here are some step-by-step suggestions, but you don't need to use them, as long as you get that gradient computation right. <ul>
+<li>
+<b>After</b> you figured out the math on paper, start with the weight decay loss, and do a run with huge weight decay, so that the weight decay loss overshadows the classification loss. Run <i>a3(1e7, 7, 10, 0, 0, false, 4)</i>, i.e. 7 hidden units. If the gradient check passes, then you probably did this right. If it doesn't, take a close look at the error message, and try to figure out where you may have made a mistake.
+
+</li>
+<li>After you have the weight decay loss gradient working, turn off weight decay, i.e. go to <i>a3(0, 7, 10, 0, 0, false, 4)</i>, and you'll see the gradient error message coming back.
+
+</li>
+<li>Then implement the classification loss gradient, and if you get any error message from the gradient checker, look closely at the numbers in that error message. When you have a correct implementation, proceed to the next part.
+
+</li>
+</ul>
+<h3>Part 3: Optimization</h3>
+
+We'll start with a small version of the task, to best see the effect of the optimization parameters. The small version is that we don't use weight decay or early stopping, we use only 10 hidden units, 70 optimization iterations, and mini-batches of size 4 (usually, mini-batch size is more like 100, but for now we use 4).<br><br>
+
+While we're investigating how the optimization works best, we'll only look at the loss on training data. That's what we're directly optimizing, so if that gets low, then the optimizer did a good job, regardless whether the solution generalizes well to the validation data.<br><br>
+
+Let's do an initial run with with learning rate 0.005 and no momentum: run <i>a3(0, 10, 70, 0.005, 0, false, 4)</i>
+</div> <div class="course-quiz-question-text">What is the training data loss that that run reports at the end? Use at least 5 digits after the decimal point. </div>
+</div>
+<label for="gensym_57537db5e65ae" class="hidden">Answer for Question 2</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db5e65ae" class="course-quiz-input" name="answer[dd43a1af4f065d9a96d91ddff4563999][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div dir="auto" class="quiz_question_preamble">In the plot you'll see that training data loss and validation data loss are both decreasing, but they're still going down steadily after those 70
+optimization iterations. We could run it longer, but for now we won't. We'll see what we can do with 70 iterations. If we would run our optimization
+for an hour (i.e. many iterations), then when we get a bigger task and bigger network, the program might take a lot longer than an hour to do the same
+number of optimization iterations.<br><br>
+
+Let's try a bigger learning rate: LR=0.5, and still no momentum. You'll see that this works better.<br><br>
+
+Finding a good learning rate is important, but using momentum well can also make things work better. Without momentum, we simply add <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-1"><span style="display: inline-block; position: relative; width: 55px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(27.3px 16660px 56.4px -8.3px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math; font-style: italic;">ϵ</span><span class="mo" id="MathJax-Span-4" style="font-family: MathJax_Main; padding-left: 3.7px;">⋅</span><span class="mo" id="MathJax-Span-5" style="font-family: MathJax_Main; padding-left: 3.7px;">−</span><span class="mfrac" id="MathJax-Span-6" style="padding-left: 4.8px; padding-right: 2px;"><span style="display: inline-block; position: relative; width: 18px; height: 0px;"><span style="position: absolute; clip: rect(27.6px 16660px 42.3px -8.5px); top: -46.3px; left: 50%; margin-left: -8px;"><span class="mrow" id="MathJax-Span-7"><span class="mi" id="MathJax-Span-8" style="font-size: 70.7%; font-family: MathJax_Main;">∂<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.4px;"></span></span><span class="mi" id="MathJax-Span-9" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">E<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.3px;"></span></span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span><span style="position: absolute; clip: rect(27.6px 16660px 42.3px -8.5px); top: -31.9px; left: 50%; margin-left: -6.5px;"><span class="mrow" id="MathJax-Span-10"><span class="mi" id="MathJax-Span-11" style="font-size: 70.7%; font-family: MathJax_Main;">∂<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.4px;"></span></span><span class="mi" id="MathJax-Span-12" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">θ</span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span><span style="position: absolute; clip: rect(13.8px 16660px 21px -9px); top: -21.7px; left: 0px;"><span style="border-left-width: 18px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0px;"></span><span style="display: inline-block; width: 0px; height: 18px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 25.1px; vertical-align: -8.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">\epsilon \cdot
+- \frac{\partial E}{\partial \theta}</script> to <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-2-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-13"><span style="display: inline-block; position: relative; width: 8px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(27.3px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-14"><span class="mi" id="MathJax-Span-15" style="font-family: MathJax_Math; font-style: italic;">θ</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.9px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-2">\theta</script> at every iteration, but with momentum, we use a more sophisticated strategy: we keep track of the
+momentum <b>speed</b>, using <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-16"><span style="display: inline-block; position: relative; width: 129px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(27.3px 16660px 56.4px -8.7px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-17"><span class="msubsup" id="MathJax-Span-18"><span style="display: inline-block; position: relative; width: 30.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-19" style="font-family: MathJax_Math; font-style: italic;">v</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -36.5px; left: 9px;"><span class="mtext" id="MathJax-Span-20" style="font-size: 70.7%; font-family: MathJax_Main;">t+1</span><span style="display: inline-block; width: 0px; height: 39px;"></span></span></span></span><span class="mo" id="MathJax-Span-21" style="font-family: MathJax_Main; padding-left: 4.6px;">=</span><span class="msubsup" id="MathJax-Span-22" style="padding-left: 4.6px;"><span style="display: inline-block; position: relative; width: 15.2px; height: 0px;"><span style="position: absolute; clip: rect(31.6px 16660px 45.2px -8.7px); top: -42px; left: 0px;"><span class="mi" id="MathJax-Span-23" style="font-family: MathJax_Math; font-style: italic;">v</span><span style="display: inline-block; width: 0px; height: 42px;"></span></span><span style="position: absolute; top: -36.5px; left: 9px;"><span class="mtext" id="MathJax-Span-24" style="font-size: 70.7%; font-family: MathJax_Main;">t</span><span style="display: inline-block; width: 0px; height: 39px;"></span></span></span></span><span class="mo" id="MathJax-Span-25" style="font-family: MathJax_Main; padding-left: 3.7px;">⋅</span><span class="mi" id="MathJax-Span-26" style="font-family: MathJax_Math; font-style: italic; padding-left: 3.7px;">λ</span><span class="mo" id="MathJax-Span-27" style="font-family: MathJax_Main; padding-left: 3.7px;">−</span><span class="mfrac" id="MathJax-Span-28" style="padding-left: 5.7px; padding-right: 2px;"><span style="display: inline-block; position: relative; width: 18px; height: 0px;"><span style="position: absolute; clip: rect(27.6px 16660px 42.3px -8.5px); top: -46.3px; left: 50%; margin-left: -8px;"><span class="mrow" id="MathJax-Span-29"><span class="mi" id="MathJax-Span-30" style="font-size: 70.7%; font-family: MathJax_Main;">∂<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.4px;"></span></span><span class="mi" id="MathJax-Span-31" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">E<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.3px;"></span></span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span><span style="position: absolute; clip: rect(27.6px 16660px 42.3px -8.5px); top: -31.9px; left: 50%; margin-left: -6.5px;"><span class="mrow" id="MathJax-Span-32"><span class="mi" id="MathJax-Span-33" style="font-size: 70.7%; font-family: MathJax_Main;">∂<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.4px;"></span></span><span class="mi" id="MathJax-Span-34" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">θ</span></span><span style="display: inline-block; width: 0px; height: 39px;"></span></span><span style="position: absolute; clip: rect(13.8px 16660px 21px -9px); top: -21.7px; left: 0px;"><span style="border-left-width: 18px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0px;"></span><span style="display: inline-block; width: 0px; height: 18px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 25.1px; vertical-align: -8.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-3">v_\text{t+1} = v_\text{t} \cdot \lambda - \frac{\partial E}{\partial \theta}</script>, and then we add <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-4-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-35"><span style="display: inline-block; position: relative; width: 26px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(35.6px 16660px 49.2px -8.7px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-36"><span class="mi" id="MathJax-Span-37" style="font-family: MathJax_Math; font-style: italic;">v</span><span class="mo" id="MathJax-Span-38" style="font-family: MathJax_Main; padding-left: 3.7px;">⋅</span><span class="mi" id="MathJax-Span-39" style="font-family: MathJax_Math; font-style: italic; padding-left: 3.7px;">ϵ</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 9.6px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-4">v \cdot \epsilon</script> to
+<span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-5-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-40"><span style="display: inline-block; position: relative; width: 8px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(27.3px 16660px 45.2px -8.4px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-41"><span class="mi" id="MathJax-Span-42" style="font-family: MathJax_Math; font-style: italic;">θ</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.9px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-5">\theta</script>. That <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-6-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-43"><span style="display: inline-block; position: relative; width: 10px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(27.4px 16660px 45.2px -8.2px); top: -42px; left: 0px;"><span class="mrow" id="MathJax-Span-44"><span class="mi" id="MathJax-Span-45" style="font-family: MathJax_Math; font-style: italic;">λ</span></span><span style="display: inline-block; width: 0px; height: 42px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.8px; vertical-align: -1.2px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-6">\lambda</script> can be anything between <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-7-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-46"><span style="display: inline-block; position: relative; width: 9px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.9px 16660px 49.4px -8.4px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-47"><span class="mn" id="MathJax-Span-48" style="font-family: MathJax_Main;">0</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.5px; vertical-align: -1.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-7">0</script> and <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-8-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-49"><span style="display: inline-block; position: relative; width: 9px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.9px 16660px 49px -7.6px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-50"><span class="mn" id="MathJax-Span-51" style="font-family: MathJax_Main;">1</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.1px; vertical-align: -1px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-8">1</script>, but usually <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-9-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-52"><span style="display: inline-block; position: relative; width: 22px; height: 0px; font-size: 119%;"><span style="position: absolute; clip: rect(31.9px 16660px 49.4px -8.4px); top: -46px; left: 0px;"><span class="mrow" id="MathJax-Span-53"><span class="mn" id="MathJax-Span-54" style="font-family: MathJax_Main;">0.9</span></span><span style="display: inline-block; width: 0px; height: 46px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.5px; vertical-align: -1.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-9">0.9</script> works well.<br><br>
+
+Let's try a variety of learning rates, to find out which works best. We'll try 0.002, 0.01, 0.05, 0.2, 1.0, 5.0, and 20.0. We'll try all of those both
+without momentum (i.e. momentum=0.0 in the program) and with momentum (i.e. momentum=0.9 in the program), so we have a total of 7 x 2 = 14 experiments
+to run. Remember, what we're interested in right now is the loss on the training data, because that shows how well the optimization works.<br><br>
+
+Which of those 14 worked best?
+
+</div>
+<div dir="auto" class="course-quiz-question-text">Was the best run a run with momentum or without momentum?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[f4cd7fe88ffa53b728dea52c009f07a5][]" id="gensym_57537db602cd1" value="8f8b339a19e57a7d666b8fb8827b547e"><label for="gensym_57537db602cd1" style="cursor:pointer;">The best of those 14 runs was with momentum.
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[f4cd7fe88ffa53b728dea52c009f07a5][]" id="gensym_57537db605906" value="3eee65cb04037ce75a758221183090a7"><label for="gensym_57537db605906" style="cursor:pointer;">The best of those 14 runs was without momentum.
+</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div dir="auto" class="course-quiz-question-text">What was the learning rate for the best of those 14 runs?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db60f170" value="569d8393146fcfb802d79db528a492af"><label for="gensym_57537db60f170" style="cursor:pointer;">0.002
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db611e5e" value="58fb0af4108a1df89db891fb80237078"><label for="gensym_57537db611e5e" style="cursor:pointer;">0.01
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db614b03" value="0596f5dcad93cea9850bf9a94e08b99a"><label for="gensym_57537db614b03" style="cursor:pointer;">0.05
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db6177c2" value="bc3eb469c170d59c1f868f0fe6bd746f"><label for="gensym_57537db6177c2" style="cursor:pointer;">0.2
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db61a7a7" value="f241d6b5f97ac63f6ff143d5d75737b4"><label for="gensym_57537db61a7a7" style="cursor:pointer;">1.0
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db61de0b" value="92f27dc696dd945e594c9ba2bb1d9700"><label for="gensym_57537db61de0b" style="cursor:pointer;">5.0
+</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d199aa0afb5db4ec92cc20cc9b24c0f7][]" id="gensym_57537db6218c5" value="98f02f56ec555df0d3ac32375b0921c2"><label for="gensym_57537db6218c5" style="cursor:pointer;">20.0
+</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">
+<h3>Part 4: Generalization</h3>
+
+Now that we found good optimization settings, we're switching to a somewhat bigger task, and there we'll investigate generalization. Now we're
+interested mostly in the classification loss on the validation data: if that's good, then we have good generalization, regardless whether the loss on
+the training data is small or large. Notice that we're measuring only the classification loss: we're not interested in the weight decay loss. The
+classification loss is what shows how well we generalize. When we don't use weight decay, the classification loss and the final loss are the same,
+because the weight decay loss is zero. <br><br>
+
+We'll start with zero weight decay, 200 hidden units, 1000 optimization iterations, a learning rate of 0.35, momentum of 0.9, no early stopping, and
+mini-batch size 100, i.e. run <i>a3(0, 200, 1000, 0.35, 0.9, false, 100)</i>. This run will take more time.
+</div> <div class="course-quiz-question-text">What is the validation data classification loss now? Write your answer with at least 5 digits after the decimal point.</div>
+</div>
+<label for="gensym_57537db625511" class="hidden">Answer for Question 5</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db625511" class="course-quiz-input" name="answer[e9706232c052963e6bfab8208d037d69][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 6</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">The simplest form of regularization is early stopping: we use the weights as they were when validation data loss was lowest. You'll see in the plot
+that that is not at the end of the 1000 optimization iterations, but quite a bit earlier. The script has an option for early stopping. Run the
+experiment with the early stopping parameter set to <b>true</b>. Now the generalization should be better.
+</div> <div class="course-quiz-question-text">What is the validation data classification loss now, i.e. <b>with</b> early stopping? </div>
+</div>
+<label for="gensym_57537db63040f" class="hidden">Answer for Question 6</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db63040f" class="course-quiz-input" name="answer[20160f5858d2a863c2a746f7b6abdd33][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 7</h3>
+<div dir="auto" class="quiz_question_preamble">Another regularization method is weight decay. Let's turn off early stopping, and instead investigate weight decay. The script has an option for L2
+weight decay. As long as the coefficient is 0, in effect there is no weight decay, but let's try some different coefficients.
+
+</div>
+<div dir="auto" class="course-quiz-question-text">We've already run the experiment with WD=0. Run additional experiments with the other WD coefficients listed below, and indicate which of them gave the best
+generalization. Be careful to focus on the <b>classification loss</b> (i.e. without the weight decay loss), as opposed to the final loss (which does
+include the weight decay loss).</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db643199" value="9e945fcb663fae7d1ab4a84aada339f7"><label for="gensym_57537db643199" style="cursor:pointer;">1</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db6467c7" value="4f6c38af2d18a76ba129a02b0094ee7d"><label for="gensym_57537db6467c7" style="cursor:pointer;">0</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db649d75" value="1a1e24117d5e4ba7929d61397b2f65d8"><label for="gensym_57537db649d75" style="cursor:pointer;">10</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db64d236" value="737eea59c06b979645c1d3911ec38450"><label for="gensym_57537db64d236" style="cursor:pointer;">0.0001</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db650700" value="d2637f2a98b5bc5f85adb877c01a0c9a"><label for="gensym_57537db650700" style="cursor:pointer;">0.01</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[718c22414a49665645d15814323e3408][]" id="gensym_57537db653ca6" value="d60e858fd8c3f932cba7b84422d549e7"><label for="gensym_57537db653ca6" style="cursor:pointer;">0.001</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 8</h3>
+<div dir="auto" class="quiz_question_preamble">Yet another regularization strategy is reducing the number of model parameters, so that the model simply doesn't have the brain capacity to overfit a
+lot by learning too many details of the training set. In our case, we can vary the number of hidden units. Since it's clear that our model is
+overfitting, we'll look into <b>reducing</b> the number of hidden units.<br><br>
+</div>
+<div dir="auto" class="course-quiz-question-text">Turn off the weight decay, and instead try the following hidden layer sizes. Indicate which one worked best.</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d361c59395afbb4785521ae9628005c9][]" id="gensym_57537db66072d" value="e8f316b8a2779561f8a9429e276b71da"><label for="gensym_57537db66072d" style="cursor:pointer;">100</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d361c59395afbb4785521ae9628005c9][]" id="gensym_57537db663c9e" value="a51b53fff7ac015bc4d2a0c42781b282"><label for="gensym_57537db663c9e" style="cursor:pointer;">170</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d361c59395afbb4785521ae9628005c9][]" id="gensym_57537db6671e1" value="67fa5680c13555439b6dd33559a51b8d"><label for="gensym_57537db6671e1" style="cursor:pointer;">30</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d361c59395afbb4785521ae9628005c9][]" id="gensym_57537db66a73b" value="f21d7afbd85bc9d0685b0e5bdcc57ba0"><label for="gensym_57537db66a73b" style="cursor:pointer;">130</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[d361c59395afbb4785521ae9628005c9][]" id="gensym_57537db66dc85" value="0b20900ef011ead02eede8b7ce21aa2a"><label for="gensym_57537db66dc85" style="cursor:pointer;">10</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 9</h3>
+<div dir="auto" class="course-quiz-question-text">Most regularization methods can be combined quite well. Let's combine early stopping with a carefully chosen hidden layer size. Which number of hidden units works best that way, i.e. <b>with</b> early stopping? Remember, <b>best</b>, here, is based on only the validation data loss.
+</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[937b5044b043c4637423ef5a2fdb094d][]" id="gensym_57537db679adc" value="9570cddff309660ad9963d69aeaf0c0e"><label for="gensym_57537db679adc" style="cursor:pointer;">18</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[937b5044b043c4637423ef5a2fdb094d][]" id="gensym_57537db67d008" value="ecb4a139cdc5614f480a7585c0459b1b"><label for="gensym_57537db67d008" style="cursor:pointer;">83</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[937b5044b043c4637423ef5a2fdb094d][]" id="gensym_57537db6805de" value="0f514de23c04858cdd2f0ea86482d5ba"><label for="gensym_57537db6805de" style="cursor:pointer;">37</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[937b5044b043c4637423ef5a2fdb094d][]" id="gensym_57537db683c9f" value="1c283fa873dc52d4b798e8c307be0c32"><label for="gensym_57537db683c9f" style="cursor:pointer;">113</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[937b5044b043c4637423ef5a2fdb094d][]" id="gensym_57537db687239" value="e8172ead17968cd1db288e1881eaae33"><label for="gensym_57537db687239" style="cursor:pointer;">189</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 10</h3>
+<div style="float:none;width:100%">
+<div class="quiz_question_preamble">Of course, we could explore a lot more, such as maybe combining all 3 regularization methods, and that might work a little better. If you want to, you
+can play with the code all you want. You could even try to modify it to have 2 hidden layers, to add dropout, or anything else. The code is a
+reasonably well-written starting point for Neural Network experimentation. All of that, however, is beyond the scope of this assignment; here, we have
+only one question left.<br><br>
+
+Now that we've quite carefully established a good optimization strategy as well as a good regularization strategy, it's time to see how well our model
+does on the task that we really cared about: reading handwritten digits.
+</div> <div class="course-quiz-question-text">For the settings that you chose on the previous question, what is the test data classification error rate?
+</div>
+</div>
+<label for="gensym_57537db68af10" class="hidden">Answer for Question 10</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_57537db68af10" class="course-quiz-input" name="answer[7ff34829988771ab797b4ecdfdd80f89][answer]"></textarea>
+</div>
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Jifu Zhao) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+            <div class="course-quiz-submit-button-container">
+        <input type="hidden" name="__csrf-token" value="1J1LefSZQaMrojVZXNJ4">
+        <input class="btn btn-success" type="submit" name="submit_answers" value="Submit Answers" disabled="disabled">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="btn btn-primary" type="submit" name="save_answers" value="Save Answers">
+
+        <div class="course-quiz-honor-code-status" style="margin-top: 10px;">You cannot submit your work until you agree to the Honor Code. Thanks!</div>
+
+    </div>
+    
+
+
+    </form>
+
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./Coursera_files/jquery.v1-7.js"></script>
+      <script src="./Coursera_files/underscore.v1-3-1.js"></script>
+      <script src="./Coursera_files/quiz_timer.js"></script>
+      <script src="./Coursera_files/get_query_parameters.js"></script>
+      <script src="./Coursera_files/quiz_attempt.js"></script>
+      <script src="./Coursera_files/latex_preview.js"></script>
+      <script src="./Coursera_files/db_class.js"></script>
+      <script src="./Coursera_files/initRunQuery.js"></script>
+      <script src="./Coursera_files/loadOrRefreshMathJax.js"></script>
+      <script src="./Coursera_files/grid_questions.js"></script>
+      <script src="./Coursera_files/quiz_error_box_dummy.js"></script>
+  <script src="./Coursera_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/9f219be0ea3df7bfad5dda615f0d601772d5fca9/" data-version="9f219be0ea3df7bfad5dda615f0d601772d5fca9" data-timestamp="1464221811626" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8379441,\"email_address\":\"jifuzhao@gmail.com\",\"full_name\":\"Jifu Zhao\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1463695384\",\"last_access_time\":\"1465078695\",\"last_access_ip\":\"128.174.163.160\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Jifu\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"6\",\"7\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"19\",\"20\",\"43\",\"45\",\"47\",\"49\",\"51\",\"65\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":256,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Neural Networks for Machine Learning\",\"instructor\":\"Geoffrey Hinton\",\"sessionName\":\"neuralnets-2012-001\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"neuralnets\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":null,\"linkable\":false,\"universityShortname\":\"utoronto\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/www.coursera.org\\\/login?post_redirect=https%3A%2F%2Fwww.coursera.org%2Flogin%3Fuser_action%3Dclass%26course_id%3D256%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fneuralnets-2012-001%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/www.coursera.org\\\/signup?enroll_cid=256&enroll_sn=neuralnets&enroll_n=Neural Networks for Machine Learning\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/neuralnets\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/www.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fneuralnets\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/neuralnets-2012-001\\\/\",\"search\":true,\"hideWiki\":false,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":null,\"aceExamDuration\":null,\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":null,\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":false,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":null,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":null,\"honorCodeCustomButton\":null,\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Student Survey\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=survey\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Quizzes\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Course Logistics\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"About Us\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Octave Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"octaveinstallation\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size4, sans-serif;"></div><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>
