@@ -1,0 +1,24 @@
+2016-06-07 11:08:03,966  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2016-06-07 11:08:03,967  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2016-06-07 11:08:04,636  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2016-06-07 11:08:04,636  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2016-06-07 11:08:04,871  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for recfun, setting default to 2.11.
+2016-06-07 11:08:04,872  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for recfun, setting default to 2.11.
+2016-06-07 11:09:46,728  WARN [ModalContext] - ScalaProject - Project funsets has platform default sourceLevel.
+2016-06-07 11:09:46,728  WARN [ModalContext] - ScalaProject - Project funsets runs on platform default installation.
+2016-06-07 11:09:46,748  WARN [ModalContext] - ScalaProject - Project funsets has platform default sourceLevel.
+2016-06-07 11:09:46,749  WARN [ModalContext] - ScalaProject - Project funsets runs on platform default installation.
+2016-06-07 11:11:21,862  WARN [ModalContext] - ScalaProject - Project objsets has platform default sourceLevel.
+2016-06-07 11:11:21,862  WARN [ModalContext] - ScalaProject - Project objsets runs on platform default installation.
+2016-06-07 11:11:21,883  WARN [ModalContext] - ScalaProject - Project objsets has platform default sourceLevel.
+2016-06-07 11:11:21,884  WARN [ModalContext] - ScalaProject - Project objsets runs on platform default installation.
+2016-06-07 11:12:33,889  WARN [ModalContext] - ScalaProject - Project patmat has platform default sourceLevel.
+2016-06-07 11:12:33,889  WARN [ModalContext] - ScalaProject - Project patmat runs on platform default installation.
+2016-06-07 11:12:33,910  WARN [ModalContext] - ScalaProject - Project patmat has platform default sourceLevel.
+2016-06-07 11:12:33,910  WARN [ModalContext] - ScalaProject - Project patmat runs on platform default installation.
+2016-06-07 11:13:33,475  WARN [ModalContext] - ScalaProject - Project forcomp has platform default sourceLevel.
+2016-06-07 11:13:33,476  WARN [ModalContext] - ScalaProject - Project forcomp runs on platform default installation.
+2016-06-07 11:13:33,493  WARN [ModalContext] - ScalaProject - Project forcomp has platform default sourceLevel.
+2016-06-07 11:13:33,494  WARN [ModalContext] - ScalaProject - Project forcomp runs on platform default installation.
+2016-06-07 11:28:16,031  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for patmat, setting default to 2.11.
+2016-06-07 11:28:16,032  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for patmat, setting default to 2.11.
