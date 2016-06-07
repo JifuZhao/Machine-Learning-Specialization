@@ -1,0 +1,18 @@
+2016-06-07 14:17:44,587  WARN [ModalContext] - ScalaProject - Project barneshut has platform default sourceLevel.
+2016-06-07 14:17:44,590  WARN [ModalContext] - ScalaProject - Project barneshut runs on platform default installation.
+2016-06-07 14:17:45,263  WARN [ModalContext] - ScalaProject - Project barneshut has platform default sourceLevel.
+2016-06-07 14:17:45,263  WARN [ModalContext] - ScalaProject - Project barneshut runs on platform default installation.
+2016-06-07 14:17:45,478  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for barneshut, setting default to 2.11.
+2016-06-07 14:17:45,479  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for barneshut, setting default to 2.11.
+2016-06-07 14:18:08,940  WARN [ModalContext] - ScalaProject - Project kmeans has platform default sourceLevel.
+2016-06-07 14:18:08,941  WARN [ModalContext] - ScalaProject - Project kmeans runs on platform default installation.
+2016-06-07 14:18:08,992  WARN [ModalContext] - ScalaProject - Project kmeans has platform default sourceLevel.
+2016-06-07 14:18:08,992  WARN [ModalContext] - ScalaProject - Project kmeans runs on platform default installation.
+2016-06-07 14:18:32,566  WARN [ModalContext] - ScalaProject - Project reductions has platform default sourceLevel.
+2016-06-07 14:18:32,566  WARN [ModalContext] - ScalaProject - Project reductions runs on platform default installation.
+2016-06-07 14:18:32,601  WARN [ModalContext] - ScalaProject - Project reductions has platform default sourceLevel.
+2016-06-07 14:18:32,601  WARN [ModalContext] - ScalaProject - Project reductions runs on platform default installation.
+2016-06-07 14:18:45,676  WARN [ModalContext] - ScalaProject - Project scalashop has platform default sourceLevel.
+2016-06-07 14:18:45,676  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.
+2016-06-07 14:18:45,704  WARN [ModalContext] - ScalaProject - Project scalashop has platform default sourceLevel.
+2016-06-07 14:18:45,704  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.

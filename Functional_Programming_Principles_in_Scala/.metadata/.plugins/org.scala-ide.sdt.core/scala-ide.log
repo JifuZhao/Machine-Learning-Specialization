@@ -22,3 +22,5 @@
 2016-06-07 11:13:33,494  WARN [ModalContext] - ScalaProject - Project forcomp runs on platform default installation.
 2016-06-07 11:28:16,031  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for patmat, setting default to 2.11.
 2016-06-07 11:28:16,032  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for patmat, setting default to 2.11.
+2016-06-07 14:14:31,495  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for patmat, setting default to 2.11.
+2016-06-07 14:14:31,497  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for patmat, setting default to 2.11.
