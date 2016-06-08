@@ -136,3 +136,154 @@
 2016-06-07 20:19:12,179 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
 2016-06-07 20:19:12,179 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
 2016-06-07 20:19:12,179 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-06-07 22:32:21,668  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-06-07 22:32:21,671  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-06-07 22:32:39,763  WARN [ModalContext] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:32:39,764  WARN [ModalContext] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:32:40,097  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:32:40,098  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:32:50,523  WARN [main] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:32:50,523  WARN [main] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:33:23,238  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:33:23,239  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:33:58,480  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:33:58,481  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:33:58,962  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:33:58,962  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:34:00,886  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:34:00,887  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:36:29,469  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:36:29,469  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:36:38,647  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:36:38,648  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:38:03,920  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:38:03,921  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:38:23,848  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:38:23,848  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:41:59,145  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:41:59,146  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:42:05,369  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:42:05,369  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:42:36,013  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:42:36,013  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:43:53,701 ERROR [Worker-5] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  76 abs: (x: Double)Double
+208 sqrtIter: (guess: Double, x: Double)Double
+295 isGoodEnough: (guess: Double, x: Double)Boolean
+370 improve: (guess: Double, x: Double)Double
+416 sqrt: (x: Double)Double
+
+Standard error:
+  
+
+2016-06-07 22:43:53,853  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:43:53,853  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:44:03,505  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:44:03,505  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:45:36,541  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:45:36,541  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:45:41,373  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:45:41,373  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:45:54,474  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:45:54,475  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:46:24,876  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:46:24,876  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:47:23,080 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 22:47:23,081 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 22:47:33,891 ERROR [Worker-6] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  76 abs: (x: Double)Double
+208 sqrtIter: (guess: Double, x: Double)Double
+320 isGoodEnough: (guess: Double, x: Double)Boolean
+395 improve: (guess: Double, x: Double)Double
+441 sqrt: (x: Double)Double
+
+Standard error:
+  
+
+2016-06-07 22:47:34,047  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:47:34,047  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:47:47,424  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:47:47,425  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:49:38,090  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:49:38,090  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:51:07,783  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:51:07,783  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:51:08,848  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:51:08,848  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:51:10,982  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:51:10,982  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 22:56:06,195  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 22:56:06,195  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:00:21,652  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:00:21,652  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:03:02,144  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:03:02,144  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:03:08,747  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:03:08,747  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:03:15,971  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:03:15,971  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:03:38,974  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:03:38,974  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:12:14,141  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:12:14,142  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:12:25,055  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-20] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:12:25,055  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-20] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:12:25,739  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:12:25,739  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:14:27,171  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:14:27,171  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:16:25,483  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:16:25,484  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:16:31,768  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:16:31,769  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:16:35,814  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:16:35,815  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:16:38,799  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:16:38,799  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:41:42,027  WARN [Text Viewer Hover Presenter] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-07 23:41:42,027  WARN [Text Viewer Hover Presenter] - ScalaProject - Project samples runs on platform default installation.
+2016-06-07 23:45:02,635 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 23:45:02,636 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 23:45:02,636 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 23:48:17,951 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 23:48:17,952 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-07 23:48:17,952 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 08:22:02,791  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 08:22:02,793  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 08:22:11,440  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 08:22:11,446  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 08:22:11,454  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 08:22:11,454  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 08:22:15,130  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-06-08 08:22:15,131  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-06-08 08:22:42,747  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 08:22:42,747  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 08:34:06,474 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 08:34:06,475 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 08:59:50,866 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 08:59:50,868 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 08:59:50,868 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 09:02:20,820 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 09:02:20,820 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 09:02:20,820 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 09:02:53,875  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 09:02:53,875  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 14:36:27,565  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-08 14:36:27,567  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-08 14:36:32,242  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-06-08 14:36:32,244  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-06-08 14:36:38,738  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-06-08 14:36:38,941  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-06-08 14:36:39,153  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-06-08 14:38:45,179 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 14:38:45,181 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 14:43:25,307 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 14:43:25,307 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 14:43:25,308 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

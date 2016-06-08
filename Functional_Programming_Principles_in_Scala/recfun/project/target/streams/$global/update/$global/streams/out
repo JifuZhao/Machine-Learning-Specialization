@@ -78,31 +78,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.8.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalastyle#scalastyle_2.10;0.8.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom (0.8.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.pom(pom.original) (169ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;0.8.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.8.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;0.8.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
@@ -110,31 +87,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.10;0.1.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.10;0.1.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalariform#scalariform_2.10;0.1.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalariform#scalariform_2.10;0.1.7[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalariform#scalariform_2.10;0.1.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalariform#scalariform_2.10;0.1.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom (0.1.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.pom(pom.original) (169ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalariform#scalariform_2.10;0.1.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalariform#scalariform_2.10;0.1.7[0m
+[0m[[0mdebug[0m] [0m	found org.scalariform#scalariform_2.10;0.1.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -145,31 +99,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe#config;1.2.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe#config;1.2.0[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.2.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#config;1.2.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom (1.2.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.pom(pom.original) (168ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/com.typesafe/config/1.2.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->compile][0m
@@ -183,31 +114,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;2.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalaj#scalaj-http_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom (2.2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.pom(pom.original) (172ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalaj#scalaj-http_2.10;2.2.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalaj#scalaj-http_2.10;2.2.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
@@ -218,170 +126,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for commons-codec#commons-codec;1.10[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-codec#commons-codec;1.10[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/commons-codec/commons-codec/1.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-codec#commons-codec;1.10[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for commons-codec#commons-codec;1.10[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom (1.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.pom(pom.original) (171ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;35 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;35 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;35 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;35 {}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;35[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;35[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-parent/35/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;35[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;35[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom (35)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;35!commons-parent.pom(pom.original) (251ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;15 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;15 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;15 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;15 {}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;15[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache#apache;15[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache/apache/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;15[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache#apache;15[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom (15)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;15!apache.pom(pom.original) (169ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache/apache/15/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-parent/35/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/commons-codec/commons-codec/1.10/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar[0m
-[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.10 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.10[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.10 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-lang3;3.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-lang3;3.4[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-lang3;3.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-lang3;3.4[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom (3.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (169ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;37 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;37 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;37[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;37[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-parent/37/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;37[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;37[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom (37)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (211ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;16 {}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache/apache/16/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom (16)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (168ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache/apache/16/jars/apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-parent/37/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jifu/.ivy2/local/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-lang3;3.4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-lang3;3.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
@@ -3014,45 +2768,15 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar (391ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar (658ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.jar (425ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (379ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar (1406ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.jar(bundle) (294ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar[0m
@@ -3108,7 +2832,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8205ms :: artifacts dl 3566ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 527ms :: artifacts dl 11ms[0m
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT compile produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT runtime produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT test produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-test.xml[0m
@@ -3122,5 +2846,5 @@
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT docs produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT pom produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#recfun-build;0.1-SNAPSHOT scala-tool produced in /home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun/project/target/resolution-cache/reports/default-recfun-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8205ms resolve - 3566ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (527ms resolve - 11ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

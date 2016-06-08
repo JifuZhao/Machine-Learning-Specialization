@@ -277,3 +277,39 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/example/src/ma
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-07 21:18:45.867
 !MESSAGE Resource '/example/src/main/scala/Main.scala' does not exist.
+!SESSION 2016-06-07 22:32:07.056 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-07 22:32:21.654
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-07 22:32:21.671
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+!SESSION 2016-06-08 08:21:45.714 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 08:22:15.116
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 08:22:15.131
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+!SESSION 2016-06-08 14:36:15.792 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 14:36:32.229
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 14:36:32.243
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
