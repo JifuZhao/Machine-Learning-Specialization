@@ -7,11 +7,11 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/example"/>
 			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/forcomp"/>
 			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/patmat"/>
 			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/objsets"/>
 			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/funsets"/>
-			<item value="/home/jifu/GitHub/Courses/Functional_Programming_Principles_in_Scala/recfun"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

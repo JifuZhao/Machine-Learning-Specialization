@@ -204,3 +204,76 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.scala-ide.sdt.core 2 0 2016-06-07 14:14:31.496
 !MESSAGE Preference scala.compiler.installation was uninitialized for patmat, setting default to 2.11.
+!SESSION 2016-06-07 20:01:21.421 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-07 20:01:42.099
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for forcomp, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-07 20:01:42.114
+!MESSAGE Preference scala.compiler.installation was uninitialized for forcomp, setting default to 2.11.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-06-07 21:18:45.867
+!MESSAGE File not found: '/example/src/main/scala/Main.scala'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/example/src/main/scala/Main.scala' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1188)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.org$scalaide$core$internal$jdt$model$ScalaSourceFile$$super$getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaCompilationUnit$class.lastSourceMap(ScalaCompilationUnit.scala:79)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.lastSourceMap(ScalaSourceFile.scala:66)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$filesDeleted$2.apply(ScalaPresentationCompiler.scala:294)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$filesDeleted$2.apply(ScalaPresentationCompiler.scala:294)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+	at scala.collection.immutable.List.map(List.scala:285)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.filesDeleted(ScalaPresentationCompiler.scala:294)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8$$anonfun$apply$9.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8$$anonfun$apply$9.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8.apply(ScalaPlugin.scala:330)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6.apply(ScalaPlugin.scala:330)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6.apply(ScalaPlugin.scala:328)
+	at scala.collection.immutable.Map$Map1.foreach(Map.scala:116)
+	at org.scalaide.core.internal.ScalaPlugin.elementChanged(ScalaPlugin.scala:328)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1695)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1685)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1519)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1495)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2107)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:540)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-07 21:18:45.867
+!MESSAGE Resource '/example/src/main/scala/Main.scala' does not exist.

@@ -1,1 +1,12 @@
 eclipse
+console
+submit jifuzhao@gmail.com tVLr4C7vlg8Qh0Lv
+test
+sum(List(1, 2, 3))
+max(List(1,3,2))
+console
+test
+test("sdsf")(assert(1 + 1 == 2))
+console
+test
+submit jifuzhao@gmail.com tVLr4C7vlg8Qh0Lv
