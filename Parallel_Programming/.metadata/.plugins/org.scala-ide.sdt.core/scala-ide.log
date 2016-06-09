@@ -16,3 +16,11 @@
 2016-06-07 14:18:45,676  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.
 2016-06-07 14:18:45,704  WARN [ModalContext] - ScalaProject - Project scalashop has platform default sourceLevel.
 2016-06-07 14:18:45,704  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.
+2016-06-08 20:39:19,799  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for barneshut, setting default to 2.11.
+2016-06-08 20:39:19,802  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for barneshut, setting default to 2.11.
+2016-06-08 20:39:39,765  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2016-06-08 20:39:39,766  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2016-06-08 20:39:39,767  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2016-06-08 20:39:39,767  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2016-06-08 20:39:40,016  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2016-06-08 20:39:40,017  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.

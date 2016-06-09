@@ -200,3 +200,15 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	... 74 more
+!SESSION 2016-06-08 20:39:00.872 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 20:39:19.786
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for barneshut, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 20:39:19.802
+!MESSAGE Preference scala.compiler.installation was uninitialized for barneshut, setting default to 2.11.

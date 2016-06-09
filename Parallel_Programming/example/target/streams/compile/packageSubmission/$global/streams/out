@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0mPackaging /home/jifu/GitHub/Courses/Parallel_Programming/example/target/scala-2.11/parprog1-example_2.11-0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	common/package.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/jifu/GitHub/Courses/Parallel_Programming/example/src/main/scala/common/package.scala[0m
+[0m[[0mdebug[0m] [0m	example/Lists.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/jifu/GitHub/Courses/Parallel_Programming/example/src/main/scala/example/Lists.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

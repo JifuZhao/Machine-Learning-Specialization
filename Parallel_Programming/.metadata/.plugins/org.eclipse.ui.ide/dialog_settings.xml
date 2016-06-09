@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="installedFeatures">
+	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/jifu/GitHub/Courses/Parallel_Programming/example"/>
 			<item value="/home/jifu/GitHub/Courses/Parallel_Programming/scalashop"/>
 			<item value="/home/jifu/GitHub/Courses/Parallel_Programming/reductions"/>
 			<item value="/home/jifu/GitHub/Courses/Parallel_Programming/kmeans"/>
