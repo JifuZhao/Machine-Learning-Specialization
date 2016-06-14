@@ -4,8 +4,6 @@ object session {
 
   def abs(x: Double) = if (x < 0) -x else x       //> abs: (x: Double)Double
   
-  
-    
   def sqrt(x: Double) = {
   
 	  def sqrtIter(guess: Double): Double =
@@ -27,6 +25,6 @@ object session {
   sqrt(1e-6)                                      //> res2: Double = 0.0010000001533016628
   sqrt(1e60)                                      //> res3: Double = 1.0000788456669446E30
   
-  3 % 20                                          //> res4: Int(3) = 3
+  3 % 1                                           //> res4: Int(0) = 0
   
 }

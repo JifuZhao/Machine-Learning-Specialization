@@ -1,0 +1,5 @@
+package week2
+
+object exercise {
+  1 + 1
+}

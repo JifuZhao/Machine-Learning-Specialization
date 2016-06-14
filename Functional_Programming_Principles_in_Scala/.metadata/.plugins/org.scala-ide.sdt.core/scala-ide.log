@@ -287,3 +287,439 @@ Standard error:
 2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
 2016-06-08 14:50:21,676 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-06-13 19:13:22,207  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:13:22,210  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:13:24,712  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-06-13 19:13:24,713  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-06-13 19:15:30,576  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:30,577  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:30,583  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:30,583  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:40,908  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:40,908  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:41,543  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:41,544  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:44,097  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:44,097  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:56,068  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:56,068  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:15:57,094  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:15:57,095  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:16:05,566  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:16:05,567  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:16:06,625  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:16:06,625  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:16:08,880 ERROR [Worker-6] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-06-13 19:16:08,880 ERROR [Worker-6] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-06-13 19:16:08,880 ERROR [Worker-6] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-06-13 19:16:59,478  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:16:59,479  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:17:07,138  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:17:07,138  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:17:08,157  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:17:08,157  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:17:11,796  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:17:11,796  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:17:12,822  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:17:12,822  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:18:57,992  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:18:57,992  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:18:59,058  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:18:59,059  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:19:21,938  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:19:21,938  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:19:32,817  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:19:32,818  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:24:46,800  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:24:46,802  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:24:47,822  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:24:47,822  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:24:52,412  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:24:52,412  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:24:53,429  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:24:53,429  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:27:23,315  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:27:23,316  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:27:24,390  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:27:24,390  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:27:47,955  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:27:47,955  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:27:49,025  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:27:49,025  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:27:59,402  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:27:59,402  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:00,470  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:00,471  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:05,007  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:05,007  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:06,076  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:06,076  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:37,352  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:37,352  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:49,005  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:49,005  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:50,073  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:50,073  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:28:59,869  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:28:59,869  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:29:00,943  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:29:00,943  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:29:44,974  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:29:44,975  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:29:46,042  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:29:46,042  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:29:55,964 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2016-06-13 19:29:56,168 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2016-06-13 19:29:56,196 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2016-06-13 19:29:56,198 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2016-06-13 19:29:56,200 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - Exception in thread "Text Viewer Hover Presenter"
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+2016-06-13 19:29:58,361 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+2016-06-13 19:29:58,362 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option$WithFilter.flatMap(Option.scala:208)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+2016-06-13 19:29:58,363 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2016-06-13 19:30:02,318 ERROR [Text Viewer Hover Presenter] - System.err - Exception in thread "Text Viewer Hover Presenter"
+2016-06-13 19:30:02,318 ERROR [Text Viewer Hover Presenter] - System.err - org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+2016-06-13 19:30:02,318 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+2016-06-13 19:30:02,318 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option$WithFilter.flatMap(Option.scala:208)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+2016-06-13 19:30:02,319 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2016-06-13 19:30:05,141  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:05,141  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:06,207  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:06,207  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:10,140  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:10,140  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:11,203  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:11,204  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:12,968 ERROR [Text Viewer Hover Presenter] - System.err - Exception in thread "Text Viewer Hover Presenter"
+2016-06-13 19:30:12,968 ERROR [Text Viewer Hover Presenter] - System.err - org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option$WithFilter.flatMap(Option.scala:208)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.withSourceFile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+2016-06-13 19:30:12,969 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2016-06-13 19:30:17,032  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:17,033  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:28,127  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:28,127  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:35,363  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:35,364  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:36,430  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:36,430  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:46,459  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:46,459  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:47,473  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:47,473  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:57,385  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:57,385  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:30:58,450  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:30:58,450  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:04,372  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:04,372  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:13,555  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:13,555  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:26,073  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:26,074  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:34,220  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:34,221  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:46,153  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:46,153  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:47,220  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:47,220  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:56,966  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:56,966  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:31:58,032  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:31:58,032  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:05,537  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:05,537  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:06,605  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:06,605  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:30,352  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:30,356  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:31,074  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:31,074  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:31,143  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:31,144  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:32:32,633  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-06-13 19:32:32,638  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-06-13 19:32:40,708  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:32:40,708  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:33:12,051  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:33:12,051  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:33:13,706  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:33:13,707  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:33:16,641  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:33:16,641  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:34:16,665  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:34:16,666  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:34:29,836  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:34:29,836  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:34:29,920 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - Exception in thread "org.eclipse.jface.text.reconciler.MonoReconciler"
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week2/exercise.sc' does not exist.
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+2016-06-13 19:34:29,921 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$askReload$2$$anonfun$apply$5.apply(ScalaPresentationCompiler.scala:281)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$askReload$2$$anonfun$apply$5.apply(ScalaPresentationCompiler.scala:281)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.collection.immutable.List.map(List.scala:273)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$askReload$2.apply(ScalaPresentationCompiler.scala:281)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$askReload$2.apply(ScalaPresentationCompiler.scala:281)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.compiler.IScalaPresentationCompiler$.withResponse(IScalaPresentationCompiler.scala:307)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.askReload(ScalaPresentationCompiler.scala:281)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:93)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit$class.initialReconcile(InteractiveCompilationUnit.scala:163)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.initialReconcile(ScriptCompilationUnit.scala:26)
+2016-06-13 19:34:29,922 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.reconciler.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:46)
+2016-06-13 19:34:29,923 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+2016-06-13 19:34:29,923 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2016-06-13 19:34:37,003  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:34:37,003  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:34:38,071  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:34:38,071  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.

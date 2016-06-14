@@ -313,3 +313,167 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.scala-ide.sdt.core 2 0 2016-06-08 14:36:32.243
 !MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+!SESSION 2016-06-13 19:13:06.720 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-13 19:13:24.707
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-13 19:13:24.713
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-06-13 19:29:55.961
+!MESSAGE Throwable during asyncExec
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-13 19:29:55.963
+!MESSAGE Resource '/samples/src/week1/exercise1.sc' does not exist.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-06-13 19:29:56.167
+!MESSAGE Throwable during asyncExec
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-13 19:29:56.167
+!MESSAGE Resource '/samples/src/week1/exercise1.sc' does not exist.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-06-13 19:29:56.196
+!MESSAGE Throwable during asyncExec
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-13 19:29:56.196
+!MESSAGE Resource '/samples/src/week1/exercise1.sc' does not exist.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-06-13 19:29:56.197
+!MESSAGE Throwable during asyncExec
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-13 19:29:56.197
+!MESSAGE Resource '/samples/src/week1/exercise1.sc' does not exist.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-06-13 19:29:56.199
+!MESSAGE Throwable during asyncExec
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/week1/exercise1.sc' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.scalaide.core.resources.EclipseFile.input(EclipseFile.scala:104)
+	at scala.reflect.io.AbstractFile.toByteArray(AbstractFile.scala:167)
+	at scala.reflect.io.AbstractFile.toCharArray(AbstractFile.scala:161)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit$$anonfun$getContents$2.apply(ScriptCompilationUnit.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.worksheet.ScriptCompilationUnit.getContents(ScriptCompilationUnit.scala:53)
+	at org.scalaide.worksheet.ScriptCompilationUnit.lastSourceMap(ScriptCompilationUnit.scala:37)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:472)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14$$anonfun$apply$10.apply(ScalaPresentationCompiler.scala:469)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$14.apply(ScalaPresentationCompiler.scala:469)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-06-13 19:29:56.199
+!MESSAGE Resource '/samples/src/week1/exercise1.sc' does not exist.
+!SESSION 2016-06-13 19:32:18.592 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-13 19:32:32.628
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2016-06-13 19:32:32.637
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.

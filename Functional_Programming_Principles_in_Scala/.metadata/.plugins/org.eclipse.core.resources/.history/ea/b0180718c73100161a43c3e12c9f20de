@@ -1,0 +1,6 @@
+package week2
+
+object exercise2 {
+  def abs(x: Double) = if (x < 0) -x else x
+  abs(2)
+}
