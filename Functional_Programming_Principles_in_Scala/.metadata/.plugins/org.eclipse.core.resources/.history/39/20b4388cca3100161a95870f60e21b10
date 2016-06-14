@@ -1,0 +1,24 @@
+package week2
+
+object session {
+
+/**
+  def sum(f: Int => Int, a: Int, b: Int) = {
+    def loop(a: Int, acc: Int): Int =
+      if (a > b) acc
+      else loop(a+1, f(a) + acc)
+      
+    loop(a, 0)
+  }                                               //> sum: (f: Int => Int, a: Int, b: Int)Int
+  
+  sum((x: Int) => x*x, 3, 5)                      //> res0: Int = 50
+*/
+	def sum(f: Int => Int): (Int, Int) => Int = {
+	  def sumF(a: Int, b: Int): Int = 
+	    if (a > b) 0
+	    else f(a) + sumF(a+1, b)
+	    
+	  sumF
+  }
+  
+}

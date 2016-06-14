@@ -109,6 +109,58 @@ class FunSetSuite extends FunSuite {
       assert(!contains(s, 3), "Union 3")
     }
   }
+  
+  test("intersect contains all elements that is in either s or t") {
+    new TestSets {
+      val ab = intersect(s1, s2)
+      val bc = intersect(s2, s2)
+      assert(!contains(ab, 1), "Intersect 1")
+      assert(!contains(ab, 2), "Intersect 2")
+      assert(contains(bc, 2), "Intersect 3")
+    }
+  }
+  
+  test("diff contains all elements in s but not in t") {
+    new TestSets {
+      val s = diff(s1, s2)
+      assert(contains(s, 1), "Diff 1")
+      assert(!contains(s, 2), "Diff 2")
+      assert(!contains(s, 3), "Diff 3")
+    }
+  }
+  
+  test("Filter contains all elements of s that obey p") {
+    new TestSets {
+      val s = filter(s1, s2)
+      assert(!contains(s, 1), "Filter 1")
+      assert(!contains(s, 2), "Filter 2")
+      assert(!contains(s, 3), "Filter 3")
+    }
+  }
+  
+  test("forall contains all elements of each set") {
+    new TestSets {
+      assert(forall(s1, s1), "forall 1")
+      assert(!forall(s1, s2), "forall 2")
+      assert(!forall(s1, s3), "forall 3")
+    }
+  }
+  
+  test("exists contains all elements of each set") {
+    new TestSets {
+      assert(exists(s1, s1), "forall 1")
+      assert(!exists(s1, s2), "forall 2")
+      assert(!exists(s1, s3), "forall 3")
+    }
+  }
+  
+  test("map contains all elements of each set") {
+    new TestSets {
+      assert(exists(map(s1, x => x*x), s1), "map 1")
+      assert(!exists(map(s1, x => x*x), s2), "map 2")
+      assert(!exists(map(s1, x => x*x), s3), "mapl 3")
+    }
+  }
 
 
 }

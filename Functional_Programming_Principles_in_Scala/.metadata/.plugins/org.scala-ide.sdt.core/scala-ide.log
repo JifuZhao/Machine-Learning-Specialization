@@ -723,3 +723,362 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/samples/src/we
 2016-06-13 19:34:37,003  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
 2016-06-13 19:34:38,071  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
 2016-06-13 19:34:38,071  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:35:46,232  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:35:46,233  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:36:47,448  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:36:47,448  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:36:55,670  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:36:55,670  WARN [bundle-322-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:36:55,821  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:36:55,821  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:36:56,851  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:36:56,851  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:37:20,208  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:37:20,208  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:37:21,237  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:37:21,237  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:15,554  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:15,554  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:36,010  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:36,010  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:37,090  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:37,090  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:44,452  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:44,452  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:52,489  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:52,490  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:38:53,512  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:38:53,512  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:44:03,701  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:44:03,702  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:44:23,495  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:44:23,495  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:44:24,566  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:44:24,566  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:44:56,107  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:44:56,108  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:44:57,181  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:44:57,181  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:45:45,412  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:45:45,412  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:45:46,436  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:45:46,436  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:45:58,261  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:45:58,261  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:45:59,318  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:45:59,318  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:46:07,825  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:46:07,825  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:46:08,880  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:46:08,881  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:03,098  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:03,098  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:04,164  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:04,164  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:11,648  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:11,649  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:22,256  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:22,256  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:23,321  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:23,321  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:26,675  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:26,675  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:27,743  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:27,743  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:31,771  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:31,772  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:48:32,840  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:48:32,840  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:49:53,848  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:49:53,848  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:50:16,270  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:50:16,270  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:50:17,289  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:50:17,290  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:50:21,476  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:50:21,476  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:50:22,495  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:50:22,496  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:54:28,376  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:54:28,376  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:54:29,391  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:54:29,391  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:25,230  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:25,230  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:26,244  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:26,245  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:36,067  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:36,067  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:38,195  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:38,195  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:39,260  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:39,260  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:43,715  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:43,715  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 19:58:44,781  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 19:58:44,782  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:05:53,331  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:05:53,331  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:06:17,260  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:06:17,260  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:06:25,466  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:06:25,466  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:06:26,533  WARN [Worker-4] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:06:26,533  WARN [Worker-4] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:07:08,575  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:07:08,575  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:07:09,639  WARN [Worker-2] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:07:09,640  WARN [Worker-2] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:07:15,620  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:07:15,620  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:09:27,042  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:09:27,043  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:09:28,113  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:09:28,113  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:10:59,932  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:10:59,932  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:11:01,000  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:11:01,000  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:13:47,130  WARN [Worker-0] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:13:47,130  WARN [Worker-0] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:13:48,196  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:13:48,196  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:14:43,288  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:14:43,288  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:14:44,308  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:14:44,308  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:43:13,084  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:43:13,084  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:49:39,663  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:49:39,663  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:49:54,657  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:49:54,657  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:49:55,726  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:49:55,726  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:50:01,312  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:50:01,312  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:50:02,379  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:50:02,379  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:51:29,911  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:51:29,911  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:53:40,336  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:53:40,336  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:53:50,480  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:53:50,481  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:53:59,959  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:53:59,959  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:54:01,024  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:54:01,024  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:54:38,637  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:54:38,637  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:54:52,263  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:54:52,263  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:54:53,331  WARN [Worker-3] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:54:53,331  WARN [Worker-3] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:58:54,054  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:58:54,054  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:58:55,121  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:58:55,121  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:59:25,666  WARN [Worker-11] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:59:25,666  WARN [Worker-11] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 20:59:26,735  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 20:59:26,735  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:00:22,058  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:00:22,058  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:00:23,125  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:00:23,125  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:04:03,600  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:04:03,600  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:04:59,199  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:04:59,199  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:05:23,173  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:05:23,173  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:05:24,232  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:05:24,232  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:06:55,589  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:06:55,589  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:06:56,601  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:06:56,601  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:09:33,909  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:09:33,909  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:09:34,976  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:09:34,976  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:10:21,038  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:10:21,038  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:10:22,098  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:10:22,099  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:12:43,593  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:12:43,593  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:12:44,658  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:12:44,658  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:12:53,671  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:12:53,671  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:12:54,736  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:12:54,736  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:13:51,050  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:13:51,051  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:14:05,024  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:14:05,024  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:14:06,089  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:14:06,089  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:14:22,704  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:14:22,704  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:14:23,763  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:14:23,763  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:15:53,215  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:15:53,216  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:15:54,280  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:15:54,281  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:17:41,903  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:17:41,903  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:17:42,968  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:17:42,968  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:18:03,723  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:18:03,723  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:18:04,787  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:18:04,787  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:19:15,486  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:19:15,486  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:19:16,499  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:19:16,499  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:21:51,218  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:21:51,218  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:21:52,233  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:21:52,234  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:23:08,562  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:23:08,562  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:23:09,625  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:23:09,625  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:23:58,299  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:23:58,299  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:23:59,310  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:23:59,310  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:02,850  WARN [Worker-12] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:02,850  WARN [Worker-12] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:03,907  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:03,907  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:18,566  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:18,566  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:19,579  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:19,579  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:34,673  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:34,673  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:25:35,735  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:25:35,735  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:26:19,178  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:26:19,178  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:26:20,244  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:26:20,244  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:27:17,433  WARN [Worker-13] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:27:17,433  WARN [Worker-13] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:27:18,492  WARN [Worker-12] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:27:18,492  WARN [Worker-12] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:31:12,168  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:31:12,168  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:31:13,234  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:31:13,234  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:31:43,712  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:31:43,712  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:31:44,774  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:31:44,775  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:33:25,978  WARN [Worker-14] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:33:25,978  WARN [Worker-14] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:33:27,040  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:33:27,040  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:33:54,490  WARN [Worker-12] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:33:54,490  WARN [Worker-12] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:33:55,553  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:33:55,553  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:34:40,861  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:34:40,861  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:34:41,926  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:34:41,926  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:34:52,905  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:34:52,906  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:34:53,969  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:34:53,969  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:02,918  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:02,919  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:03,933  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:03,933  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:09,005  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:09,005  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:10,069  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:10,069  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:12,379  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:12,379  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:16,766  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:16,767  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:35:17,829  WARN [Worker-14] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:35:17,829  WARN [Worker-14] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:36:29,982  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:36:29,982  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:36:37,490  WARN [Worker-16] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:36:37,491  WARN [Worker-16] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:36:38,502  WARN [Worker-9] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:36:38,502  WARN [Worker-9] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:40:56,013  WARN [Worker-17] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:40:56,013  WARN [Worker-17] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:40:57,022  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:40:57,022  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:41:08,341  WARN [Worker-10] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:41:08,342  WARN [Worker-10] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:41:12,619  WARN [Worker-5] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:41:12,619  WARN [Worker-5] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:41:13,635  WARN [Worker-17] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:41:13,635  WARN [Worker-17] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:42:10,246  WARN [Worker-14] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:42:10,246  WARN [Worker-14] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:42:11,261  WARN [Worker-1] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:42:11,261  WARN [Worker-1] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:47:40,563  WARN [Worker-12] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:47:40,563  WARN [Worker-12] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:47:41,625  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:47:41,625  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:48:07,301  WARN [Worker-6] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:48:07,301  WARN [Worker-6] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:48:08,365  WARN [Worker-17] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:48:08,366  WARN [Worker-17] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:49:06,939  WARN [Worker-7] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:49:06,939  WARN [Worker-7] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:49:23,640  WARN [Worker-19] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:49:23,640  WARN [Worker-19] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:49:24,702  WARN [Worker-12] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:49:24,702  WARN [Worker-12] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:51:05,684  WARN [Worker-19] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:51:05,684  WARN [Worker-19] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:51:06,749  WARN [Worker-14] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:51:06,749  WARN [Worker-14] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 21:59:10,538  WARN [Worker-21] - ScalaProject - Project samples has platform default sourceLevel.
+2016-06-13 21:59:10,538  WARN [Worker-21] - ScalaProject - Project samples runs on platform default installation.
+2016-06-13 23:06:26,636 ERROR [Worker-31] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-06-13 23:06:26,637 ERROR [Worker-31] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-06-13 23:06:26,637 ERROR [Worker-31] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-06-13 23:11:50,477 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value <local FunSetSuite>) for sym which is not a class
+	at scala.reflect.internal.Reporting$class.abort(Reporting.scala:59)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1167)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1187)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1191)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$findMirrorSymbol(Global.scala:875)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:948)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:947)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:947)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$withTempUnits(Global.scala:855)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:945)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
