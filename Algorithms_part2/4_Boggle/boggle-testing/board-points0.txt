@@ -1,5 +1,0 @@
-4 4
-M  R  M  N  
-B  G  D  N  
-T  T  T  V  
-S  D  F  C
