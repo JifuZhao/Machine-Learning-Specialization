@@ -1,4 +1,5 @@
-% This version of the starter code was published on Tuesday November 8, 01:37 UTC. It is an improved version of the one that was published on November 6, 13:37 UTC.
+% This version of the starter code was published on Tuesday November 8, 01:37 UTC. 
+% It is an improved version of the one that was published on November 6, 13:37 UTC.
 
 function a3(wd_coefficient, n_hid, n_iters, learning_rate, momentum_multiplier, do_early_stopping, mini_batch_size)
   warning('error', 'Octave:broadcast');
@@ -42,7 +43,8 @@ function a3(wd_coefficient, n_hid, n_iters, learning_rate, momentum_multiplier, 
       best_so_far.after_n_iters = optimization_iteration_i;
     end
     if mod(optimization_iteration_i, round(n_iters/10)) == 0,
-      fprintf('After %d optimization iterations, training data loss is %f, and validation data loss is %f\n', optimization_iteration_i, training_data_losses(end), validation_data_losses(end));
+      fprintf('After %d optimization iterations, training data loss is %f, and validation data loss is %f\n', ...
+          optimization_iteration_i, training_data_losses(end), validation_data_losses(end));
     end
     if optimization_iteration_i == n_iters, % check gradient again, this time with more typical parameters and with a different data size
       fprintf('Now testing the gradient on just a mini-batch instead of the whole training set... ');
@@ -72,9 +74,11 @@ function a3(wd_coefficient, n_hid, n_iters, learning_rate, momentum_multiplier, 
     data_name = data_names{data_i};
     fprintf('\nThe loss on the %s data is %f\n', data_name, loss(model, data, wd_coefficient));
     if wd_coefficient~=0,
-      fprintf('The classification loss (i.e. without weight decay) on the %s data is %f\n', data_name, loss(model, data, 0));
+      fprintf('The classification loss (i.e. without weight decay) on the %s data is %f\n', ...
+          data_name, loss(model, data, 0));
     end
-    fprintf('The classification error rate on the %s data is %f\n', data_name, classification_performance(model, data));
+    fprintf('The classification error rate on the %s data is %f\n', data_name, ...
+        classification_performance(model, data));
   end
 end
 
@@ -87,10 +91,12 @@ function test_gradient(model, data, wd_coefficient)
      error('The object returned by function d_loss_by_d_model should have exactly two field names: .input_to_hid and .hid_to_class');
   end
   if any(size(analytic_gradient_struct.input_to_hid) ~= size(model.input_to_hid)),
-     error(sprintf(['The size of .input_to_hid of the return value of d_loss_by_d_model (currently [%d, %d]) should be same as the size of model.input_to_hid (currently [%d, %d])'], size(analytic_gradient_struct.input_to_hid), size(model.input_to_hid)));
+     error(sprintf(['The size of .input_to_hid of the return value of d_loss_by_d_model (currently [%d, %d]) should be same as the size of model.input_to_hid (currently [%d, %d])'], ...
+         size(analytic_gradient_struct.input_to_hid), size(model.input_to_hid)));
   end
   if any(size(analytic_gradient_struct.hid_to_class) ~= size(model.hid_to_class)),
-     error(sprintf(['The size of .hid_to_class of the return value of d_loss_by_d_model (currently [%d, %d]) should be same as the size of model.hid_to_class (currently [%d, %d])'], size(analytic_gradient_struct.hid_to_class), size(model.hid_to_class)));
+     error(sprintf(['The size of .hid_to_class of the return value of d_loss_by_d_model (currently [%d, %d]) should be same as the size of model.hid_to_class (currently [%d, %d])'], ...
+         size(analytic_gradient_struct.hid_to_class), size(model.hid_to_class)));
   end
   analytic_gradient = model_to_theta(analytic_gradient_struct);
   if any(isnan(analytic_gradient)) || any(isinf(analytic_gradient)),
@@ -121,7 +127,8 @@ function test_gradient(model, data, wd_coefficient)
     % fprintf('%d %e %e %e %e\n', test_index, base_theta(test_index), diff, fd_here, analytic_here);
     if (diff > correctness_threshold) && (diff / (abs(analytic_here) + abs(fd_here)) > correctness_threshold),
       part_names = {'input_to_hid', 'hid_to_class'};
-      error(sprintf('Theta element #%d (part of %s), with value %e, has finite difference gradient %e but analytic gradient %e. That looks like an error.\n', test_index, part_names{(i<=20)+1}, base_theta(test_index), fd_here, analytic_here));
+      error(sprintf('Theta element #%d (part of %s), with value %e, has finite difference gradient %e but analytic gradient %e. That looks like an error.\n', ...
+          test_index, part_names{(i<=20)+1}, base_theta(test_index), fd_here, analytic_here));
     end
     if i==20, fprintf('Gradient test passed for hid_to_class. '); end
     if i==100, fprintf('Gradient test passed for input_to_hid. '); end
@@ -174,11 +181,32 @@ function ret = d_loss_by_d_model(model, data, wd_coefficient)
   % data.inputs is a matrix of size <number of inputs i.e. 256> by <number of data cases>
   % data.targets is a matrix of size <number of classes i.e. 10> by <number of data cases>
 
-  % The returned object is supposed to be exactly like parameter <model>, i.e. it has fields ret.input_to_hid and ret.hid_to_class. However, the contents of those matrices are gradients (d loss by d model parameter), instead of model parameters.
+  % The returned object is supposed to be exactly like parameter <model>, i.e. it has fields 
+  % ret.input_to_hid and ret.hid_to_class. However, the contents of those matrices are gradients 
+  % (d loss by d model parameter), instead of model parameters.
 	 
-  % This is the only function that you're expected to change. Right now, it just returns a lot of zeros, which is obviously not the correct output. Your job is to change that.
-  ret.input_to_hid = model.input_to_hid * 0;
-  ret.hid_to_class = model.hid_to_class * 0;
+  % This is the only function that you're expected to change. Right now, it just returns a lot of zeros, 
+  %which is obviously not the correct output. Your job is to change that.
+  hid_input = model.input_to_hid * data.inputs;
+  hid_output = logistic(hid_input);
+  class_input = model.hid_to_class * hid_output;
+  
+  class_normalizer = log_sum_exp_over_rows(class_input);
+  log_class_prob = class_input - repmat(class_normalizer, [size(class_input, 1), 1]);
+  class_prob = exp(log_class_prob);
+  
+  num_cases = size(data.inputs, 2);
+ 
+  % hidden to output
+  output_delta = (class_prob - data.targets); % <number of classes i.e. 10> by <number of data cases>
+  ret.hid_to_class = output_delta * hid_output'; % <number of classes i.e. 10> by <number of hidden units>
+  ret.hid_to_class = ret.hid_to_class ./ num_cases + wd_coefficient * model.hid_to_class;
+ 
+  % <number of hidden units> by <number of data cases>
+  error_derivated = model.hid_to_class'*output_delta .* hid_output .* (1 - hid_output);
+  ret.input_to_hid = error_derivated * data.inputs'; % <number of hidden units> by <number of inputs i.e. 256>
+  ret.input_to_hid = ret.input_to_hid ./ num_cases + wd_coefficient * model.input_to_hid;
+
 end
 
 function ret = model_to_theta(model)
