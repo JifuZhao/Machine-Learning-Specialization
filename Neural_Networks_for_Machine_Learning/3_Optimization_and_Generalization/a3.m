@@ -195,17 +195,16 @@ function ret = d_loss_by_d_model(model, data, wd_coefficient)
   log_class_prob = class_input - repmat(class_normalizer, [size(class_input, 1), 1]);
   class_prob = exp(log_class_prob);
   
-  num_cases = size(data.inputs, 2);
+  % input data size
+  N = size(data.inputs, 2);
+  
+  % hidden to output gradient
+  output_delta = (class_prob - data.targets);
+  ret.hid_to_class = output_delta * hid_output' ./ N + wd_coefficient * model.hid_to_class;
  
-  % hidden to output
-  output_delta = (class_prob - data.targets); % <number of classes i.e. 10> by <number of data cases>
-  ret.hid_to_class = output_delta * hid_output'; % <number of classes i.e. 10> by <number of hidden units>
-  ret.hid_to_class = ret.hid_to_class ./ num_cases + wd_coefficient * model.hid_to_class;
- 
-  % <number of hidden units> by <number of data cases>
+  % input to hidden gradient
   error_derivated = model.hid_to_class'*output_delta .* hid_output .* (1 - hid_output);
-  ret.input_to_hid = error_derivated * data.inputs'; % <number of hidden units> by <number of inputs i.e. 256>
-  ret.input_to_hid = ret.input_to_hid ./ num_cases + wd_coefficient * model.input_to_hid;
+  ret.input_to_hid = error_derivated * data.inputs' ./ N + wd_coefficient * model.input_to_hid;
 
 end
 
