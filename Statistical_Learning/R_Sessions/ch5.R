@@ -26,7 +26,6 @@ for(d in degree){
 plot(degree,cv.error,type="b")
 
 ## 10-fold CV
-
 cv.error10=rep(0,5)
 for(d in degree){
   glm.fit=glm(mpg~poly(horsepower,d), data=Auto)
@@ -60,3 +59,4 @@ alpha.fn (Portfolio,sample(1:100,100,replace=TRUE))
 boot.out=boot(Portfolio,alpha.fn,R=1000)
 boot.out
 plot(boot.out)
+

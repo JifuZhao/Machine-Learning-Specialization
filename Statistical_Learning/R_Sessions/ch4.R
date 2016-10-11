@@ -3,6 +3,7 @@ names(Smarket)
 summary(Smarket)
 ?Smarket
 pairs(Smarket,col=Smarket$Direction)
+
 # Logistic regression
 glm.fit=glm(Direction~Lag1+Lag2+Lag3+Lag4+Lag5+Volume,
             data=Smarket,family=binomial)
@@ -55,3 +56,4 @@ train=Year<2005
 knn.pred=knn(Xlag[train,],Xlag[!train,],Direction[train],k=1)
 table(knn.pred,Direction[!train])
 mean(knn.pred==Direction[!train])
+
