@@ -1,4 +1,4 @@
-## Coursera: Machine Learning
+## Coursera: [Machine Learning][link1]
 May 2016, by Professor Andrew Ng, Stanford University
 
 ### 1. Supervised learning - labeled data
@@ -24,3 +24,12 @@ May 2016, by Professor Andrew Ng, Stanford University
 * Learning curves
 * Error analysis
 * Ceiling analysis
+
+## Additional Useful Materials:
+* A very good class notes: [Class Notes by Alex][link2]
+* Stanford CS229 Class Website: [CS229 Machine Learning][link3]
+
+
+[link1]: https://www.coursera.org/learn/machine-learning/home/welcome
+[link2]: http://www.holehouse.org/mlclass/
+[link3]: http://cs229.stanford.edu/

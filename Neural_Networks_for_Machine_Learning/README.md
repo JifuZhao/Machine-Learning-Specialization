@@ -1,4 +1,4 @@
-## Coursera: Neural Networks for Machine Learning
+## Coursera: [Neural Networks for Machine Learning][link1]
 June 2016, by Professor Geoffrey Hinton, University of Toronto
 
 ### 1. Introduction
@@ -32,3 +32,6 @@ June 2016, by Professor Geoffrey Hinton, University of Toronto
 ### 15. Modeling hierarchical structure with neural nets
 
 ### 16. Recent applications of deep neural nets
+
+
+[link1]: https://www.coursera.org/learn/neural-networks
