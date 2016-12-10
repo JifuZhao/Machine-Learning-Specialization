@@ -1,5 +1,7 @@
 software/
-*.gl/*
+*.0000
+*.frame_idx
+*.sidx
 
 # Mac
 .DS_Store
