@@ -5,6 +5,9 @@ software/
 
 # Mac
 .DS_Store
+*.gz
+*ubyte
+*events.out*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
