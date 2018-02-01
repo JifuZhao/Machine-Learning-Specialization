@@ -8,6 +8,8 @@ software/
 *.gz
 *ubyte
 *events.out*
+*ckpt*
+*checkpoint
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
