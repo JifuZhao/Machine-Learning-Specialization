@@ -10,6 +10,9 @@ software/
 *events.out*
 *ckpt*
 *checkpoint
+*.ipynb_checkpoints
+
+Udacity-deep-learning-pytorch/intro-to-pytorch/Cat_Dog_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
