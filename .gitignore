@@ -11,6 +11,7 @@ software/
 *ckpt*
 *checkpoint
 *.ipynb_checkpoints
+*mnist_png
 
 Udacity-deep-learning-pytorch/intro-to-pytorch/Cat_Dog_data/
 
